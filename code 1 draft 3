@@ -130,7 +130,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "kennedy could never tbh",
+            "description_as_running_mate": "Just when America thought it had beaten its addiction to Massachusetts liberals of Greek descent, they got pulled back in when Paul Tsongas did far better than would reasonably have been expected in the primaries. Tsongas carries an interesting appeal, matching you step for step in your social liberalism and populist calls to action while balancing your ambition with sober calls to reality. But if people called you fiscally conservative, Tsongas seems like a Republican with his fervent belief that businesses, even dangerous, soulless, conglomerates, are the solution to America’s problems and not the problem itself, and a seemingly legitimate belief that Reaganomics has succeeded.\n\n</p>Idiosyncratic as his beliefs may be, Tsongas occupies a much more mainstream place in the eyes of the Democratic party and the general public than you do, and he seems more than happy to occupy the vice presidential slot. Yet, despite Tsongas’ bluster about swimming laps every day, substantial health concerns overshadow his candidacy, and the regional appeal of a New Englander works directly against your interests, leaving Middle America wide open for the “Texan” Bush and Hoosier Quayle to carve up. Ultimately, Tsongas is a gamble, and one whose odds are a complete mystery.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -153,7 +153,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "geppy",
+            "description_as_running_mate": "There may be no more loyal soldier to the Democratic party than Dick Gephardt. Gephardt has a few ideas that he genuinely believes in–specifically, his opposition to NAFTA–but beyond that, he will do absolutely anything if it means helping the party. Unlike any number of party loyalists in safe districts, Gephardt is the House Majority Leader and a former presidential candidate, and easily has the polish to share the national spotlight with you and the mettle to actually work with you should you win the election. \n\n</p> The benefits don’t end there: as a Missourian and a representative from a working-class district of St. Louis, Gephardt will help counter the image of you as a coastal elite and put you on the inner track towards sweeping the industrial Midwest. With all that being said, then, there’s a certain air to Gephardt that suggests he’s maybe a little too close to the party establishment. Maybe it’s the brutal flip-flops, maybe it’s his evolving relationship with money, and maybe it’s the hair and eyebrow combination, but something tells you that while Dick might be willing to be on your ticket should you play your cards right, he’ll never truly be on the same wavelength.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -176,7 +176,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>babsketbal</p>",
+            "description_as_running_mate": "Calling Bill Bradley a winner seemingly devalues the term: Bradley is a champion on the level of Hercules, an unstoppable combination of brain and brawn. Bradley was the best high school basketball player in the country, then, at Princeton, the best college player, squeezing in an Olympic gold medal somewhere along the way. Following a quick stint as a Rhodes scholar, where he won a European basketball title while playing on the weekends, he then went to the NBA and carved out a Hall of Fame career, winning two championships Then, the year after he retired, he was elected to the United States Senate from New Jersey. \n\n</p>And yet, after an embarrassingly close reelection in 1990, Bradley’s life feels like it’s at a crossroads. He has all of the ambition in the world, but doesn’t have the guts to run for president. He knows more about policy than anyone else in Congress, but keeps on getting labeled a “wonk” instead of a visionary. He has the self-assuredness to lead, but finds that people think of him as aloof instead of strong. Still, he offers a desperately-needed balance to Governor Moonbeam. By hitching himself to Brown, Bradley can offer a reasoned, rational balance to Jerry’s idealism and make those ideas seem practical. Once he gets in front of the national spotlight, he can finally show the people what a real winner looks like.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -199,7 +199,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "arkansa",
+            "description_as_running_mate": "David Pryor is an outstanding public servant. Vastly popular in his home state of Arkansas, Pryor has a moderate record always in tune with what fits best for the moment, and he has flawlessly jumped from the state legislature, to the House, to the governor’s office, and to the Senate. Beyond the quality of his record, Pryor boasts a witty, homespun style of retail politics that has enabled him to crush his opponents to the point where he went uncontested in his last Senate election, winning with 99.83% of the vote. He would not only guarantee Arkansas, but would also help you be competitive in much of the South in November while being acceptable to the rest of the country. \n\n</p> With that being said, there’s one especially good reason to pick Pryor: it would be the perfect opportunity to spite Bill Clinton. Pryor and Clinton are allies, but Pryor, like any normal career politician, desires power, enough to the point where you know it would take nothing more than the vice presidential offer and a moderate amount of cajoling to get him on board with the program. Wouldn’t it be glorious, then, for Clinton and all of his lackeys to see you on stage cajoling with a white, moderate, middle-aged Arkansan former governor? Pryor’s strengths already make him an appealing candidate, but the opportunity to screw Clinton with a man from his own backyard fills you with glee.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -222,7 +222,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>rainbow</p>",
+            "description_as_running_mate": "There are few living men more admirable for black America than the Reverend Jesse Jackson. None of them, especially in a world where Michael Jordan says that “Republicans buy sneakers too,” are as politically engaged. Two separate times, he was counted out for the Democratic nomination, and two separate times, he did dramatically better than anyone expected. As a major advocate for liberal positions on healthcare, spending, and equal rights, he's a perfect antidote to those who claim the dream has died. On the campaign trail, he’s a phenomenal speaker and the rare type of galvanizing presence who can drive voters to the polls. To top it off, he’s more than happy to serve as a vice presidential candidate, and will do whatever it takes to support the ticket. \n\n</p> The issue with Jesse isn’t that he’s a liberal, or that he’s hard on abortion, or that he’s soft on crimes. Few will say it out loud, but he knows it, just as all of black America knows it: white America, in 1992, will never support a self-assertive minority like himself. They’ll say they might vote for him, will nicely talk about what a good leader he is for the black community, and will dodge the true question until November comes and they vote Republican without a second thought. Underneath Jerry Brown, Jesse will be shielded from the worst of it, and even the most pessimistic wouldn’t automatically assign them defeat. But like so much in civil rights in this country, it will be an uphill battle.",
             "candidate_score": 1,
             "running_mate": true
         }
