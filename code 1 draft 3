@@ -1,3 +1,4 @@
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -45,7 +46,7 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 152,
+        "pk": 78,
         "fields": {
             "first_name": "Jerry",
             "last_name": "Brown",
@@ -68,7 +69,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 153,
+        "pk": 77,
         "fields": {
             "first_name": "George",
             "last_name": "Bush",
@@ -91,7 +92,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 154,
+        "pk": 79,
         "fields": {
             "first_name": "Ross",
             "last_name": "Perot",
@@ -326,7 +327,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 90229,
         "fields": {
-            "candidate": 152,
+            "candidate": 78,
             "running_mate": 155
         }
     },
@@ -334,7 +335,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 89390,
         "fields": {
-            "candidate": 152,
+            "candidate": 78,
             "running_mate": 156
         }
     },
@@ -342,7 +343,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 142830,
         "fields": {
-            "candidate": 152,
+            "candidate": 78,
             "running_mate": 157
         }
     },
@@ -350,7 +351,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 98357,
         "fields": {
-            "candidate": 152,
+            "candidate": 78,
             "running_mate": 158
         }
     },
@@ -358,7 +359,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 120502,
         "fields": {
-            "candidate": 152,
+            "candidate": 78,
             "running_mate": 159
         }
     },
@@ -366,7 +367,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 151554,
         "fields": {
-            "candidate": 153,
+            "candidate": 77,
             "running_mate": 160
         }
     },
@@ -374,7 +375,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 172418,
         "fields": {
-            "candidate": 153,
+            "candidate": 77,
             "running_mate": 161
         }
     },
@@ -382,7 +383,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 178499,
         "fields": {
-            "candidate": 153,
+            "candidate": 77,
             "running_mate": 162
         }
     },
@@ -390,7 +391,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 115165,
         "fields": {
-            "candidate": 153,
+            "candidate": 77,
             "running_mate": 163
         }
     }
@@ -402,9 +403,9 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 9,
         "candidates": [
-            152,
-            153,
-            154
+            78,
+            77,
+            79,
         ]
     }
 ]
@@ -413,9 +414,9 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 9,
         "candidates": [
-            152,
-            153,
-            154
+            78,
+            77,
+            79,
         ]
     }
 ]
@@ -732,5 +733,25 @@ function modifyForm() {
     h3.textContent = 'How would you like the seats to be allocated?';
   } catch {}
 }
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+
+
+z.observe(document, { subtree: true, childList: true });
 
 //#endcode
