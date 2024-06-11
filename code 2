@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 344,
         "fields": {
             "priority": 2,
-            "description": "All of the steam around Tsongas has vanished, and he’s dropped out of the race. It’s a race to the wire between you and Clinton, but after a commanding win in Pennsylvania, it appears you have the lead. An acrimonious air settles over the race as Clinton vows to fight to the bitter end. How do you slay the Arkansan dragon and win the race for good?",
+            "description": "base primary Q, loadbearing. If this shows up during gameplay, either something has gone very wrong or you cheated.",
             "likelihood": 1
         }
     },
@@ -223,6 +223,42 @@ campaignTrail_temp.questions_json = [
             "description": "Where will you make the final stop(s) of your campaign before the voting begins?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 383,
+        "fields": {
+            "priority": -1,
+            "description": "All of the steam around Tsongas has vanished, and he’s dropped out of the race. It’s a race to the wire between you and Clinton, but after a commanding win in Pennsylvania, it appears you have the lead. An acrimonious air settles over the race as Clinton vows to fight to the bitter end. How do you slay the Arkansan dragon and win the race for good?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 384,
+        "fields": {
+            "priority": -1,
+            "description": "All of the steam around Tsongas has vanished, and he’s dropped out of the race. It’s a race to the wire between you and Clinton, but after a commanding win in Pennsylvania, it appears you have the lead. An acrimonious air settles over the race as Clinton vows to fight to the bitter end. How do you slay the Arkansan dragon and win the race for good?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21379,
+        "fields": {
+            "priority": -1,
+            "description": " All of the steam around Tsongas has vanished, and he’s dropped out of the race. It’s a race to the wire between you and Clinton, but after a commanding win in Pennsylvania, it appears you have the lead. An acrimonious air settles over the race as Clinton vows to fight to the bitter end. How do you slay the Arkansan dragon and win the race for good?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21404,
+        "fields": {
+            "priority": 2,
+            "description": "As bright lights shine directly into your face, a sea of Democrats fills Madison Square Garden, dressed in shades of red, white, and blue. After a keynote speech by Chris Dodd, they eagerly await you. “My God,” you think, “They love me,” as you look closer into their eyes and see nothing but unbridled enthusiasm for making you the president. How do you address them?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -257,38 +293,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 343,
             "description": "Oh my God, get a load of this Republican hypocrisy. I’m not, not even remotely, endorsing anything he said, but there was nothing that was any worse than the banter grown men say to each other all the time. Every single time they bring it up, I’m throwing it back at them harder."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3314,
-        "fields": {
-            "question": 344,
-            "description": "We just need to be clear and repeat this ad infinitum: you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a whole show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any real differences with Bush? "
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3315,
-        "fields": {
-            "question": 344,
-            "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me, and I’m going to prove again that I can lead in times of crisis."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3316,
-        "fields": {
-            "question": 344,
-            "description": "We’re going to have to rip the band-aid off at some point if we want to win. We have to put every qualifier possible on this, but we need to drop the $100 limit on donations. I’ve called our campaign the second American revolution, but we have to remember that Washington, Jefferson, Franklin and the like. They had a little jingle in their pocket, and it didn’t stop them from creating the greatest country in the world. "
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3317,
-        "fields": {
-            "question": 344,
-            "description": "The Japanese–other cultures too, I’m sure–have a saying: who chases two rabbits catches neither. So far, we’ve tried to simultaneously make this a rail-on-Clinton session while also trying to be true uniters. Instead, we need to seek détente with him: it’s clear that the race is inevitable at this point, and the sooner we reach an arrangement with him, the sooner we can move on to beating Bush."
         }
     },
     {
@@ -789,6 +793,38 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 3461,
+        "fields": {
+            "question": 383,
+            "description": "We just need to be clear and repeat this ad infinitum: you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a whole show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any real differences with Bush? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3462,
+        "fields": {
+            "question": 383,
+            "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me, and I’m going to prove again that I can lead in times of crisis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3463,
+        "fields": {
+            "question": 383,
+            "description": "We’re going to have to rip the band-aid off at some point if we want to win. We have to put every qualifier possible on this, but we need to drop the $100 limit on donations. I’ve called our campaign the second American revolution, but we have to remember that Washington, Jefferson, Franklin and the like. They had a little jingle in their pocket, and it didn’t stop them from creating the greatest country in the world."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3464,
+        "fields": {
+            "question": 383,
+            "description": "The Japanese–other cultures too, I’m sure–have a saying: who chases two rabbits catches neither. So far, we’ve tried to simultaneously make this a rail-on-Clinton session while also trying to be true uniters. Instead, we need to seek détente with him: it’s clear that the race is inevitable at this point, and the sooner we reach an arrangement with him, the sooner we can move on to beating Bush"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 3468,
         "fields": {
             "question": 385,
@@ -877,6 +913,38 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 3561,
+        "fields": {
+            "question": 384,
+            "description": "We just need to be clear and repeat this ad infinitum: you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a whole show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any real differences with Bush? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3562,
+        "fields": {
+            "question": 384,
+            "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me, and I’m going to prove again that I can lead in times of crisis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3563,
+        "fields": {
+            "question": 384,
+            "description": "We’re going to have to rip the band-aid off at some point if we want to win. We have to put every qualifier possible on this, but we need to drop the $100 limit on donations. I’ve called our campaign the second American revolution, but we have to remember that Washington, Jefferson, Franklin and the like. They had a little jingle in their pocket, and it didn’t stop them from creating the greatest country in the world."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3564,
+        "fields": {
+            "question": 384,
+            "description": "The Japanese–other cultures too, I’m sure–have a saying: who chases two rabbits catches neither. So far, we’ve tried to simultaneously make this a rail-on-Clinton session while also trying to be true uniters. Instead, we need to seek détente with him: it’s clear that the race is inevitable at this point, and the sooner we reach an arrangement with him, the sooner we can move on to beating Bush"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12240,
         "fields": {
             "question": 397,
@@ -913,6 +981,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 351,
             "description": "I’m all for a balanced budget, but I can’t spin gold out of straw. Sorting out such a thorny issue is going to take a while, and an emergency could cripple us if we’re too dedicated to a surplus. Do you folks remember our highest deficits ever, proportionally? World War II! Anyone regret that spending decision?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21380,
+        "fields": {
+            "question": 21379,
+            "description": "We just need to be clear and repeat this ad infinitum: you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a whole show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any real differences with Bush? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21385,
+        "fields": {
+            "question": 21379,
+            "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me, and I’m going to prove again that I can lead in times of crisis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21391,
+        "fields": {
+            "question": 21379,
+            "description": "We’re going to have to rip the band-aid off at some point if we want to win. We have to put every qualifier possible on this, but we need to drop the $100 limit on donations. I’ve called our campaign the second American revolution, but we have to remember that Washington, Jefferson, Franklin and the like. They had a little jingle in their pocket, and it didn’t stop them from creating the greatest country in the world."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21395,
+        "fields": {
+            "question": 21379,
+            "description": "The Japanese–other cultures too, I’m sure–have a saying: who chases two rabbits catches neither. So far, we’ve tried to simultaneously make this a rail-on-Clinton session while also trying to be true uniters. Instead, we need to seek détente with him: it’s clear that the race is inevitable at this point, and the sooner we reach an arrangement with him, the sooner we can move on to beating Bush"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21405,
+        "fields": {
+            "question": 21404,
+            "description": "Those of you who supported Clinton, even who support Bush, let me say this: I understand you, and I promise that when you look at what I’m proposing–take, for one, how I’m just as against government waste as you are–you’ll see that as much as I support the working class, I want to govern for all Americans."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21412,
+        "fields": {
+            "question": 21404,
+            "description": "16 years ago, I said that we lived in an age of limitations. Now, as we enter a world where America is the only superpower, we need to think big again. Kennedy promised us the moon, and now, metaphorically and literally, I promise to go beyond the moon!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21417,
+        "fields": {
+            "question": 21404,
+            "description": "Once upon a time, we had great men like Roosevelt and Kennedy leading us. Somewhere along the way, we got lost, and Nixon, Reagan, and their handlers opened the door for special interests to hijack the government. This November, we’re going to kick Bush out of office, kick the corporations out of government, and take America back!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21423,
+        "fields": {
+            "question": 21404,
+            "description": "When I was the governor of California, when I was in Japan, in India, I learned a few things about how the world works. The secret for everything is moderation, be it the government or the budget or even in personal consumption. Only when we cut back the excess and focus on strengthening ourselves and our communities can we achieve true harmony."
         }
     }
 ]
@@ -7135,16 +7267,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1122,
-        "fields": {
-            "answer": 3317,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": -0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1124,
         "fields": {
             "answer": 3321,
@@ -7351,36 +7473,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1163,
-        "fields": {
-            "answer": 3314,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1164,
-        "fields": {
-            "answer": 3314,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": -0.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1165,
-        "fields": {
-            "answer": 3315,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.0125
         }
     },
     {
@@ -8075,26 +8167,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 21311,
-        "fields": {
-            "answer": 3316,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 21312,
-        "fields": {
-            "answer": 3316,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 21320,
         "fields": {
             "answer": 21316,
@@ -8108,6 +8180,196 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 21325,
         "fields": {
             "answer": 21317,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21345,
+        "fields": {
+            "answer": 3461,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21349,
+        "fields": {
+            "answer": 3462,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21354,
+        "fields": {
+            "answer": 3463,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21357,
+        "fields": {
+            "answer": 3464,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21361,
+        "fields": {
+            "answer": 3561,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21366,
+        "fields": {
+            "answer": 3562,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21371,
+        "fields": {
+            "answer": 3563,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21374,
+        "fields": {
+            "answer": 3564,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21377,
+        "fields": {
+            "answer": 3564,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21382,
+        "fields": {
+            "answer": 21380,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21387,
+        "fields": {
+            "answer": 21385,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21393,
+        "fields": {
+            "answer": 21391,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21397,
+        "fields": {
+            "answer": 21395,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21407,
+        "fields": {
+            "answer": 21405,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0725
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21408,
+        "fields": {
+            "answer": 21405,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21414,
+        "fields": {
+            "answer": 21412,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21415,
+        "fields": {
+            "answer": 21412,
+            "candidate": 79,
+            "affected_candidate": 79,
+            "global_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21419,
+        "fields": {
+            "answer": 21417,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21425,
+        "fields": {
+            "answer": 21423,
             "candidate": 78,
             "affected_candidate": 78,
             "global_multiplier": 0.04
@@ -8448,36 +8710,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 1003,
-        "fields": {
-            "answer": 3314,
-            "issue": 32,
-            "issue_score": -0.75,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1004,
-        "fields": {
-            "answer": 3315,
-            "issue": 29,
-            "issue_score": -0.3,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1006,
-        "fields": {
-            "answer": 3317,
-            "issue": 32,
-            "issue_score": 0.3,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 1010,
         "fields": {
             "answer": 3321,
@@ -8718,36 +8950,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 21307,
-        "fields": {
-            "answer": 3314,
-            "issue": 29,
-            "issue_score": 0.4,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 21308,
-        "fields": {
-            "answer": 3315,
-            "issue": 29,
-            "issue_score": 0.3,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 21313,
-        "fields": {
-            "answer": 3316,
-            "issue": 32,
-            "issue_score": 0.6,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 21315,
         "fields": {
             "answer": 3333,
@@ -8815,6 +9017,286 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.4,
             "issue_importance": 2
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21346,
+        "fields": {
+            "answer": 3461,
+            "issue": 32,
+            "issue_score": -0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21347,
+        "fields": {
+            "answer": 3461,
+            "issue": 29,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21350,
+        "fields": {
+            "answer": 3462,
+            "issue": 29,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21351,
+        "fields": {
+            "answer": 3462,
+            "issue": 29,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21355,
+        "fields": {
+            "answer": 3463,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21358,
+        "fields": {
+            "answer": 3464,
+            "issue": 32,
+            "issue_score": -0.1,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21363,
+        "fields": {
+            "answer": 3561,
+            "issue": 32,
+            "issue_score": -0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21364,
+        "fields": {
+            "answer": 3561,
+            "issue": 29,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21367,
+        "fields": {
+            "answer": 3562,
+            "issue": 29,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21368,
+        "fields": {
+            "answer": 3562,
+            "issue": 29,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21372,
+        "fields": {
+            "answer": 3563,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21375,
+        "fields": {
+            "answer": 3564,
+            "issue": 32,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21383,
+        "fields": {
+            "answer": 21380,
+            "issue": 32,
+            "issue_score": -0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21384,
+        "fields": {
+            "answer": 21380,
+            "issue": 29,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21388,
+        "fields": {
+            "answer": 21385,
+            "issue": 29,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21389,
+        "fields": {
+            "answer": 21385,
+            "issue": 29,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21394,
+        "fields": {
+            "answer": 21391,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21399,
+        "fields": {
+            "answer": 21395,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21401,
+        "fields": {
+            "answer": 21395,
+            "issue": 31,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21409,
+        "fields": {
+            "answer": 21405,
+            "issue": 27,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21410,
+        "fields": {
+            "answer": 21405,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21411,
+        "fields": {
+            "answer": 21405,
+            "issue": 32,
+            "issue_score": 0.3,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21416,
+        "fields": {
+            "answer": 21412,
+            "issue": 28,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21420,
+        "fields": {
+            "answer": 21417,
+            "issue": 29,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21421,
+        "fields": {
+            "answer": 21417,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21422,
+        "fields": {
+            "answer": 21417,
+            "issue": 32,
+            "issue_score": -0.6,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21426,
+        "fields": {
+            "answer": 21423,
+            "issue": 28,
+            "issue_score": -0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21427,
+        "fields": {
+            "answer": 21423,
+            "issue": 27,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
     }
 ]
 
@@ -8835,10 +9317,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 8853,
         "fields": {
             "answer": 3502,
-            "state": 209,
+            "state": 185,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.04
         }
     },
     {
@@ -23413,14 +23895,14 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 193,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.01
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 21310,
+        "pk": 21352,
         "fields": {
-            "answer": 3315,
+            "answer": 3462,
             "state": 185,
             "candidate": 78,
             "affected_candidate": 78,
@@ -23429,13 +23911,79 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 21314,
+        "pk": 21359,
         "fields": {
-            "answer": 3317,
+            "answer": 3464,
             "state": 184,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21369,
+        "fields": {
+            "answer": 3562,
+            "state": 185,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21376,
+        "fields": {
+            "answer": 3564,
+            "state": 184,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21390,
+        "fields": {
+            "answer": 21385,
+            "state": 185,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21400,
+        "fields": {
+            "answer": 21395,
+            "state": 184,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21402,
+        "fields": {
+            "answer": 21395,
+            "state": 198,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21403,
+        "fields": {
+            "answer": 21395,
+            "state": 205,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.05
         }
     }
 ]
@@ -23448,15 +23996,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3312,
             "candidate": 78,
             "answer_feedback": " It’s hard to precisely place it, but something about the exact enunciation with how you pronounced the word “French” is irresistibly charming, and though nobody’s especially pleased, the media soon moves to a new slant."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 714,
-        "fields": {
-            "answer": 3316,
-            "candidate": 77,
-            "answer_feedback": "Considering the $100 limit, you had already been doing well financially, but the spigot turns into a waterfall so much so that Jodie doesn’t even know how to spend the money, even as you continually stress that you will be the rare man not to be changed by money."
         }
     },
     {
@@ -23655,33 +24194,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3310,
             "candidate": 78,
             "answer_feedback": "Jacques, always a controversial figure around your office, disappears with nary a second thought as the media largely accepts your act of excommunication. Throughout the next week, you feel an odd sense of emptiness as your other aides march you place to place in lockstep."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 811,
-        "fields": {
-            "answer": 3314,
-            "candidate": 78,
-            "answer_feedback": "The race with Clinton was already a brutal slugfest, and pinning him and the other “New Democrats” in Bush’s lane only exacerbates tensions further. Still, Slick Willie finds himself increasingly unable to counter you, and it’s but one nail in his coffin."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 812,
-        "fields": {
-            "answer": 3315,
-            "candidate": 78,
-            "answer_feedback": "Your ideological flexibility proves to be a massive boon as, on a national broadcast, you manage to simultaneously condemn the protestors as ruthless thugs with no respect for law and order while also justifying them as understandably upset civilians who were forced into a bad decision by larger societal forces. As you fly home, you silently wonder if there was more you could’ve done as governor to prevent this situation."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 813,
-        "fields": {
-            "answer": 3317,
-            "candidate": 78,
-            "answer_feedback": "Clinton isn’t the type to take things excessively personally, but from the moment you walk in the room to meet with him, you can tell that he hasn’t forgiven you for your attacks on him and Hillary. He angrily informs you that he will not be dropping out of the race and that he’s not sure if he’ll endorse you even if you do win."
         }
     },
     {
@@ -24511,9 +25023,157 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 78,
             "answer_feedback": "This answer plays well with rational thinkers, aware of the inherently unstable nature of human existence. The average American voter promptly rejects this concept, and scores of people begging for an easy fix on the issue leave you waffling like a Belgian."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21344,
+        "fields": {
+            "answer": 3461,
+            "candidate": 78,
+            "answer_feedback": "The race with Clinton was already a brutal slugfest, and pinning him and the other “New Democrats” in Bush’s lane only exacerbates tensions further. Still, Slick Willie finds himself increasingly unable to counter you, and it’s but one nail in his coffin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21348,
+        "fields": {
+            "answer": 3462,
+            "candidate": 78,
+            "answer_feedback": "Your ideological flexibility proves to be a massive boon as, on a national broadcast, you manage to simultaneously condemn the protestors as ruthless thugs with no respect for law and order while also justifying them as understandably upset civilians who were forced into a bad decision by larger societal forces. As you fly home, you silently wonder if there was more you could’ve done as governor to prevent this situation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21353,
+        "fields": {
+            "answer": 3463,
+            "candidate": 78,
+            "answer_feedback": "Considering the $100 limit, you had already been doing well financially, but the spigot turns into a waterfall so much so that Jodie doesn’t even know how to spend the money, even as you continually stress that you will be the rare man not to be changed by money."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21356,
+        "fields": {
+            "answer": 3464,
+            "candidate": 78,
+            "answer_feedback": "You and Clinton spend three hours trying to work out a reasonable compromise before discussions collapse in on themselves. Jodie consoles you by promising to pull out all of the stops to embarrass Clinton in the California primary, which cheers you up a bit. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21360,
+        "fields": {
+            "answer": 3561,
+            "candidate": 78,
+            "answer_feedback": "The race with Clinton was already a brutal slugfest, and pinning him and the other “New Democrats” in Bush’s lane only exacerbates tensions further. Still, Slick Willie finds himself increasingly unable to counter you, and it’s but one nail in his coffin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21365,
+        "fields": {
+            "answer": 3562,
+            "candidate": 78,
+            "answer_feedback": "Your ideological flexibility proves to be a massive boon as, on a national broadcast, you manage to simultaneously condemn the protestors as ruthless thugs with no respect for law and order while also justifying them as understandably upset civilians who were forced into a bad decision by larger societal forces. As you fly home, you silently wonder if there was more you could’ve done as governor to prevent this situation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21370,
+        "fields": {
+            "answer": 3563,
+            "candidate": 78,
+            "answer_feedback": "Considering the $100 limit, you had already been doing well financially, but the spigot turns into a waterfall so much so that Jodie doesn’t even know how to spend the money, even as you continually stress that you will be the rare man not to be changed by money."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21373,
+        "fields": {
+            "answer": 3564,
+            "candidate": 78,
+            "answer_feedback": "Clinton isn’t the type to take things excessively personally, but from the moment you walk in the room to meet with him, you can tell that he hasn’t forgiven you for your attacks on him and Hillary. He angrily informs you that he will not be dropping out of the race and that he’s not sure if he’ll endorse you even if you do win."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21381,
+        "fields": {
+            "answer": 21380,
+            "candidate": 78,
+            "answer_feedback": "The race with Clinton was already a brutal slugfest, and pinning him and the other “New Democrats” in Bush’s lane only exacerbates tensions further. Still, Slick Willie finds himself increasingly unable to counter you, and it’s but one nail in his coffin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21386,
+        "fields": {
+            "answer": 21385,
+            "candidate": 78,
+            "answer_feedback": "Your ideological flexibility proves to be a massive boon as, on a national broadcast, you manage to simultaneously condemn the protestors as ruthless thugs with no respect for law and order while also justifying them as understandably upset civilians who were forced into a bad decision by larger societal forces. As you fly home, you silently wonder if there was more you could’ve done as governor to prevent this situation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21392,
+        "fields": {
+            "answer": 21391,
+            "candidate": 78,
+            "answer_feedback": "Considering the $100 limit, you had already been doing well financially, but the spigot turns into a waterfall so much so that Jodie doesn’t even know how to spend the money, even as you continually stress that you will be the rare man not to be changed by money."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21396,
+        "fields": {
+            "answer": 21395,
+            "candidate": 78,
+            "answer_feedback": "The air is icy as you and Clinton search and search for common ground. Suddenly, the two of you reach a point in talking concessions where you start… agreeing. The two of you shake hands and promise to work together to beat Bush, but you wonder if his smile is really as tight as it seems right now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21406,
+        "fields": {
+            "answer": 21405,
+            "candidate": 78,
+            "answer_feedback": "It’ll take more than one speech to bring the Clintonites to the fold, but you can at least say that you’ve made a legitimate effort. At a stop for lunch in Joliet on your way to Chicago, you find yourself greeted by a rapturous crowd."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21413,
+        "fields": {
+            "answer": 21412,
+            "candidate": 78,
+            "answer_feedback": "Your inspiring words might be a bit out there, but they captivate the convention. On SNL, Dana Carvey’s George Bush painstakingly explains why space exploration wouldn’t be “prudent.”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21418,
+        "fields": {
+            "answer": 21417,
+            "candidate": 78,
+            "answer_feedback": "As you finish your speech, your words are drowned out by a roaring applause as balloons and confetti fill the air. A slightly dazed Dan Rather notes that he’s never seen such a convention speech while Pat Robertson says that you may be the Antichrist at a church service the following Sunday"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21424,
+        "fields": {
+            "answer": 21423,
+            "candidate": 78,
+            "answer_feedback": "Your speech has enough rhetorical flair to go down well with the convention, but Jodie and co. have to work overtime to make sure the term “Buddhist economics” isn’t used everywhere as economists question such thinking as counterintuitive in a recession."
+        }
     }
 ]
 
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
+campaignTrail_temp.candidate_last_name = "Brown";
+campaignTrail_temp.running_mate_last_name = "For President";
 
 e=campaignTrail_temp
 campaignTrail_temp.cyoa = true;
@@ -24535,25 +25195,104 @@ var estabMap = {
     3412: 2,
     3411: 1,
     3314: -1,
-    3317: 1,
-    3316: 1,
+    21391: 1,
+    21395: 1,
+    3463: 1,
     3333: 1,
     3334: 1,
    
   }
+  var moonbeamMap = {
 
-cyoAdventure = function (a) {
-    
+   
+  }
+  var orangeMap = {
+    3397: 1,
+    3462: 1,
+    3562: 1,
+    21385: 1,
+    3333: 1,
 
-ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+  }
+ 
 
-    if (estabMap.hasOwnProperty(ans)) {
-     estab += estabMap[ans];
-     console.log("estab work")
-        console.log(estab)
-     }
+
+//This is how I swap out questions
+function tunnel(new_q){
+    let e = campaignTrail_temp;
+    if (!Array.isArray(e.questions_json)) {
+        console.error("e.questions_json is not an array or is undefined");
+        return undefined;
+    }
+    let pkArray = e.questions_json.map(f => {
+        if (f && 'pk' in f) {
+            return f.pk;
+        } else {
+            console.error("An element in questions_json is missing the pk property", f);
+            return undefined;
+        }
+    });
+    let index = pkArray.indexOf(new_q);
+    if (index === -1) {
+        console.error(`pk value ${new_q} not found in questions_json`);
+        return undefined;
+    }
+    return e.questions_json[index];
+}
+
+
+cyoAdventure = function(a) {
+    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+
+
+        ///this makes each of the variables actually do stuff
+     if (estabMap.hasOwnProperty(ans)) {
+          estab += estabMap[ans];
+         console.log("estab work")
+               console.log(estab)
+            }
+        
+
+     if (moonbeamMap.hasOwnProperty(ans)) {
+          moonbeam += moonbeamMap[ans];
+         console.log("moonbeam work")
+            console.log(moonbeam)
+                }
   
-        //VP Trigger Question (Convention)
+  
+     if (orangeMap.hasOwnProperty(ans)) {
+          orange += orangeMap[ans];
+         console.log("orange you glad I didn't say moonbeam?")
+            console.log(orange)
+                }
+
+            
+            
+        //first few primary Qs
+     if(ans == 3410){
+        campaignTrail_temp.questions_json[3] = tunnel(384);
+        console.log ("bubba mad")
+    }
+    else if((estab < 1)){
+        campaignTrail_temp.questions_json[3] = tunnel(383);
+        console.log ("low estab success")
+    }
+    else{
+        campaignTrail_temp.questions_json[3] = tunnel(21379);
+        console.log ("normal")
+    }
+
+    if(estab > 2){
+        campaignTrail_temp.questions_json[4] = tunnel(21404);
+    }
+      
+     
+     
+     
+     
+     
+     
+     //VP Trigger Question (Convention)
     if (e.question_number == 4) {
         window.setTimeout(e.vpSwitcher, 20)
         console.log("the question blocker works")
@@ -24709,10 +25448,7 @@ var changeGameDisp = (hide) => {
     })
   
   }
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
-campaignTrail_temp.candidate_last_name = "Brown";
-campaignTrail_temp.running_mate_last_name = "For President";
+
 
 
 
