@@ -10,6 +10,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 317,
+        "fields": {
+            "priority": 0,
+            "description": "The wind whips through your hair, exposing your bald spot for a brief moment, as you stare at a crowd of onlookers in San Francisco’s Union Square, awaiting your announcement that you’re running for the presidency. “They’re here to support me,” you think, as you look closer into their eyes, desperately searching for something more than mild curiosity as to your newest stunt.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 367,
         "fields": {
             "priority": 1,
@@ -263,6 +272,38 @@ campaignTrail_temp.questions_json = [
 ]
 
 campaignTrail_temp.answers_json = [
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3102,
+        "fields": {
+            "question": 317,
+            "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are looting the lower classes for all they’re worth. I’m calling for you, the people, to vote for me, to vote for those fighting this cabal, and take America back!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3103,
+        "fields": {
+            "question": 317,
+            "description": "Back in the day, some of the Romans believed in a concept called Nero Redivivus, that the emperor would return from the dead to finish the empire’s destruction. Well, he’s finally returned, and his name is George Bush, a man content to fiddle as Washington burns!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3104,
+        "fields": {
+            "question": 317,
+            "description": "Today, America stands at a financial precipice. Despite President Bush increasing our taxes, the federal government is posting its highest ever deficit this year: $268.7 billion dollars. The only way for us to get out of this calamity is through tightening some belts–not the worn belt of the farmer in the Salinas valley, or the dockworker in Oakland, but the designer belt of the CEO in his Malibu mansion as he laps up government waste!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3105,
+        "fields": {
+            "question": 317,
+            "description": "Can anyone here explain how our Congress is any different from a trip to a local store? You walk in, look at the price tag, and then pay to get what you want. Of course, there’s some differences. The items in the store will eventually expire, while our Congressmen languish there without term limits, to say nothing of how they give themselves a raise and the price goes up!"
+        }
+    },
     {
         "model": "campaign_trail.answer",
         "pk": 3310,
@@ -625,6 +666,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 113384,
+        "fields": {
+            "question": 344,
+            "description": "uh oh"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 3385,
         "fields": {
             "question": 363,
@@ -692,7 +741,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3400,
         "fields": {
             "question": 367,
-            "description": "\nRight now, we have three tax brackets. That’s not simple enough, and we need to subtract one. None of this nonsense about deductions or avoidance: a 13% bracket for Americans making less than $50,000 a year, and a 28% bracket for upper-class Americans making more than $50,000. The working class pays their fair share, the upper class pays their fair share, and we move forward as one nation. "
+            "description": "We need a simplified tax system: a 13% bracket for Americans making less than $50,000 a year, and a 28% bracket for upper-class Americans making more than $50,000. The upper and lower classes pay their fair share, and we all move forward together"
         }
     },
     {
@@ -700,7 +749,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3409,
         "fields": {
             "question": 370,
-            "description": "Tsongas and I aren’t quite the exact same, but it doesn’t take a genius to realize that we’re tapping into the same type of voters. If he drops out, his people are ours, and we win the race. If we really lay into him in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
+            "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
         }
     },
     {
@@ -908,7 +957,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3502,
         "fields": {
             "question": 397,
-            "description": "\nThe very essence of American being is at stake in this election. We need to start right now so that we can get our message to as many people as possible before the primaries. "
+            "description": "The very essence of American being is at stake in this election. We need to start right now so that we can get our message to as many people as possible before the primaries. In other words, let’s not have a repeat of ‘76 or ‘80. "
         }
     },
     {
@@ -8374,6 +8423,66 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 78,
             "global_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21433,
+        "fields": {
+            "answer": 3102,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21434,
+        "fields": {
+            "answer": 3103,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21438,
+        "fields": {
+            "answer": 3104,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21440,
+        "fields": {
+            "answer": 3105,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21441,
+        "fields": {
+            "answer": 3105,
+            "candidate": 79,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21443,
+        "fields": {
+            "answer": 3501,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -9296,6 +9405,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 27,
             "issue_score": 0.4,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21432,
+        "fields": {
+            "answer": 3102,
+            "issue": 32,
+            "issue_score": -3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21436,
+        "fields": {
+            "answer": 3104,
+            "issue": 28,
+            "issue_score": -2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21437,
+        "fields": {
+            "answer": 3104,
+            "issue": "27",
+            "issue_score": -2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21439,
+        "fields": {
+            "answer": 3105,
+            "issue": 32,
+            "issue_score": -4,
+            "issue_importance": 3
         }
     }
 ]
@@ -25167,6 +25316,69 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 78,
             "answer_feedback": "Your speech has enough rhetorical flair to go down well with the convention, but Jodie and co. have to work overtime to make sure the term “Buddhist economics” isn’t used everywhere as economists question such thinking as counterintuitive in a recession."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21428,
+        "fields": {
+            "answer": 3102,
+            "candidate": 78,
+            "answer_feedback": "The thinking might sound conspiratorial to some–let’s face it, even being generous, it’s pretty damn conspiratorial–but with the Soviet Union on the terminal decline, Americans need a new foe to redirect their energy to, even as Wall Street responds by simply cutting Bush a bigger check."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21429,
+        "fields": {
+            "answer": 3103,
+            "candidate": 78,
+            "answer_feedback": "Not a single person outside of academia understands your reference to Nero Redivivus, but the image of the nerdy, aloof Bush being removed from the nation’s struggles is compelling, even as every Democratic primary candidate–plus Pat Buchanan–says the exact same thing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21430,
+        "fields": {
+            "answer": 3104,
+            "candidate": 78,
+            "answer_feedback": "Out of nowhere, glowing editorials singing your praises as a man who knows how to be fiscally responsible spring up everywhere, from the New York Times to the Wall Street Journal to Forbes magazine. As you flip through their pages and bask in the attention, a small voice inside your head notices that not one mentions anything about the working class people you championed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21431,
+        "fields": {
+            "answer": 3105,
+            "candidate": 78,
+            "answer_feedback": "It’s more than a bit jarring to see a man who has spent eight years as governor of California ask to spend four more as president while slamming the evils of long-tenured Congressmen, but this piques the interest of those who want change without knowing how they want it, including several members of the Draft Perot campaign. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21442,
+        "fields": {
+            "answer": 3501,
+            "candidate": 78,
+            "answer_feedback": "Have you learned any lessons from 1980? Apparently so, because with such a thin candidate field, nobody is able to build an insurmountable lead. Your team, led by Jodie Evans and supported by the ever-present Jacques Barzaghi, spends this valuable time honing your message and calibrating campaign infrastructure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21444,
+        "fields": {
+            "answer": 3502,
+            "candidate": 78,
+            "answer_feedback": "Dormant for a decade, the gears of the Brown campaign spring into action in surprisingly quick time, with Jodie Evans at the helm. Your early entrance doesn’t cause a polling surge, but Jacques consoles you by explaining that polls are a fundamentally meaningless metaphysical concept."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21445,
+        "fields": {
+            "answer": 12240,
+            "candidate": 78,
+            "answer_feedback": "Your instincts prove correct. Though your first try at the Senate a decade ago was foiled by Pete Wilson, his appointee John Seymour is a hapless lackey who you crush by 20 points as Clinton wins the presidency. You embark to Congress on a new mission to take back America from within."
+        }
     }
 ]
 
@@ -25174,6 +25386,7 @@ campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
 campaignTrail_temp.candidate_last_name = "Brown";
 campaignTrail_temp.running_mate_last_name = "For President";
+
 
 e=campaignTrail_temp
 campaignTrail_temp.cyoa = true;
@@ -25187,6 +25400,8 @@ var vpcheck = 0;  // Tsongas is 1, Geppy is 2, Bradley is 3, Pryor is 4, Jackson
 //This stores which questions affect which variables
 var estabMap = {
     3502: -1,
+    3105: -1,
+    3102: -2,
     3502: -1,
     3397: -1,
     3398: 1,
@@ -25203,10 +25418,11 @@ var estabMap = {
    
   }
   var moonbeamMap = {
-
+    3105: 1,
    
   }
   var orangeMap = {
+    3104: 1,
     3397: 1,
     3462: 1,
     3562: 1,
@@ -25270,20 +25486,20 @@ cyoAdventure = function(a) {
             
         //first few primary Qs
      if(ans == 3410){
-        campaignTrail_temp.questions_json[3] = tunnel(384);
+        campaignTrail_temp.questions_json[4] = tunnel(384);
         console.log ("bubba mad")
     }
     else if((estab < 1)){
-        campaignTrail_temp.questions_json[3] = tunnel(383);
+        campaignTrail_temp.questions_json[4] = tunnel(383);
         console.log ("low estab success")
     }
     else{
-        campaignTrail_temp.questions_json[3] = tunnel(21379);
+        campaignTrail_temp.questions_json[4] = tunnel(21379);
         console.log ("normal")
     }
 
     if(estab > 2){
-        campaignTrail_temp.questions_json[4] = tunnel(21404);
+        campaignTrail_temp.questions_json[5] = tunnel(21404);
     }
       
      
@@ -25293,7 +25509,7 @@ cyoAdventure = function(a) {
      
      
      //VP Trigger Question (Convention)
-    if (e.question_number == 4) {
+    if (e.question_number == 5) {
         window.setTimeout(e.vpSwitcher, 20)
         console.log("the question blocker works")
        }
@@ -25448,7 +25664,6 @@ var changeGameDisp = (hide) => {
     })
   
   }
-
 
 
 
