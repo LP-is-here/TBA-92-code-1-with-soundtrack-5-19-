@@ -322,6 +322,33 @@ campaignTrail_temp.questions_json = [
             "description": "The 1992 Republican National Convention, held in the Astrodome, has the perfect choreography of a Broadway show, minus the fun. Still, George Bush projects confidence in the national situation and an air of stability, as he stands statuesque like something from Rodin. He seems utterly unconcerned with you, wanting this election finished so that he can go back to the White House.\n\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113574,
+        "fields": {
+            "priority": -1,
+            "description": "The 1992 Republican National Convention is a spectacle, with the Astrodome covered in red, white, and blue as Bush assuredly talks about the strength of the national situation, his accomplishments as president, and the need to defeat the Democrats in November. Yet his tone is perfunctory, overly measured. Not once does he mention the economy.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113600,
+        "fields": {
+            "priority": -1,
+            "description": "George Bush returns to his “hometown” of Houston like Julius Caesar returning from Gaul as conqueror, his previously sagging approval rating reborn against a thus-far ineffective Democratic campaign. On stage, he launches into an arrogant, boisterous spiel about the need to crush your movement before it can threaten the nation. The crowd goes berserk.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113626,
+        "fields": {
+            "priority": -1,
+            "description": "George Bush returns to his “hometown” of Houston like Julius Caesar returning from Gaul as conqueror, his previously sagging approval rating reborn against a thus-far ineffective Democratic campaign. On stage, he launches into an arrogant, boisterous spiel about the need to crush your movement before it can threaten the nation. The crowd goes berserk.",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1315,7 +1342,7 @@ campaignTrail_temp.answers_json = [
         "pk": 113549,
         "fields": {
             "question": 113548,
-            "description": "    Upon hearing this strategy, Pat Caddell informs you that the definition of insanity is doing the same thing over and over and expecting a different result. You know that he’s wrong, that Einstein didn’t come up with the quote, but your numbers don’t tick up despite well-received appearances with Mario Cuomo and Lloyd Bentsen."
+            "description": " Upon hearing this strategy, Pat Caddell informs you that the definition of insanity is doing the same thing over and over and expecting a different result. You know that he’s wrong, that Einstein didn’t come up with the quote, but your numbers don’t tick up despite well-received appearances with Mario Cuomo and Lloyd Bentsen."
         }
     },
     {
@@ -1323,7 +1350,7 @@ campaignTrail_temp.answers_json = [
         "pk": 113554,
         "fields": {
             "question": 113548,
-            "description": "\n    Bush looked great on stage, it’s true. He’s also 68 and can’t keep it up forever. We need to save the footage from the convention and then contrast it with him on the campaign trail, suggest he was being propped up there. \n"
+            "description": "\n Bush looked great on stage, it’s true. He’s also 68 and can’t keep it up forever. We need to save the footage from the convention and then contrast it with him on the campaign trail, suggest he was being propped up there. \n"
         }
     },
     {
@@ -1339,7 +1366,103 @@ campaignTrail_temp.answers_json = [
         "pk": 113566,
         "fields": {
             "question": 113548,
-            "description": "\n    Bush expresses confidence, right? Sure, we have some things to be confident about, but am I supposed to feel good about the economy? Or the budget? Or Congress? Does Bush have anything there other than failed policy to back up his record?"
+            "description": "\n Bush expresses confidence, right? Sure, we have some things to be confident about, but am I supposed to feel good about the economy? Or the budget? Or Congress? Does Bush have anything there other than failed policy to back up his record?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113575,
+        "fields": {
+            "question": 113574,
+            "description": " If your father was a senator, or a millionaire, like Bush and Quayle, then I’m sure that your finances are doing great right now. Let’s go down to Bush’s “hometown” and ask some average Houstonians how they’re doing, be sure to bring up the new taxes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113580,
+        "fields": {
+            "question": 113574,
+            "description": "Right now, Bush is pushing himself as the continuity candidate. Do we really want four more years of this career politico in office, repeating the same mistakes that got us here? This decision takes approximately one iota of thought."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113585,
+        "fields": {
+            "question": 113574,
+            "description": "Bush talks about preserving American values, but what he really means is keeping people who look like him, with his money, in power. Lynn Martin and J.C. Watts got their screen time, but it’s folks like Pat Buchanan running the show. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113592,
+        "fields": {
+            "question": 113574,
+            "description": "\nAge quod agis. This convention has been exactly what everyone expected, and by not changing his approach from earlier, Bush is making himself vulnerable. I already have my 1-800 number, but let’s launch a new one, 1-800 GOP LIES, where we provide an objective fact check. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113601,
+        "fields": {
+            "question": 113600,
+            "description": "    This entire time, Bush has been painting me as the radical and him as the voice of reason, and I’ve been resisting that. We need to flip this around: I am a radical, in the sense that I’m the only one willing to call Bush out on his disdain for the common man. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113606,
+        "fields": {
+            "question": 113600,
+            "description": "    Bush is doing what Dukakis did and getting ahead of himself. We’ll let him have that, play into it. While he frontruns thumping his chest like Mussolini, we’ll be working on a comeback. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113611,
+        "fields": {
+            "question": 113600,
+            "description": "\nWe need to fight fire with fire. I mean, George Bush? I can’t be losing an energy battle with that asshole! Let’s resuscitate some of our best words we used against Clinton, like “Mr. Hack,” show the president we mean business."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113618,
+        "fields": {
+            "question": 113600,
+            "description": "\nBush’s polling looks good, but none of the fundamentals of the race have changed. He’s running on wishy-washy cultural appeals and foreign policy. Newsflash, George: people don’t care about apple pie and baseball, they care about their wallets!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113627,
+        "fields": {
+            "question": 113626,
+            "description": "    This entire time, Bush has been painting me as the radical and him as the voice of reason, and I’ve been resisting that. We need to flip this around: I am a radical, in the sense that I’m the only one willing to call Bush out on his disdain for the common man. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113632,
+        "fields": {
+            "question": 113626,
+            "description": "    Bush is doing what Dukakis did and getting ahead of himself. We’ll let him have that, play into it. While he frontruns thumping his chest like Mussolini, we’ll be working on a comeback. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113637,
+        "fields": {
+            "question": 113626,
+            "description": "\nWe need to fight fire with fire. I mean, George Bush? I can’t be losing an energy battle with that asshole! Let’s resuscitate some of our best words we used against Clinton, like “Mr. Hack,” show the president we mean business."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113644,
+        "fields": {
+            "question": 113626,
+            "description": "\nBush’s polling looks good, but none of the fundamentals of the race have changed. He’s running on wishy-washy cultural appeals and foreign policy. Newsflash, George: people don’t care about apple pie and baseball, they care about their wallets!"
         }
     }
 ]
@@ -9169,6 +9292,246 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": 0.015
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113577,
+        "fields": {
+            "answer": 113575,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113578,
+        "fields": {
+            "answer": 113575,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113582,
+        "fields": {
+            "answer": 113580,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113583,
+        "fields": {
+            "answer": 113580,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113587,
+        "fields": {
+            "answer": 113585,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113588,
+        "fields": {
+            "answer": 113585,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113594,
+        "fields": {
+            "answer": 113592,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113595,
+        "fields": {
+            "answer": 113592,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113603,
+        "fields": {
+            "answer": 113601,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113604,
+        "fields": {
+            "answer": 113601,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113608,
+        "fields": {
+            "answer": 113606,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113609,
+        "fields": {
+            "answer": 113606,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113613,
+        "fields": {
+            "answer": 113611,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113614,
+        "fields": {
+            "answer": 113611,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113620,
+        "fields": {
+            "answer": 113618,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113621,
+        "fields": {
+            "answer": 113618,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113629,
+        "fields": {
+            "answer": 113627,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113630,
+        "fields": {
+            "answer": 113627,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113634,
+        "fields": {
+            "answer": 113632,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113635,
+        "fields": {
+            "answer": 113632,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113639,
+        "fields": {
+            "answer": 113637,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113640,
+        "fields": {
+            "answer": 113637,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113646,
+        "fields": {
+            "answer": 113644,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113647,
+        "fields": {
+            "answer": 113644,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.015
+        }
     }
 ]
 
@@ -10498,6 +10861,186 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 113571,
         "fields": {
             "answer": 113566,
+            "issue": 28,
+            "issue_score": 0.65,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113579,
+        "fields": {
+            "answer": 113575,
+            "issue": 29,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113584,
+        "fields": {
+            "answer": 113580,
+            "issue": 32,
+            "issue_score": -0.01,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113589,
+        "fields": {
+            "answer": 113585,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113590,
+        "fields": {
+            "answer": 113585,
+            "issue": 28,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113596,
+        "fields": {
+            "answer": 113592,
+            "issue": 27,
+            "issue_score": 0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113597,
+        "fields": {
+            "answer": 113592,
+            "issue": 28,
+            "issue_score": 0.65,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113605,
+        "fields": {
+            "answer": 113601,
+            "issue": 29,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113610,
+        "fields": {
+            "answer": 113606,
+            "issue": 32,
+            "issue_score": -0.01,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113615,
+        "fields": {
+            "answer": 113611,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113616,
+        "fields": {
+            "answer": 113611,
+            "issue": 28,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113622,
+        "fields": {
+            "answer": 113618,
+            "issue": 27,
+            "issue_score": 0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113623,
+        "fields": {
+            "answer": 113618,
+            "issue": 28,
+            "issue_score": 0.65,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113631,
+        "fields": {
+            "answer": 113627,
+            "issue": 29,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113636,
+        "fields": {
+            "answer": 113632,
+            "issue": 32,
+            "issue_score": -0.01,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113641,
+        "fields": {
+            "answer": 113637,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113642,
+        "fields": {
+            "answer": 113637,
+            "issue": 28,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113648,
+        "fields": {
+            "answer": 113644,
+            "issue": 27,
+            "issue_score": 0.75,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113649,
+        "fields": {
+            "answer": 113644,
             "issue": 28,
             "issue_score": 0.65,
             "issue_importance": 1
@@ -22055,6 +22598,105 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 78,
             "state_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113591,
+        "fields": {
+            "answer": 113585,
+            "state": 185,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113598,
+        "fields": {
+            "answer": 113592,
+            "state": 202,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113599,
+        "fields": {
+            "answer": 113592,
+            "state": 215,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113617,
+        "fields": {
+            "answer": 113611,
+            "state": 185,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113624,
+        "fields": {
+            "answer": 113618,
+            "state": 202,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113625,
+        "fields": {
+            "answer": 113618,
+            "state": 215,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113643,
+        "fields": {
+            "answer": 113637,
+            "state": 185,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113650,
+        "fields": {
+            "answer": 113644,
+            "state": 202,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113651,
+        "fields": {
+            "answer": 113644,
+            "state": 215,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
     }
 ]
 
@@ -23334,7 +23976,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113471,
             "candidate": 78,
-            "answer_feedback": "    To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
+            "answer_feedback": " To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
         }
     },
     {
@@ -23370,7 +24012,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113497,
             "candidate": 78,
-            "answer_feedback": "    To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
+            "answer_feedback": " To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
         }
     },
     {
@@ -23433,7 +24075,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113540,
             "candidate": 78,
-            "answer_feedback": "Mark Nykanen, your press secretary, is an outstanding investigative journalist. For a week, he blitzes  Washington, searching desperately for Bush’s master plan. His final report is a post-it note saying “Findings inconclusive. President may just be exhausted.”\n"
+            "answer_feedback": "Mark Nykanen, your press secretary, is an outstanding investigative journalist. For a week, he blitzes Washington, searching desperately for Bush’s master plan. His final report is a post-it note saying “Findings inconclusive. President may just be exhausted.”\n"
         }
     },
     {
@@ -23442,7 +24084,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113549,
             "candidate": 78,
-            "answer_feedback": "    To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
+            "answer_feedback": " To a degree, your portrayal of Bush as a 68-year-old preppie works, as he is unable to draw you into a mudslinging contest. Still, you notice that the President has more energy after a Midwestern barnstorming tour, as sporty photos of him jogging circulate widely."
         }
     },
     {
@@ -23460,7 +24102,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113559,
             "candidate": 78,
-            "answer_feedback": "    Seeing as how you had at least somewhat pivoted to the Democratic norm, Bush clearly expected a low-key campaign. While campaigning, he openly expresses shock as to your description of him as a “Faux Texan with a rich daddy,” seeming visibly confused and completely failing to notice your own nepotistic background."
+            "answer_feedback": " Seeing as how you had at least somewhat pivoted to the Democratic norm, Bush clearly expected a low-key campaign. While campaigning, he openly expresses shock as to your description of him as a “Faux Texan with a rich daddy,” seeming visibly confused and completely failing to notice your own nepotistic background."
         }
     },
     {
@@ -23469,7 +24111,115 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 113566,
             "candidate": 78,
-            "answer_feedback": "\n    Bush deflects questions about the economy like a master fencer, but it just doesn’t matter. Ad after ad showing the dismal state of affairs in the country only makes Bush seem like more of a hypocrite for being as peachy as he is.\n"
+            "answer_feedback": "\n Bush deflects questions about the economy like a master fencer, but it just doesn’t matter. Ad after ad showing the dismal state of affairs in the country only makes Bush seem like more of a hypocrite for being as peachy as he is.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113576,
+        "fields": {
+            "answer": 113575,
+            "candidate": 78,
+            "answer_feedback": "   Backed by a camera crew and flanked by Cesar Chavez as a partner/translator, you roam Houston’s neglected neighborhoods, asking residents how their lives have gotten better under Bush. The depths of human misery in places like Sunnyside shock you and make for terrifying television."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113581,
+        "fields": {
+            "answer": 113580,
+            "candidate": 78,
+            "answer_feedback": "    Jodie and the rest of the headquarters think that you’ve hit on something here. After 12 years of the same old routine, with the country sinking into stagnation, people are desperate for new blood. It doesn’t matter if it’s Ross Perot, Bill Clinton, or Jerry Brown, as long as it’s not Bush."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113586,
+        "fields": {
+            "answer": 113585,
+            "candidate": 78,
+            "answer_feedback": "    They say there’s no white equivalent of the n-word, but based on their reaction, that word for white Republicans may very well be “racist.” Ignoring the allegations, they point to Clarence Thomas as a shining zenith of diversity within the party, backed by Elizabeth Dole and Manuel Lujan. The wider reality of their party dynamics are covered by the pure hysteria."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113593,
+        "fields": {
+            "answer": 113592,
+            "candidate": 78,
+            "answer_feedback": "  1-800 GOP LIES is a massive hit with those on the left, who receive a joyfully scathing critique of Bush’s lies throughout the campaign. Unfortunately, you’re never able to get conservatives to call the number, and its traffic remains 10% of 1-800-426-112.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113602,
+        "fields": {
+            "answer": 113601,
+            "candidate": 78,
+            "answer_feedback": "There’s a certain freedom that comes from letting go of arbitrary labels of moderation. Jodie frets about the polls, but you can sense something new coming from your campaign stops. Hope? Perhaps."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113607,
+        "fields": {
+            "answer": 113606,
+            "candidate": 78,
+            "answer_feedback": "Pundits note Bush’s aggressive new tone, which the man himself embodies with a trip to the Bay Area, seeking to embarrass you on your home territory. Meanwhile, you work diligently and keep on blowing through event after event in the swing states. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113612,
+        "fields": {
+            "answer": 113611,
+            "candidate": 78,
+            "answer_feedback": " There are few who can relentlessly go on the attack like you, and any bleeding that may have been occurring slows. The issue is that it doesn’t help you gain any ground, as the nation wonders where its capacity for reasoned debate went."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113619,
+        "fields": {
+            "answer": 113618,
+            "candidate": 78,
+            "answer_feedback": "Bush is all confidence and bright smiles, but he doesn’t have any answers on the economy. During a televised town hall in Grand Rapids, you see a solitary bead of sweat roll down his forehead when an attendee asks him about his plans for the unemployed.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113628,
+        "fields": {
+            "answer": 113627,
+            "candidate": 78,
+            "answer_feedback": "There’s a certain freedom that comes from letting go of arbitrary labels of moderation. Jodie frets about the polls, but you can sense something new coming from your campaign stops. Hope? Perhaps."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113633,
+        "fields": {
+            "answer": 113632,
+            "candidate": 78,
+            "answer_feedback": "Pundits note Bush’s aggressive new tone, which the man himself embodies with a trip to the Bay Area, seeking to embarrass you on your home territory. Meanwhile, you work diligently and keep on blowing through event after event in the swing states. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113638,
+        "fields": {
+            "answer": 113637,
+            "candidate": 78,
+            "answer_feedback": " “Mr. Hack.” “The Prince of Sleaze.” “Slippery.” A rhetorical arsenal lies at your feet, and you’re shocked by its effectiveness as a poll notes that Bush’s disapproval went up five points almost overnight."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113645,
+        "fields": {
+            "answer": 113644,
+            "candidate": 78,
+            "answer_feedback": "Bush is all confidence and bright smiles, but he doesn’t have any answers on the economy. During a televised town hall in Grand Rapids, you see a solitary bead of sweat roll down his forehead when an attendee asks him about his plans for the unemployed.\n"
         }
     }
 ]
@@ -23617,31 +24367,42 @@ cyoAdventure = function(a) {
         console.log ("gop lowM lowE lowO")
     }
 
-    if (estab < 1 && momentum < 1 && orange >= 1){
+    else if (estab < 1 && momentum < 2 && orange >= 1){
         campaignTrail_temp.questions_json[12] = tunnel(113444);
         ("gop lowM lowE hiO")
     }
 
-    if (estab < 1 && momentum > 1 && moonbeam < 0){
+    else if (estab < 1 && momentum > 1 && moonbeam < 0){
         campaignTrail_temp.questions_json[12] = tunnel(113470);
         ("gop hiM lowE lowMB")
     }
 
-    if (estab < 1 && momentum > 1 && moonbeam >= 0){
+    else if (estab < 1 && momentum > 1 && moonbeam >= 0){
         campaignTrail_temp.questions_json[12] = tunnel(113496);
         ("gop hiM lowE hiMB")
     }
-/// i am so fucking tired bro i will code the long shot pat buchanan version later sorry
-    if (estab > 1 && momentum > 1){
+                                                    /// i am so fucking tired bro i will code the long shot pat buchanan version later sorry
+    else if (estab > 1 && momentum > 1){
         campaignTrail_temp.questions_json[12] = tunnel(113496);
         ("gop hiM hiE")
     }
-    if (estab > 1 && momentum < 1){
+    else if (estab > 2 && momentum < 1){
         campaignTrail_temp.questions_json[12] = tunnel(113548);
         ("gop hiM lowE")
     }
+    else if (estab > 2 && momentum > 1){
+        campaignTrail_temp.questions_json[12] = tunnel(113574);
+        ("gop hiM lowE")
+    }
+    else if (estab < 0 && momentum < 1){
+        campaignTrail_temp.questions_json[12] = tunnel(113600);
+        ("gop lowM lowE")
+    }
+    else if (estab < 0 && momentum < 1 && ans == 3410){
+        campaignTrail_temp.questions_json[12] = tunnel(113600);
+        ("gop lowM lowE")
+    }
     else{
-        console.log ("gop lowm midE lowO")
     }
      
      
