@@ -349,6 +349,42 @@ campaignTrail_temp.questions_json = [
             "description": "George Bush returns to his “hometown” of Houston like Julius Caesar returning from Gaul as conqueror, his previously sagging approval rating reborn against a thus-far ineffective Democratic campaign. On stage, he launches into an arrogant, boisterous spiel about the need to crush your movement before it can threaten the nation. The crowd goes berserk.",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113652,
+        "fields": {
+            "priority": -1,
+            "description": "Geppy Acceptance",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113655,
+        "fields": {
+            "priority": -1,
+            "description": "Bradley Acceptance",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113658,
+        "fields": {
+            "priority": -1,
+            "description": "Pryor Acceptance",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113661,
+        "fields": {
+            "priority": -1,
+            "description": "Jackson Acceptance",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -422,7 +458,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3321,
         "fields": {
             "question": 345,
-            "description": "I picked (CYOA) because they (CYOA)"
+            "description": "I picked Tsongas because ..."
         }
     },
     {
@@ -1463,6 +1499,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 113626,
             "description": "\nBush’s polling looks good, but none of the fundamentals of the race have changed. He’s running on wishy-washy cultural appeals and foreign policy. Newsflash, George: people don’t care about apple pie and baseball, they care about their wallets!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113653,
+        "fields": {
+            "question": 113652,
+            "description": "I picked Gephardt because ..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113656,
+        "fields": {
+            "question": 113655,
+            "description": "baskemtbal"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113659,
+        "fields": {
+            "question": 113658,
+            "description": "I picked Pryor because..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113662,
+        "fields": {
+            "question": 113661,
+            "description": "I picked Jackson because..."
         }
     }
 ]
@@ -7685,26 +7753,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1124,
-        "fields": {
-            "answer": 3321,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1125,
-        "fields": {
-            "answer": 3321,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": 1.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1127,
         "fields": {
             "answer": 3325,
@@ -8401,26 +8449,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 78,
             "affected_candidate": 78,
             "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1317,
-        "fields": {
-            "answer": 3321,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.0075
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1318,
-        "fields": {
-            "answer": 3321,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": -0.035
         }
     },
     {
@@ -9863,36 +9891,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3489,
             "issue": 30,
             "issue_score": 0.55,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1010,
-        "fields": {
-            "answer": 3321,
-            "issue": 27,
-            "issue_score": 0.65,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1011,
-        "fields": {
-            "answer": 3321,
-            "issue": 28,
-            "issue_score": 0.65,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1012,
-        "fields": {
-            "answer": 3321,
-            "issue": 30,
-            "issue_score": 0.65,
             "issue_importance": 1
         }
     },
@@ -22712,15 +22710,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 719,
-        "fields": {
-            "answer": 3321,
-            "candidate": 77,
-            "answer_feedback": "You're certainly getting attention in the news for this stance, but it is not a mainstream position in your party. Perhaps this will establish you as an independent thinker..."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 739,
         "fields": {
             "answer": 3344,
@@ -23345,7 +23334,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 912,
         "fields": {
             "answer": 3321,
-            "candidate": 79,
+            "candidate": 78,
             "answer_feedback": "This is a good, left-wing answer that will motivate your base."
         }
     },
@@ -24221,6 +24210,42 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 78,
             "answer_feedback": "Bush is all confidence and bright smiles, but he doesn’t have any answers on the economy. During a televised town hall in Grand Rapids, you see a solitary bead of sweat roll down his forehead when an attendee asks him about his plans for the unemployed.\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113654,
+        "fields": {
+            "answer": 113653,
+            "candidate": 78,
+            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113657,
+        "fields": {
+            "answer": 113656,
+            "candidate": 78,
+            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113660,
+        "fields": {
+            "answer": 113659,
+            "candidate": 78,
+            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113663,
+        "fields": {
+            "answer": 113662,
+            "candidate": 78,
+            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
+        }
     }
 ]
 
@@ -24369,38 +24394,38 @@ cyoAdventure = function(a) {
 
     else if (estab < 1 && momentum < 2 && orange >= 1){
         campaignTrail_temp.questions_json[12] = tunnel(113444);
-        ("gop lowM lowE hiO")
+        console.log ("gop lowM lowE hiO")
     }
 
     else if (estab < 1 && momentum > 1 && moonbeam < 0){
         campaignTrail_temp.questions_json[12] = tunnel(113470);
-        ("gop hiM lowE lowMB")
+        console.log ("gop hiM lowE lowMB")
     }
 
     else if (estab < 1 && momentum > 1 && moonbeam >= 0){
         campaignTrail_temp.questions_json[12] = tunnel(113496);
-        ("gop hiM lowE hiMB")
+        console.log ("gop hiM lowE hiMB")
     }
                                                     /// i am so fucking tired bro i will code the long shot pat buchanan version later sorry
     else if (estab > 1 && momentum > 1){
         campaignTrail_temp.questions_json[12] = tunnel(113496);
-        ("gop hiM hiE")
+        console.log ("gop hiM hiE")
     }
     else if (estab > 2 && momentum < 1){
         campaignTrail_temp.questions_json[12] = tunnel(113548);
-        ("gop hiM lowE")
+        console.log ("gop hiM lowE")
     }
     else if (estab > 2 && momentum > 1){
         campaignTrail_temp.questions_json[12] = tunnel(113574);
-        ("gop hiM lowE")
+        console.log ("gop hiM lowE")
     }
     else if (estab < 0 && momentum < 1){
         campaignTrail_temp.questions_json[12] = tunnel(113600);
-        ("gop lowM lowE")
+        console.log ("gop lowM lowE")
     }
     else if (estab < 0 && momentum < 1 && ans == 3410){
         campaignTrail_temp.questions_json[12] = tunnel(113600);
-        ("gop lowM lowE")
+        console.log ("gop lowM lowE")
     }
     else{
     }
@@ -24417,43 +24442,81 @@ cyoAdventure = function(a) {
 
 
         //These tell the game after the convention which VPs to make available
+
+        // First off is some spaghetti code I made because I don't wanna fix code 1
+        // This makes it so Jesse Jackson is always available, and also means that you don't have every single VP as an option twice, which is bad for obvious reasons
+        // There's an easy fix to this that I am simply too lazy to do (maybe if we hired another coder they could do it! Just a thought!)
+
+
+        if((ans == 3501 || ans == 3502 || ans == 12240)){
+            console.log("The Rainbow Coalition has been formed");
+            e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 120502, \"fields\": {\"candidate\": 78, \"running_mate\": 159}}]");
+            var vpcheck = 5
+            console.log(vpcheck)
+         }
+
+
+
     if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= -1){
-        console.log("Tsongas");
-        e.running_mate_json  = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 90229, \"fields\": {\"candidate\": 78, \"running_mate\": 155}}]");
+        console.log("Tsongas");  
         var vpcheck = 1
         console.log(vpcheck)
-    
+        campaignTrail_temp.running_mate_json.push({
+          "model":"campaign_trail.running_mate",
+          "pk": 1,
+          "fields" : {
+              "candidate": 78,
+              "running_mate": 155
+           }
+       }
+       )
     }
     
     if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 3){
-        console.log("Geppy");
-        e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 89390, \"fields\": {\"candidate\": 78, \"running_mate\": 156}}]");
+        console.log("Geppy");  
         var vpcheck = 2
         console.log(vpcheck)
-    
+        campaignTrail_temp.running_mate_json.push({
+          "model":"campaign_trail.running_mate",
+          "pk": 1,
+          "fields" : {
+              "candidate": 78,
+              "running_mate": 156
+           }
+       }
+       )
       }
     
     if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 0 && estab < 3){
-        console.log("Bradley");
-        e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 142830, \"fields\": {\"candidate\":78, \"running_mate\": 157}}]");
+        console.log("Bradley");  
         var vpcheck = 3
         console.log(vpcheck)
-    
+        campaignTrail_temp.running_mate_json.push({
+          "model":"campaign_trail.running_mate",
+          "pk": 1,
+          "fields" : {
+              "candidate": 78,
+              "running_mate": 157
+           }
+       }
+       )
       }
     
     if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 0 && estab < 3){
-        console.log("Pryor");
-        e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 98357, \"fields\": {\"candidate\":78, \"running_mate\": 158}}]");
+        console.log("Pryor");  
         var vpcheck = 4
         console.log(vpcheck)
+        campaignTrail_temp.running_mate_json.push({
+          "model":"campaign_trail.running_mate",
+          "pk": 1,
+          "fields" : {
+              "candidate": 78,
+              "running_mate": 158
+           }
+       }
+       )
       }
     
-    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab < 0){
-        console.log("Jackson");
-        e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 120502, \"fields\": {\"candidate\": 78, \"running_mate\": 159}}]");
-        var vpcheck = 5
-        console.log(vpcheck)
-     }
      
      if(ans == 12240){
         e.global_parameter_json[0].fields.question_count = 1
@@ -24558,11 +24621,25 @@ var changeGameDisp = (hide) => {
             $("#campaign_sign").html(`<p>${e.candidate_last_name}</p><p>${e.running_mate_last_name}</p>`);
             $("#running_mate_pic").attr("src", e.running_mate_image_url)
         }
-
+        if(e.running_mate_last_name==="Gephardt"){
+            campaignTrail_temp.questions_json[6] = tunnel(113652);
+            console.log ("Geppy")
+        }
+        if(e.running_mate_last_name==="Bradley"){
+            campaignTrail_temp.questions_json[6] = tunnel(113655);
+            console.log ("Bradley")
+        }
+        if(e.running_mate_last_name==="Pryor"){
+            campaignTrail_temp.questions_json[6] = tunnel(113658);
+            console.log ("Pryor")
+        }
+        if(e.running_mate_last_name==="Jackson"){
+            campaignTrail_temp.questions_json[6] = tunnel(113661);
+            console.log ("Jackson")
+        }
         $("#inner_window_4").remove();
         changeGameDisp(false);
     })
-  
   }
 
 campaignTrail_temp.jet_data = [{
