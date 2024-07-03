@@ -470,10 +470,10 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
   //#endcode
   
   HistHexcolour=["#0039a5","#bb0001","#ffc300","#016300"];
-  HistName=[" Jerry Brown"," George H.W Bush"," Andre Marrou", " Bo Gritz"];
+  HistName=[" Jerry Brown"," George Bush"," Andre Marrou", " Bo Gritz"];
   HistEV=[274,264,0,0];
   HistPV=["50,261,112 ","50,452,809","510,193","157,264 "];
-  HistPVP=["49.6%","49.8%","0.5%","0.16%"];
+  HistPVP=["49.6%","49.8%","0.5%","0.2%"];
 
 
 
@@ -878,7 +878,18 @@ function addDynamicCSS() {
     {searchString: "Tom Hayden", explanationText: "<img src=https://imgur.com/ypIHmm9> California State Assemblyman and candidate for State Senate this year. Better known for other work."},
     {searchString: "UNSCOM", explanationText: "<img src =https://imgur.com/HSChsP1> Rapper and political activist"},
     {searchString: "Mussolini", explanationText: "<img src =https://imgur.com/gjfIfgN> O con noi o contro di noi"},
-
+    {searchString: "Cranston", explanationText: "<img src =https://i.imgur.com/FTonFxA.png> Dignified liberal serving since 1969. Also a less-dignified member of the Keating Five."},
+    {searchString: "Rush Limbaugh", explanationText: "<img src =https://i.imgur.com/VW0l8xC.png> Big fat idiot"},
+    {searchString: "Gennifer Flowers-", explanationText: "<img src =https://i.imgur.com/taAJjuD.png> Arkansan government employee who accused Bill Clinton of having extramarital sex with her"},
+    {searchString: "NAFTA", explanationText: "<img src =https://i.imgur.com/zpuCi3G.jpeg> The North American Free Trade Agreement is a proposal to establish free trade between USA, Canada, and Mexico"},
+    {searchString: "Pat Robertson", explanationText: "<img src =https://i.imgur.com/JmmnG6L.png> Televangelist with a huge number of followers. Thinks that prayer can stop hurricanes."},
+    {searchString: "the ribbon", explanationText: "<img src =https://i.imgur.com/GlLMbKy.png> Used to signify solidarity with those living with AIDS. Pictured here as part of Laura Dern's outfit."},
+    {searchString: "Iran-Contra", explanationText: "<img src =https://i.imgur.com/yixmsxO.png> A scandal in which the Reagan administration sold arms to far-right Nicaraguan militants, in which Bush was deeply involved."},
+    {searchString: "Bible Belt", explanationText: "<img src =https://i.imgur.com/eS2ITwB.png> Highly evangelical region of the country, located mostly in the Deep South."},
+    {searchString: "dual monarchy", explanationText: "<img src =https://i.imgur.com/E4ppY2v.png>  Two kingdoms are ruled by the self monarch, but are otherwise self-governing."},
+    {searchString: "diarchy", explanationText: "<img src =https://i.imgur.com/1Xsx0fx.png>  One singular kingdom is ruled by two monarchs."},
+    {searchString: "Bob Casey", explanationText: "<img src =https://i.imgur.com/AoPo7AU.jpeg>  Immensely popular governor of Pennsylvania whose hardcore stance on abortion even frightens some Republicans."},
+    {searchString: "'potato'", explanationText: "<img src =https://i.imgur.com/YY95I7L.png>"},
 
 
 
