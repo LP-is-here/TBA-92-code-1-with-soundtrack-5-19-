@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "state": "California",
             "priority": 1,
             "description": "<p>MOONBEAM</p>",
-            "color_hex": "#0000c7",
+            "color_hex": "#0039a5",
             "secondary_color_hex": null,
             "is_active": 1,
             "image_url": "https://i.imgur.com/ykjgu6Y.png",
@@ -78,7 +78,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Texas",
             "priority": 1,
             "description": "<p>NO NEW TAXES?!?!?!</p>",
-            "color_hex": "#c70000",
+            "color_hex": "#bb0001",
             "secondary_color_hex": null,
             "is_active": 1,
             "image_url": "https://i.imgur.com/nXGrFXX.png",
@@ -432,15 +432,16 @@ campaignTrail_temp.temp_election_list = [
 
 jet_data = {
     "headerColor": "#00166b",
-    "windowColor": "#354aa3",
-    "containerColor": "#365ba1",
-    "innerWindowColor": "#6288d5",
+    "windowColor": "#22368e",
+    "containerColor": "#274e96",
+    "innerWindowColor": "#5075bf",
     "bannerImageUrl": "https://i.imgur.com/Lv0EL9w.png",
-    "backgroundImageUrl": "https://i.imgur.com/OSTjCi2.jpg",
+    "backgroundImageUrl": "https://i.imgur.com/yeuZGJh.png",
     "endingTextColor": "#000000",
-    "customQuote": "",
+    "customQuote": "We are not disorganized. Our campaign transcends understanding.",
     "gameTitle": "MOONBEAM - Take Back America!"
 }
+
 
 //#startcode
 
@@ -450,21 +451,32 @@ corrr = '\n              <h2>MOONBEAM - Take Back America!</h2>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#00166b";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#354aa3";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#22368e";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#365ba1";
+$(".container")[0].style.backgroundColor = "#1c438c";
 
 document.getElementById("header").src = "https://i.imgur.com/Lv0EL9w.png";
 
-document.body.background = "https://i.imgur.com/OSTjCi2.jpg";
+document.body.background = "https://i.imgur.com/yeuZGJh.png";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#6288d5!important;}</style>";
 
 //#endcode
+
+  //#endcode
+  
+  HistHexcolour=["#0039a5","#bb0001","#ffc300","#016300"];
+  HistName=[" Jerry Brown"," George H.W Bush"," Andre Marrou", " Bo Gritz"];
+  HistEV=[274,264,0,0];
+  HistPV=["50,261,112 ","50,452,809","510,193","157,264 "];
+  HistPVP=["49.6%","49.8%","0.5%","0.16%"];
+
+
+
 // Soundtrack
 
 // Initialise custom music
@@ -751,7 +763,126 @@ let z = new MutationObserver((mutationsList, observer) => {
     }
 });
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// tooltips  
 
+function addDynamicCSS() {
+    var css = `
+  
+  
+    .inner_window_question h3 .mytooltip{
+        background-color: lightskyblue;
+    }
+  
+    .mytooltip {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        background-color: lightblue;
+    }
+  
+    .mytooltip .mytooltiptext {
+        width: 150;
+        background-color: lightgray;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px;
+        position: absolute;
+        z-index: 99;
+        bottom: 20%;
+        left: 20%;
+        margin-left: -90px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        border: 1px solid black;
+        pointer-events: none;
+        font-size: 13px !important;
+        line-height: 1.5em !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+    }
+  
+    .mytooltip .mytooltiptext img {
+        max-width: 150;
+        height: auto;
+    }
+  
+    .mytooltip:hover .mytooltiptext {
+        opacity: 1;
+        transition-delay: 0.5s;
+    }
+  
+  
+  .mytooltip:hover .bubble {
+  opacity: 1;
+  transition-delay: 0.5s;
+  }
+  .bubble {
+    width: 150px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 20%;
+    left: 20%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border: 1px solid black;
+    pointer-events: none;
+    font-size: 13px !important;
+    line-height: 1.5em !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+  }
+  
+  .mytooltip:hover .bubble-bottom-left:before,
+  .mytooltip:hover .bubble-bottom-left:after {
+  opacity: 1;
+  }
+    `;
+  
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+  }
+  
+  addDynamicCSS();
+  
+  tooltipList = [
+    
+    {searchString: "Jodie Evans", explanationText: " <img src=https://i.imgur.com/7pfrqZu.png>Your campaign manager"},
+    {searchString: "Jacques Barzaghi", explanationText: "<img src=https://i.imgur.com/PZcUVY4.png> Your close personal aide. He's been with you every step of the way, from your governorship to your Buddhist trips."},
+    {searchString: "Pete Wilson", explanationText: " <img src=https://i.imgur.com/WYHzfaH.png>Foiled your previous Senate bid ten years ago. Resigned to become Governor."},
+    {searchString: "John Seymour", explanationText: " <img src=https://i.imgur.com/ibOEjQ6.png>Wilson's appointee to the seat that he himself vacated."},
+    {searchString: "Paul Simon", explanationText: " <img src=https://i.imgur.com/MtrLrdd.png>Illinois Senator. Bringing bowties back in fashion."},
+    {searchString: "Grant,", explanationText: " <img src=https://i.imgur.com/fhoHQuG.png>Won more states in the South than you're projected to"},
+    {searchString: "Richards", explanationText: " <img src=https://i.imgur.com/qoZ96xM.png>Popular Democratic governor of Texas, known by the Bush family as 'that woman'"},
+    {searchString: "Ann Richards", explanationText: " <img src=https://i.imgur.com/qoZ96xM.png>Popular Democratic governor of Texas, known by the Bush family as 'that woman'"},
+    {searchString: "Graham", explanationText: " <img src=https://i.imgur.com/SxFltdP.png>Long-serving Democratic senator from Florida"},
+    {searchString: "Bob Graham", explanationText: " <img src=https://i.imgur.com/SxFltdP.png>Long-serving Democratic senator from Florida"},
+    {searchString: "New Democrats", explanationText: " <img src=https://i.imgur.com/fkFiuxp.png>Centrist Democrats that arose after the resounding defeats of liberals like Mondale and Dukakis."},
+    {searchString: "mayor Bradley", explanationText: " <img src=https://i.imgur.com/sqhM8lw.png>First black mayor of Los Angeles. Perhaps more infamous for the 'Bradley Effect'."},
+    {searchString: "Magic Johnson", explanationText: " <img src=https://i.imgur.com/SjZ0CRO.png>'Cause you can get through anything if Magic made it. Basketball player on the Lakers and perhaps one of the most famous AIDS activists out there."},
+    {searchString: "Hyde Amendment", explanationText: "Amendment banning the use of federal funding for abortions, with a few exceptions."},
+    {searchString: "Zbigniew Brzezinski", explanationText: "<img src=https://i.imgur.com/cjp9dlu.png> Carter's national security advisor, well known foreign policy Realist"},
+    {searchString: "Nayirah", explanationText: "<img src=https://i.imgur.com/Jeyz8R3.png> Daughter of the former Kuwaiti ambassador to the United States, famous for her false testimony to Congress about Iraqi war crimes"},
+    {searchString: "UNSCOM", explanationText: "United Nations Special Commission to ensure Iraqi compliance with WMD guidelines."},
+    {searchString: "Tom Hayden", explanationText: "<img src=https://imgur.com/ypIHmm9> California State Assemblyman and candidate for State Senate this year. Better known for other work."},
+    {searchString: "UNSCOM", explanationText: "<img src =https://imgur.com/HSChsP1> Rapper and political activist"},
+    {searchString: "Mussolini", explanationText: "<img src =https://imgur.com/gjfIfgN> O con noi o contro di noi"},
+
+
+
+
+
+    ///////////////////////////
+  ];
 z.observe(document, { subtree: true, childList: true });
-
-//#endcode
