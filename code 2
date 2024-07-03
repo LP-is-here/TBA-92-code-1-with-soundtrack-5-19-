@@ -274,7 +274,7 @@ campaignTrail_temp.questions_json = [
         "pk": 113418,
         "fields": {
             "priority": -1,
-            "description": "  Bush walks onto the stage at the RNC, stiff as a board but looking prim and proper… presidential. With a grave tone of conviction in his voice, he addresses his message to America’s flag-burners, socialists, criminals, and to one specific Edmund G. Brown Jr. Your movement is a threat to law and order, to the country’s foundations, and must never succeed. His stern demeanor shakes a bit, betraying a hint of fear. ",
+            "description": " 113418 Bush walks onto the stage at the RNC, stiff as a board but looking prim and proper… presidential. With a grave tone of conviction in his voice, he addresses his message to America’s flag-burners, socialists, criminals, and to one specific Edmund G. Brown Jr. Your movement is a threat to law and order, to the country’s foundations, and must never succeed. His stern demeanor shakes a bit, betraying a hint of fear. ",
             "likelihood": 1
         }
     },
@@ -283,7 +283,7 @@ campaignTrail_temp.questions_json = [
         "pk": 113444,
         "fields": {
             "priority": -1,
-            "description": "  Bush walks onto the stage at the RNC, stiff as a board but looking prim and proper… presidential. With a grave tone of conviction in his voice, he addresses his message to America’s flag-burners, socialists, criminals, and to one specific Edmund G. Brown Jr. Your movement is a threat to law and order, to the country’s foundations, and must never succeed. His stern demeanor shakes a bit, betraying a hint of fear. ",
+            "description": " 113444 Bush walks onto the stage at the RNC, stiff as a board but looking prim and proper… presidential. With a grave tone of conviction in his voice, he addresses his message to America’s flag-burners, socialists, criminals, and to one specific Edmund G. Brown Jr. Your movement is a threat to law and order, to the country’s foundations, and must never succeed. His stern demeanor shakes a bit, betraying a hint of fear. ",
             "likelihood": 1
         }
     },
@@ -383,6 +383,51 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": -1,
             "description": "Jackson Acceptance",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113667,
+        "fields": {
+            "priority": 3,
+            "description": "On the doorstep of the GOP Convention, Dan Quayle is the gift that keeps on giving for the Democratic party, punctuated by a speech on Murphy Brown representing the decline of the American family and cresting in a June incident where he misspelled “potato” with an e at the end. Your advisors unanimously agree that you need to exploit him even more than you already have. The only question is how.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113681,
+        "fields": {
+            "priority": 3,
+            "description": "On the doorstep of the GOP Convention, Dan Quayle is the gift that keeps on giving for the Democratic party, punctuated by a speech on Murphy Brown representing the decline of the American family and cresting in a June incident where he misspelled “potato” with an e at the end. Your advisors unanimously agree that you need to exploit him even more than you already have. The only question is how.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113695,
+        "fields": {
+            "priority": 3,
+            "description": "On the doorstep of the GOP Convention, Dan Quayle is the gift that keeps on giving for the Democratic party, punctuated by a speech on Murphy Brown representing the decline of the American family and cresting in a June incident where he misspelled “potato” with an e at the end. Your advisors unanimously agree that you need to exploit him even more than you already have. The only question is how.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113709,
+        "fields": {
+            "priority": 3,
+            "description": "On the doorstep of the GOP Convention, Dan Quayle is the gift that keeps on giving for the Democratic party, punctuated by a speech on Murphy Brown representing the decline of the American family and cresting in a June incident where he misspelled “potato” with an e at the end. Your advisors unanimously agree that you need to exploit him even more than you already have. The only question is how.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113732,
+        "fields": {
+            "priority": 2,
+            "description": "The AIDS crisis, active for much of the 1980s, has risen dramatically in stature from a stigmatized gay disease to a mainstream topic. In your public appearances, you’ve taken to wearing a red ribbon for AIDS awareness, but as the general election draws closer, many of your advisors are urging you to take a more defined stance on the topic. How do you respond?",
             "likelihood": 1
         }
     }
@@ -1539,6 +1584,166 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 352,
             "description": "Look, Jodie, I get that Quayle’s a liability, but if I recall correctly, it’s Bush at the top of the ticket. I’ll throw in some more jabs at Quayle, make it clear that he’s a combo deal with Bush, but being excessive about it almost feels… mean-spirited against the poor guy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113668,
+        "fields": {
+            "question": 113667,
+            "description": "Nixon once said that Agnew was his protection from being assassinated, and now it’s deja vu. At a very fundamental level, even beyond the gaffes, people just don’t trust Quayle to be president. Let’s run some ads where we contrast my running mate with him and talk about the ability to make tough calls. I suspect people will get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113674,
+        "fields": {
+            "question": 113667,
+            "description": "Dukakis wasn’t bright enough to fully capitalize on it, but David Letterman has the right idea: make him into a joke. At every rally, let’s start a routine where we read a real Quayle quote and make up a fake one, see if people can find the difference. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113676,
+        "fields": {
+            "question": 113667,
+            "description": "They’ve called me crazy, but Quayle has some truly crazy conservative ideas. Right now, he’s a black belt in drunken boxing, hiding his true insidiousness behind a mask of buffoonery, but that can change if we drag up his record.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113679,
+        "fields": {
+            "question": 113667,
+            "description": "Look, Jodie, I get that Quayle’s a liability, but if I recall correctly, it’s Bush at the top of the ticket. I’ll throw in some more jabs at Quayle, make it clear that he’s a combo deal with Bush, but being excessive about it almost feels… mean-spirited against the poor guy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113682,
+        "fields": {
+            "question": 113681,
+            "description": "Nixon once said that Agnew was his protection from being assassinated, and now it’s deja vu. At a very fundamental level, even beyond the gaffes, people just don’t trust Quayle to be president. Let’s run some ads where we contrast my running mate with him and talk about the ability to make tough calls. I suspect people will get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113688,
+        "fields": {
+            "question": 113681,
+            "description": "Dukakis wasn’t bright enough to fully capitalize on it, but David Letterman has the right idea: make him into a joke. At every rally, let’s start a routine where we read a real Quayle quote and make up a fake one, see if people can find the difference. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113690,
+        "fields": {
+            "question": 113681,
+            "description": "They’ve called me crazy, but Quayle has some truly crazy conservative ideas. Right now, he’s a black belt in drunken boxing, hiding his true insidiousness behind a mask of buffoonery, but that can change if we drag up his record.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113693,
+        "fields": {
+            "question": 113681,
+            "description": "Look, Jodie, I get that Quayle’s a liability, but if I recall correctly, it’s Bush at the top of the ticket. I’ll throw in some more jabs at Quayle, make it clear that he’s a combo deal with Bush, but being excessive about it almost feels… mean-spirited against the poor guy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113696,
+        "fields": {
+            "question": 113695,
+            "description": "Nixon once said that Agnew was his protection from being assassinated, and now it’s deja vu. At a very fundamental level, even beyond the gaffes, people just don’t trust Quayle to be president. Let’s run some ads where we contrast my running mate with him and talk about the ability to make tough calls. I suspect people will get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113702,
+        "fields": {
+            "question": 113695,
+            "description": "Dukakis wasn’t bright enough to fully capitalize on it, but David Letterman has the right idea: make him into a joke. At every rally, let’s start a routine where we read a real Quayle quote and make up a fake one, see if people can find the difference. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113704,
+        "fields": {
+            "question": 113695,
+            "description": "They’ve called me crazy, but Quayle has some truly crazy conservative ideas. Right now, he’s a black belt in drunken boxing, hiding his true insidiousness behind a mask of buffoonery, but that can change if we drag up his record.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113707,
+        "fields": {
+            "question": 113695,
+            "description": "Look, Jodie, I get that Quayle’s a liability, but if I recall correctly, it’s Bush at the top of the ticket. I’ll throw in some more jabs at Quayle, make it clear that he’s a combo deal with Bush, but being excessive about it almost feels… mean-spirited against the poor guy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113710,
+        "fields": {
+            "question": 113709,
+            "description": "Nixon once said that Agnew was his protection from being assassinated, and now it’s deja vu. At a very fundamental level, even beyond the gaffes, people just don’t trust Quayle to be president. Let’s run some ads where we contrast my running mate with him and talk about the ability to make tough calls. I suspect people will get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113716,
+        "fields": {
+            "question": 113709,
+            "description": "Dukakis wasn’t bright enough to fully capitalize on it, but David Letterman has the right idea: make him into a joke. At every rally, let’s start a routine where we read a real Quayle quote and make up a fake one, see if people can find the difference. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113718,
+        "fields": {
+            "question": 113709,
+            "description": "They’ve called me crazy, but Quayle has some truly crazy conservative ideas. Right now, he’s a black belt in drunken boxing, hiding his true insidiousness behind a mask of buffoonery, but that can change if we drag up his record.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113721,
+        "fields": {
+            "question": 113709,
+            "description": "Look, Jodie, I get that Quayle’s a liability, but if I recall correctly, it’s Bush at the top of the ticket. I’ll throw in some more jabs at Quayle, make it clear that he’s a combo deal with Bush, but being excessive about it almost feels… mean-spirited against the poor guy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113733,
+        "fields": {
+            "question": 113732,
+            "description": "I’ve shown no fear to talk about AIDS from day one. What about our former president Reagan, who called it a gay disease and did nothing about it for years? Bush claims to take it seriously, but I guess he was either willingly ignorant or too spineless around his boss."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113735,
+        "fields": {
+            "question": 113732,
+            "description": "Look, isn’t saying that we support more funding for research enough? I already wear the ribbon everywhere, and we have the gays, the lesbians, and maybe even those bisexuals locked up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113737,
+        "fields": {
+            "question": 113732,
+            "description": "If AIDS primarily targeted heterosexuals, it would’ve been called a crisis in 1981. No, it’s solely because of the stigmatization of the gay community that it’s gone ignored. From now on, I’ll never mention the ribbon without also mentioning how we need to treat these people as human."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113739,
+        "fields": {
+            "question": 113732,
+            "description": "AIDS is a health crisis, but it’s inextricable from the gay thing. We need to think bigger than a disease or a ribbon. Let me make this very clear: I think God wants his gay children to be happy just as much as his other ones. I’m not advocating for anything extreme like a federal mandate, but I’m fine with gay marriage. "
         }
     }
 ]
@@ -9517,6 +9722,166 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113670,
+        "fields": {
+            "answer": 113668,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113671,
+        "fields": {
+            "answer": 113668,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113672,
+        "fields": {
+            "answer": 113668,
+            "candidate": 79,
+            "affected_candidate": 78,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113673,
+        "fields": {
+            "answer": 113668,
+            "candidate": 79,
+            "affected_candidate": 79,
+            "global_multiplier": -0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113684,
+        "fields": {
+            "answer": 113682,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113685,
+        "fields": {
+            "answer": 113682,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113686,
+        "fields": {
+            "answer": 113682,
+            "candidate": 79,
+            "affected_candidate": 78,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113687,
+        "fields": {
+            "answer": 113682,
+            "candidate": 79,
+            "affected_candidate": 79,
+            "global_multiplier": -0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113698,
+        "fields": {
+            "answer": 113696,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113699,
+        "fields": {
+            "answer": 113696,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113700,
+        "fields": {
+            "answer": 113696,
+            "candidate": 79,
+            "affected_candidate": 78,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113701,
+        "fields": {
+            "answer": 113696,
+            "candidate": 79,
+            "affected_candidate": 79,
+            "global_multiplier": -0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113712,
+        "fields": {
+            "answer": 113710,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113713,
+        "fields": {
+            "answer": 113710,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113714,
+        "fields": {
+            "answer": 113710,
+            "candidate": 79,
+            "affected_candidate": 78,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113715,
+        "fields": {
+            "answer": 113710,
+            "candidate": 79,
+            "affected_candidate": 79,
+            "global_multiplier": -0.25
         }
     }
 ]
@@ -19287,6 +19652,50 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 78,
             "state_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113678,
+        "fields": {
+            "answer": 113676,
+            "state": 223,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113692,
+        "fields": {
+            "answer": 113690,
+            "state": 223,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113706,
+        "fields": {
+            "answer": 113704,
+            "state": 223,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113720,
+        "fields": {
+            "answer": 113718,
+            "state": 223,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.015
+        }
     }
 ]
 
@@ -20811,13 +21220,188 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 78,
             "answer_feedback": "You ramp up your attacks on Quayle, tying his status as heir to a billion dollar publishing corporation to your crusade against corporate interests, but your heart just isn’t in it. Reports emerge from your camp that you don’t take Quayle seriously, which only seems to infuriate him.\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113669,
+        "fields": {
+            "answer": 113668,
+            "candidate": 78,
+            "answer_feedback": "Dressed in a plaid shirt, Gephardt walks with farmers and talks with factory workers before the camera cuts to a more dapper Gephardt looking authoritative walking the halls of Congress as a voiceover talks about the need for decisive leadership that keeps common folk in mind. People get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113675,
+        "fields": {
+            "answer": 113674,
+            "candidate": 78,
+            "answer_feedback": "The crowds love this bit, especially after a Massachusetts speech where Quayle makes a point of jabbing back before saying “We need to take bold steps, like our founding fathers did when they landed at Plymouth Rock in 1776.”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113677,
+        "fields": {
+            "answer": 113676,
+            "candidate": 78,
+            "answer_feedback": ": Did you know Dan Quayle hates Social Security? Did you know Quayle voted directly against the farmers of his own state? Did you know that Quayle voted to kill funding for educational programs on math and science? Though they knew he was a conservative, people are shocked by these revelations, though the third one… actually explains a lot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113680,
+        "fields": {
+            "answer": 113679,
+            "candidate": 78,
+            "answer_feedback": "You ramp up your attacks on Quayle, tying his status as heir to a billion dollar publishing corporation to your crusade against corporate interests, but your heart just isn’t in it. Reports emerge from your camp that you don’t take Quayle seriously, which only seems to infuriate him.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113683,
+        "fields": {
+            "answer": 113682,
+            "candidate": 78,
+            "answer_feedback": "Intersped with shots of him shaking hands with normal Akransans and listening attentively, Pryor is shown at various stages in his career as state representative, Congressman, governor, and senator as a voiceover talks about the need for experience in government. People get the message. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113689,
+        "fields": {
+            "answer": 113688,
+            "candidate": 78,
+            "answer_feedback": "The crowds love this bit, especially after a Massachusetts speech where Quayle makes a point of jabbing back before saying “We need to take bold steps, like our founding fathers did when they landed at Plymouth Rock in 1776.”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113691,
+        "fields": {
+            "answer": 113690,
+            "candidate": 78,
+            "answer_feedback": ": Did you know Dan Quayle hates Social Security? Did you know Quayle voted directly against the farmers of his own state? Did you know that Quayle voted to kill funding for educational programs on math and science? Though they knew he was a conservative, people are shocked by these revelations, though the third one… actually explains a lot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113694,
+        "fields": {
+            "answer": 113693,
+            "candidate": 78,
+            "answer_feedback": "You ramp up your attacks on Quayle, tying his status as heir to a billion dollar publishing corporation to your crusade against corporate interests, but your heart just isn’t in it. Reports emerge from your camp that you don’t take Quayle seriously, which only seems to infuriate him.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113697,
+        "fields": {
+            "answer": 113696,
+            "candidate": 78,
+            "answer_feedback": "Bradley is shown in class at Princeton, then at Oxford, before the camera switches to footage of him winning an NBA championship  and being enshrined in the Hall of Fame. Finally, he stands in Congress, literally towering over the other Senators, as a voiceover talks about the need for leadership which has proven its merit. People get the message. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113703,
+        "fields": {
+            "answer": 113702,
+            "candidate": 78,
+            "answer_feedback": "The crowds love this bit, especially after a Massachusetts speech where Quayle makes a point of jabbing back before saying “We need to take bold steps, like our founding fathers did when they landed at Plymouth Rock in 1776.”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113705,
+        "fields": {
+            "answer": 113704,
+            "candidate": 78,
+            "answer_feedback": ": Did you know Dan Quayle hates Social Security? Did you know Quayle voted directly against the farmers of his own state? Did you know that Quayle voted to kill funding for educational programs on math and science? Though they knew he was a conservative, people are shocked by these revelations, though the third one… actually explains a lot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113708,
+        "fields": {
+            "answer": 113707,
+            "candidate": 78,
+            "answer_feedback": "You ramp up your attacks on Quayle, tying his status as heir to a billion dollar publishing corporation to your crusade against corporate interests, but your heart just isn’t in it. Reports emerge from your camp that you don’t take Quayle seriously, which only seems to infuriate him.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113711,
+        "fields": {
+            "answer": 113710,
+            "candidate": 78,
+            "answer_feedback": "A large, organized crowd walks across the Edmund Pettus Bridge, triumphantly marching towards a future of equality as the camera pans to Jesse Jackson at its head as a voiceover talks about the need for politicians with actual leadership skills. People get the message, although the Bush team is quick to counter with a message showing Quayle at home with his family.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113717,
+        "fields": {
+            "answer": 113716,
+            "candidate": 78,
+            "answer_feedback": "The crowds love this bit, especially after a Massachusetts speech where Quayle makes a point of jabbing back before saying “We need to take bold steps, like our founding fathers did when they landed at Plymouth Rock in 1776.”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113719,
+        "fields": {
+            "answer": 113718,
+            "candidate": 78,
+            "answer_feedback": ": Did you know Dan Quayle hates Social Security? Did you know Quayle voted directly against the farmers of his own state? Did you know that Quayle voted to kill funding for educational programs on math and science? Though they knew he was a conservative, people are shocked by these revelations, though the third one… actually explains a lot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113722,
+        "fields": {
+            "answer": 113721,
+            "candidate": 78,
+            "answer_feedback": "You ramp up your attacks on Quayle, tying his status as heir to a billion dollar publishing corporation to your crusade against corporate interests, but your heart just isn’t in it. Reports emerge from your camp that you don’t take Quayle seriously, which only seems to infuriate him.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113734,
+        "fields": {
+            "answer": 113733,
+            "candidate": 78,
+            "answer_feedback": "Insulting Reagan, a figure viewed positively by the vast majority of Americans, is a losing bet, but your advisors are overjoyed by a report that Bush apparently lost his composure in a White House staff meeting upon hearing of your speech."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113736,
+        "fields": {
+            "answer": 113735,
+            "candidate": 78,
+            "answer_feedback": "Just by wearing the ribbon and preaching awareness, you’re already doing much more than Bush. Pictures of you tossing an alley-oop to Bill Bradley while Magic Johnson guards you at an L.A. campaign stop make the national press. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113738,
+        "fields": {
+            "answer": 113737,
+            "candidate": 78,
+            "answer_feedback": "Pat Buchanan and co. gnash their teeth, but your words create a groundswell of support that the churches don’t have the passion to match. A letter from Desiree, a 19-year-old lesbian from Texas who tells you that you gave her the strength to come out to her parents, brings you to tears. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113740,
+        "fields": {
+            "answer": 113739,
+            "candidate": 78,
+            "answer_feedback": "The LGBT community, who already planned to vote for you en masse, responds to your declaration with an unprecedented outflow of support. Meanwhile, the Washington Post reports that the following week, there are at least 1,200 recorded instances of church leaders saying you’re going to hell. "
+        }
     }
 ]
-
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
-campaignTrail_temp.candidate_last_name = "Brown";
-campaignTrail_temp.running_mate_last_name = "For President";
 
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
@@ -20835,6 +21419,17 @@ var vpcheck = 0;  // Tsongas is 1, Geppy is 2, Bradley is 3, Pryor is 4, Jackson
 var momentum = 0; 
 
 //This stores which questions affect which variables
+
+/// patented john arizona spaghetti code right here
+var vpMap = {
+    3321: 1,
+    113653: 2,
+    113656: 3,
+    113659: 4,
+    113662: 5,
+
+  }
+
 var estabMap = {
     3502: -1,
     3105: -1,
@@ -20934,7 +21529,11 @@ cyoAdventure = function(a) {
          console.log("momentum work")
             console.log(momentum)
                 }
-
+         if (vpMap.hasOwnProperty(ans)) {
+            vpcheck += vpMap[ans];
+         console.log("vpcheck")
+            console.log(vpcheck)
+                }
             
             
     ///May Allah strike down the person who invented CYOA
@@ -20957,7 +21556,12 @@ cyoAdventure = function(a) {
     if(estab > 2){
         campaignTrail_temp.questions_json[5] = tunnel(21404);
     }
-      
+    
+    /// baskemptbal
+    if(vpcheck == 3){
+        campaignTrail_temp.questions_json[8] = tunnel(113732);
+    }
+
     /// Rebloodlican Convention
     if (estab < -1 && momentum < 1 && orange < 1){
         campaignTrail_temp.questions_json[14] = tunnel(113418);
@@ -21002,8 +21606,24 @@ cyoAdventure = function(a) {
     else{
     }
      
-     
-     
+    /// quayle hunting
+
+    if (vpcheck == 2){
+        campaignTrail_temp.questions_json[13] = tunnel(113667);
+        console.log ("geppy quayle")
+    }
+    if (vpcheck == 3){
+        campaignTrail_temp.questions_json[13] = tunnel(113695);
+        console.log ("bradley quayle")
+    }
+    if (vpcheck == 4){
+        campaignTrail_temp.questions_json[13] = tunnel(113681);
+        console.log ("pryor quayle")
+    }
+    if (vpcheck == 5){
+        campaignTrail_temp.questions_json[13] = tunnel(113709);
+        console.log ("jackson quayle")
+    }
      
      //VP Trigger Question (Convention)
     if (e.question_number == 5) {
@@ -21023,13 +21643,11 @@ cyoAdventure = function(a) {
         if((ans == 3501 || ans == 3502 || ans == 12240)){
             console.log("The Rainbow Coalition has been formed");
             e.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 120502, \"fields\": {\"candidate\": 78, \"running_mate\": 159}}]");
-            var vpcheck = 5
-            console.log(vpcheck)
          }
 
 
 
-    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= -1){
+    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= -1 && estab < 4){
         console.log("Tsongas");  
         campaignTrail_temp.running_mate_json.push({
           "model":"campaign_trail.running_mate",
@@ -21055,7 +21673,7 @@ cyoAdventure = function(a) {
        )
       }
     
-    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 0 && estab < 3){
+    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 )&& estab < 3){
         console.log("Bradley");  
         campaignTrail_temp.running_mate_json.push({
           "model":"campaign_trail.running_mate",
@@ -21068,7 +21686,7 @@ cyoAdventure = function(a) {
        )
       }
     
-    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 0 && estab < 3){
+    if((ans == 3333 || ans == 3334 || ans == 21316 || ans == 21317 ) && estab >= 0){
         console.log("Pryor");  
         campaignTrail_temp.running_mate_json.push({
           "model":"campaign_trail.running_mate",
@@ -21187,36 +21805,95 @@ var changeGameDisp = (hide) => {
         }
         if(e.running_mate_last_name==="Gephardt"){
             campaignTrail_temp.questions_json[6] = tunnel(113652);
-            var vpcheck = 2
-        console.log(vpcheck)
             console.log ("Geppy")
         }
         if(e.running_mate_last_name==="Bradley"){
             campaignTrail_temp.questions_json[6] = tunnel(113655);
-            var vpcheck = 3
-        console.log(vpcheck)
             console.log ("Bradley")
         }
         if(e.running_mate_last_name==="Pryor"){
             campaignTrail_temp.questions_json[6] = tunnel(113658);
-            var vpcheck = 4
-        console.log(vpcheck)
             console.log ("Pryor")
         }
         if(e.running_mate_last_name==="Jackson"){
             campaignTrail_temp.questions_json[6] = tunnel(113661);
-            var vpcheck = 5
-        console.log(vpcheck)
             console.log ("Jackson")
         }
-        else{
-            var vpcheck = 1
-            console.log(vpcheck)   
+        if(e.running_mate_last_name==="Tsongas"){
+            console.log ("Tsongas")
         }
         $("#inner_window_4").remove();
         changeGameDisp(false);
     })
   }
+  
+  
+  ///////////// tooltip ////////////////
+  function getTooltips(str) {
+    let matches = [];
+
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+       let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
+
+
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0), 
+                tooltipIndex: index
+            });
+        }
+    });
+
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1; ) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
+
+    return matches;
+}
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
+applyTooltipsToObject(campaignTrail_temp.running_mate_json);
+applyTooltipsToObject(campaignTrail_temp.candidate_json);
+
+
 
 campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
