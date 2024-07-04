@@ -21839,6 +21839,7 @@ var moonbeam = 0;
 var orange = 0;
 var vpcheck = 0;  // Tsongas is 1, Geppy is 2, Bradley is 3, Pryor is 4, Jackson is 5
 var momentum = 0; 
+var reagan = 0;
 
 //This stores which questions affect which variables
 
@@ -21873,7 +21874,10 @@ var estabMap = {
   }
   var moonbeamMap = {
     3105: 1,
-   
+    3334: 1,
+    3339: 1,
+
+
   }
     var momentumMap = {
     21316: 1,
