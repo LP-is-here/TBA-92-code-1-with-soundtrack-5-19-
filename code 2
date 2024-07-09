@@ -139,7 +139,7 @@ campaignTrail_temp.questions_json = [
         "pk": 362,
         "fields": {
             "priority": 3,
-            "description": "Do you support proposals to expand oil drilling in Alaska, and specifically in the Alaska National Wildlife Refuge?",
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Despite this, you’re in dire straits: Bush is outraising and outspending you, and your polling deficit and forays into anti-corporate rhetoric have hurt you enough that you can’t simply cry to big business for a check. How do you resolve this issue?",
             "likelihood": 1
         }
     },
@@ -428,6 +428,87 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "The AIDS crisis, active for much of the 1980s, has risen dramatically in stature from a stigmatized gay disease to a mainstream topic. In your public appearances, you’ve taken to wearing a red ribbon for AIDS awareness, but as the general election draws closer, many of your advisors are urging you to take a more defined stance on the topic. How do you respond?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113789,
+        "fields": {
+            "priority": 3,
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Despite this, you’re in dire straits: Bush is outraising and outspending you, and your polling deficit and forays into anti-corporate rhetoric have hurt you enough that you can’t simply cry to big business for a check. How do you resolve this issue?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113809,
+        "fields": {
+            "priority": 3,
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Despite this, you’re in dire straits: Bush is outraising and outspending you, and your polling deficit and forays into anti-corporate rhetoric have hurt you enough that you can’t simply cry to big business for a check. How do you resolve this issue?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113829,
+        "fields": {
+            "priority": 3,
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Despite this, you’re in dire straits: Bush is outraising and outspending you, and your polling deficit and forays into anti-corporate rhetoric have hurt you enough that you can’t simply cry to big business for a check. How do you resolve this issue?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113849,
+        "fields": {
+            "priority": 3,
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Despite this, you’re in dire straits: Bush is outraising and outspending you, and your polling deficit and forays into anti-corporate rhetoric have hurt you enough that you can’t simply cry to big business for a check. How do you resolve this issue?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113869,
+        "fields": {
+            "priority": 3,
+            "description": "As the race kicks off after the GOP convention, your candidacy, initially one on the fringe, has entered the political mainstream. Still, Bush is in the lead financially, and your rhetoric has consistently veered leftward enough that donors simply aren’t lining up enough. With the polls tight, there’s still time to right the ship. \n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113889,
+        "fields": {
+            "priority": 3,
+            "description": "You began your campaign adhering to a $100 donation limit, but lifted that limit in May. Since then, you’ve recaptured your old fundraising glory, and despite your polling deficit, have drawn financially even with Bush. Sitting on top of a massive sum of money, you can put it towards just about anything you choose. How do you spend it?\n\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113906,
+        "fields": {
+            "priority": 3,
+            "description": "You began your campaign adhering to a $100 donation limit, but lifted that limit in May. Since then, you’ve recaptured your old fundraising glory, and despite your polling deficit, have drawn financially even with Bush. Sitting on top of a massive sum of money, you can put it towards just about anything you choose. How do you spend it?\n\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113923,
+        "fields": {
+            "priority": 3,
+            "description": "You began your campaign adhering to a $100 donation limit, but lifted that limit in May. Since then, you’ve recaptured your old fundraising glory, and despite your polling deficit, have drawn financially even with Bush. Sitting on top of a massive sum of money, you can put it towards just about anything you choose. How do you spend it?\n\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 113940,
+        "fields": {
+            "priority": 3,
+            "description": "You began your campaign adhering to a $100 donation limit, but lifted that limit in May. Since then, you’ve recaptured your old fundraising glory, and despite your polling deficit, have drawn financially even with Bush. Sitting on top of a massive sum of money, you can put it towards just about anything you choose. How do you spend it?\n\n",
             "likelihood": 1
         }
     }
@@ -799,7 +880,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3381,
         "fields": {
             "question": 362,
-            "description": "Absolutely. Anything we can do to work towards energy independence in this country is a positive step. Oil and coal are the foundation of any energy policy, and should be exploited as much as possible."
+            "description": " Campaigns are about more than money. I’m still the Democratic candidate; I still have a lot more money than a quixotic campaign in Utah or the like. I know we’re down right now, but we need faith in our organizing skills, not our kowtowing skills. "
         }
     },
     {
@@ -807,7 +888,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3382,
         "fields": {
             "question": 362,
-            "description": "This is fine with me, but it is a small part of the overall solution. We need to drill wherever we can, while encouraging innovation in other sectors of the energy market."
+            "description": " Sure, I, Jerry Brown, may have some trouble with tapping into money, but you know who doesn’t? My running mate. Let’s put him on the first flight to New York, get him a one-on-one session with those Wall Street guys. That’ll straighten them out."
         }
     },
     {
@@ -815,7 +896,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3383,
         "fields": {
             "question": 362,
-            "description": "I oppose these plans. The ANWR is an environmental treasure of the United States, and the oil gained from any exploitation will be relatively limited."
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
         }
     },
     {
@@ -823,7 +904,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3384,
         "fields": {
             "question": 362,
-            "description": "This is a giveaway to oil companies that will not resolve America's underlying energy issues. We need more government investment in renewable energy sources, and strict regulations on oil and coal."
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
         }
     },
     {
@@ -1744,6 +1825,286 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 113732,
             "description": "AIDS is a health crisis, but it’s inextricable from the gay thing. We need to think bigger than a disease or a ribbon. Let me make this very clear: I think God wants his gay children to be happy just as much as his other ones. I’m not advocating for anything extreme like a federal mandate, but I’m fine with gay marriage. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113790,
+        "fields": {
+            "question": 113789,
+            "description": " Campaigns are about more than money. I’m still the Democratic candidate; I still have a lot more money than a quixotic campaign in Utah or the like. I know we’re down right now, but we need faith in our organizing skills, not our kowtowing skills. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113794,
+        "fields": {
+            "question": 113789,
+            "description": " Sure, I, Jerry Brown, may have some trouble with tapping into money, but you know who doesn’t? My running mate. Let’s put him on the first flight to New York, get him a one-on-one session with those Wall Street guys. That’ll straighten them out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113800,
+        "fields": {
+            "question": 113789,
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113806,
+        "fields": {
+            "question": 113789,
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113810,
+        "fields": {
+            "question": 113809,
+            "description": " Campaigns are about more than money. I’m still the Democratic candidate; I still have a lot more money than a quixotic campaign in Utah or the like. I know we’re down right now, but we need faith in our organizing skills, not our kowtowing skills. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113814,
+        "fields": {
+            "question": 113809,
+            "description": " Sure, I, Jerry Brown, may have some trouble with tapping into money, but you know who doesn’t? My running mate. Let’s put him on the first flight to New York, get him a one-on-one session with those Wall Street guys. That’ll straighten them out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113820,
+        "fields": {
+            "question": 113809,
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113826,
+        "fields": {
+            "question": 113809,
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113830,
+        "fields": {
+            "question": 113829,
+            "description": " Campaigns are about more than money. I’m still the Democratic candidate; I still have a lot more money than a quixotic campaign in Utah or the like. I know we’re down right now, but we need faith in our organizing skills, not our kowtowing skills. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113834,
+        "fields": {
+            "question": 113829,
+            "description": " Sure, I, Jerry Brown, may have some trouble with tapping into money, but you know who doesn’t? My running mate. Let’s put him on the first flight to New York, get him a one-on-one session with those Wall Street guys. That’ll straighten them out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113840,
+        "fields": {
+            "question": 113829,
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113846,
+        "fields": {
+            "question": 113829,
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113850,
+        "fields": {
+            "question": 113849,
+            "description": " Campaigns are about more than money. I’m still the Democratic candidate; I still have a lot more money than a quixotic campaign in Utah or the like. I know we’re down right now, but we need faith in our organizing skills, not our kowtowing skills. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113854,
+        "fields": {
+            "question": 113849,
+            "description": " Sure, I, Jerry Brown, may have some trouble with tapping into money, but you know who doesn’t? My running mate. Let’s put him on the first flight to New York, get him a one-on-one session with those Wall Street guys. That’ll straighten them out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113860,
+        "fields": {
+            "question": 113849,
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113866,
+        "fields": {
+            "question": 113849,
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113870,
+        "fields": {
+            "question": 113869,
+            "description": "It seems like the race is fairly close right now. If we make a move in the wrong direction, we risk falling behind, creating the wrong perceptions about us. It’s better to focus on building our infrastructure so that we can better utilize any money later. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113880,
+        "fields": {
+            "question": 113869,
+            "description": "I don’t want to do it, I don’t want to do it. Well, we have to get shit done. Drop the $100 limit on donations, and frame it in a way that implies we’re doing it for the right reasons. If we lose this, there goes the country. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113886,
+        "fields": {
+            "question": 113869,
+            "description": "\n Have you been reading about what we can do with computers? We have all of this stuff with Usenet and the like, where people can communicate with each other. It shouldn’t cost too much to start trying to get our message across there. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113890,
+        "fields": {
+            "question": 113889,
+            "description": "I balanced the budget in California, and I think I know a thing or two about curbing needless spending. We’re not going to penny-pinch so hard that we’ll fall behind, but let’s save it for an emergency… for now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113894,
+        "fields": {
+            "question": 113889,
+            "description": "Everybody watches television, minus a few contrarians. Let’s air some prime-time ads during the shows everyone watches, like Roseanne or Murphy Brown. We’ll make sure my messaging is presidential-quality. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113900,
+        "fields": {
+            "question": 113889,
+            "description": "\nI remember 1958, when my father won the governorship. It was all of the organizing against Prop 18 that really helped him thrash Knowland. We need to think old school here: we’ll still use phones and computers, but let’s start putting all of our chips on door-knocking and mobilization. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113903,
+        "fields": {
+            "question": 113889,
+            "description": "You know what’s better than lots of money? Even more money. I’ve spoken ill of them before, but if I can meet with some of the bigshots, show them how I’m going to be good for this country, the race is as good as ours."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113907,
+        "fields": {
+            "question": 113906,
+            "description": "I balanced the budget in California, and I think I know a thing or two about curbing needless spending. We’re not going to penny-pinch so hard that we’ll fall behind, but let’s save it for an emergency… for now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113911,
+        "fields": {
+            "question": 113906,
+            "description": "Everybody watches television, minus a few contrarians. Let’s air some prime-time ads during the shows everyone watches, like Roseanne or Murphy Brown. We’ll make sure my messaging is presidential-quality. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113917,
+        "fields": {
+            "question": 113906,
+            "description": "\nI remember 1958, when my father won the governorship. It was all of the organizing against Prop 18 that really helped him thrash Knowland. We need to think old school here: we’ll still use phones and computers, but let’s start putting all of our chips on door-knocking and mobilization. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113920,
+        "fields": {
+            "question": 113906,
+            "description": "You know what’s better than lots of money? Even more money. I’ve spoken ill of them before, but if I can meet with some of the bigshots, show them how I’m going to be good for this country, the race is as good as ours."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113924,
+        "fields": {
+            "question": 113923,
+            "description": "I balanced the budget in California, and I think I know a thing or two about curbing needless spending. We’re not going to penny-pinch so hard that we’ll fall behind, but let’s save it for an emergency… for now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113928,
+        "fields": {
+            "question": 113923,
+            "description": "Everybody watches television, minus a few contrarians. Let’s air some prime-time ads during the shows everyone watches, like Roseanne or Murphy Brown. We’ll make sure my messaging is presidential-quality. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113934,
+        "fields": {
+            "question": 113923,
+            "description": "\nI remember 1958, when my father won the governorship. It was all of the organizing against Prop 18 that really helped him thrash Knowland. We need to think old school here: we’ll still use phones and computers, but let’s start putting all of our chips on door-knocking and mobilization. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113937,
+        "fields": {
+            "question": 113923,
+            "description": "You know what’s better than lots of money? Even more money. I’ve spoken ill of them before, but if I can meet with some of the bigshots, show them how I’m going to be good for this country, the race is as good as ours."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113941,
+        "fields": {
+            "question": 113940,
+            "description": "I balanced the budget in California, and I think I know a thing or two about curbing needless spending. We’re not going to penny-pinch so hard that we’ll fall behind, but let’s save it for an emergency… for now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113945,
+        "fields": {
+            "question": 113940,
+            "description": "Everybody watches television, minus a few contrarians. Let’s air some prime-time ads during the shows everyone watches, like Roseanne or Murphy Brown. We’ll make sure my messaging is presidential-quality. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113951,
+        "fields": {
+            "question": 113940,
+            "description": "\nI remember 1958, when my father won the governorship. It was all of the organizing against Prop 18 that really helped him thrash Knowland. We need to think old school here: we’ll still use phones and computers, but let’s start putting all of our chips on door-knocking and mobilization. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 113954,
+        "fields": {
+            "question": 113940,
+            "description": "You know what’s better than lots of money? Even more money. I’ve spoken ill of them before, but if I can meet with some of the bigshots, show them how I’m going to be good for this country, the race is as good as ours."
         }
     }
 ]
@@ -8100,28 +8461,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 3383,
             "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1156,
-        "fields": {
-            "answer": 3384,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1157,
-        "fields": {
-            "answer": 3384,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": 1.45
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -8269,19 +8610,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 1219,
         "fields": {
             "answer": 3381,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": -0.035
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1220,
-        "fields": {
-            "answer": 3381,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": 0.1
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
         }
     },
     {
@@ -8292,16 +8623,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 78,
             "affected_candidate": 78,
             "global_multiplier": -0.007
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1222,
-        "fields": {
-            "answer": 3384,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": -0.04
         }
     },
     {
@@ -8546,42 +8867,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1299,
-        "fields": {
-            "answer": 3381,
-            "candidate": 79,
-            "affected_candidate": 78,
-            "global_multiplier": 0.008
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1300,
-        "fields": {
-            "answer": 3381,
-            "candidate": 79,
-            "affected_candidate": 79,
-            "global_multiplier": -0.15
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1301,
         "fields": {
             "answer": 3382,
-            "candidate": 79,
+            "candidate": 78,
             "affected_candidate": 78,
-            "global_multiplier": 0.008
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1302,
-        "fields": {
-            "answer": 3382,
-            "candidate": 79,
-            "affected_candidate": 79,
-            "global_multiplier": -0.15
+            "global_multiplier": 0.0075
         }
     },
     {
@@ -8641,17 +8932,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3383,
             "candidate": 78,
             "affected_candidate": 78,
-            "global_multiplier": 0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1326,
-        "fields": {
-            "answer": 3383,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.0075
         }
     },
     {
@@ -10052,6 +10333,546 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 79,
             "affected_candidate": 79,
             "global_multiplier": -0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113788,
+        "fields": {
+            "answer": 3383,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113792,
+        "fields": {
+            "answer": 113790,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113796,
+        "fields": {
+            "answer": 113794,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113802,
+        "fields": {
+            "answer": 113800,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113803,
+        "fields": {
+            "answer": 113800,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113804,
+        "fields": {
+            "answer": 113800,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113808,
+        "fields": {
+            "answer": 113806,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113812,
+        "fields": {
+            "answer": 113810,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113816,
+        "fields": {
+            "answer": 113814,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113822,
+        "fields": {
+            "answer": 113820,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113823,
+        "fields": {
+            "answer": 113820,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113824,
+        "fields": {
+            "answer": 113820,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113828,
+        "fields": {
+            "answer": 113826,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113832,
+        "fields": {
+            "answer": 113830,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113836,
+        "fields": {
+            "answer": 113834,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113842,
+        "fields": {
+            "answer": 113840,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113843,
+        "fields": {
+            "answer": 113840,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113844,
+        "fields": {
+            "answer": 113840,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113848,
+        "fields": {
+            "answer": 113846,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113852,
+        "fields": {
+            "answer": 113850,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113856,
+        "fields": {
+            "answer": 113854,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.00001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113862,
+        "fields": {
+            "answer": 113860,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113863,
+        "fields": {
+            "answer": 113860,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113864,
+        "fields": {
+            "answer": 113860,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113868,
+        "fields": {
+            "answer": 113866,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113872,
+        "fields": {
+            "answer": 113870,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113882,
+        "fields": {
+            "answer": 113880,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113883,
+        "fields": {
+            "answer": 113880,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0095
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113884,
+        "fields": {
+            "answer": 113880,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113888,
+        "fields": {
+            "answer": 113886,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113892,
+        "fields": {
+            "answer": 113890,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": "0.0"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113896,
+        "fields": {
+            "answer": 113894,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113897,
+        "fields": {
+            "answer": 113894,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0095
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113898,
+        "fields": {
+            "answer": 113894,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113902,
+        "fields": {
+            "answer": 113900,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113905,
+        "fields": {
+            "answer": 113903,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113909,
+        "fields": {
+            "answer": 113907,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": "0.0"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113913,
+        "fields": {
+            "answer": 113911,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113914,
+        "fields": {
+            "answer": 113911,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0095
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113915,
+        "fields": {
+            "answer": 113911,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113919,
+        "fields": {
+            "answer": 113917,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113922,
+        "fields": {
+            "answer": 113920,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113926,
+        "fields": {
+            "answer": 113924,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": "0.0"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113930,
+        "fields": {
+            "answer": 113928,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113931,
+        "fields": {
+            "answer": 113928,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0095
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113932,
+        "fields": {
+            "answer": 113928,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113936,
+        "fields": {
+            "answer": 113934,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113939,
+        "fields": {
+            "answer": 113937,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113943,
+        "fields": {
+            "answer": 113941,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": "0.0"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113947,
+        "fields": {
+            "answer": 113945,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113948,
+        "fields": {
+            "answer": 113945,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0095
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113949,
+        "fields": {
+            "answer": 113945,
+            "candidate": 78,
+            "affected_candidate": 79,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113953,
+        "fields": {
+            "answer": 113951,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 113956,
+        "fields": {
+            "answer": 113954,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0005
         }
     }
 ]
@@ -11665,6 +12486,306 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 29,
             "issue_score": 0.5,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113783,
+        "fields": {
+            "answer": 3381,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113784,
+        "fields": {
+            "answer": 3382,
+            "issue": 32,
+            "issue_score": 0.4,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113785,
+        "fields": {
+            "answer": 3382,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113787,
+        "fields": {
+            "answer": 3383,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113793,
+        "fields": {
+            "answer": 113790,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113797,
+        "fields": {
+            "answer": 113794,
+            "issue": 32,
+            "issue_score": 0.4,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113798,
+        "fields": {
+            "answer": 113794,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113805,
+        "fields": {
+            "answer": 113800,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113813,
+        "fields": {
+            "answer": 113810,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113817,
+        "fields": {
+            "answer": 113814,
+            "issue": 32,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113818,
+        "fields": {
+            "answer": 113814,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113825,
+        "fields": {
+            "answer": 113820,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113833,
+        "fields": {
+            "answer": 113830,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113837,
+        "fields": {
+            "answer": 113834,
+            "issue": 32,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113838,
+        "fields": {
+            "answer": 113834,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113845,
+        "fields": {
+            "answer": 113840,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113853,
+        "fields": {
+            "answer": 113850,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113857,
+        "fields": {
+            "answer": 113854,
+            "issue": 32,
+            "issue_score": -0.1,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113858,
+        "fields": {
+            "answer": 113854,
+            "issue": 31,
+            "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113865,
+        "fields": {
+            "answer": 113860,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113873,
+        "fields": {
+            "answer": 113870,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113885,
+        "fields": {
+            "answer": 113880,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113893,
+        "fields": {
+            "answer": 113890,
+            "issue": 28,
+            "issue_score": -0.32,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113899,
+        "fields": {
+            "answer": 113894,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113910,
+        "fields": {
+            "answer": 113907,
+            "issue": 28,
+            "issue_score": -0.32,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113916,
+        "fields": {
+            "answer": 113911,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113927,
+        "fields": {
+            "answer": 113924,
+            "issue": 28,
+            "issue_score": -0.32,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113933,
+        "fields": {
+            "answer": 113928,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113944,
+        "fields": {
+            "answer": 113941,
+            "issue": 28,
+            "issue_score": -0.32,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 113950,
+        "fields": {
+            "answer": 113945,
+            "issue": 32,
+            "issue_score": 0.5,
+            "issue_importance": 2
         }
     }
 ]
@@ -13516,28 +14637,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 78,
             "affected_candidate": 78,
             "state_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9297,
-        "fields": {
-            "answer": 3381,
-            "state": 182,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9298,
-        "fields": {
-            "answer": 3381,
-            "state": 182,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "state_multiplier": 0.01
         }
     },
     {
@@ -20117,6 +21216,61 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 78,
             "state_multiplier": -0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113786,
+        "fields": {
+            "answer": 3382,
+            "state": 212,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113799,
+        "fields": {
+            "answer": 113794,
+            "state": 212,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113819,
+        "fields": {
+            "answer": 113814,
+            "state": 212,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113839,
+        "fields": {
+            "answer": 113834,
+            "state": 212,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 113859,
+        "fields": {
+            "answer": 113854,
+            "state": 212,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.005
+        }
     }
 ]
 
@@ -20227,24 +21381,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3377,
             "candidate": 77,
             "answer_feedback": "There's not much to be gained by commenting on the Clintons or inserting yourself into New York politics."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 766,
-        "fields": {
-            "answer": 3381,
-            "candidate": 77,
-            "answer_feedback": "This is a good, conservative answer that will motivate your base. As always, make sure you find the right balance between getting your troops out and appealing to undecided voters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 767,
-        "fields": {
-            "answer": 3384,
-            "candidate": 77,
-            "answer_feedback": "You're certainly getting attention in the news for this stance, but it is not a mainstream position in your party. Perhaps this will establish you as an independent thinker..."
         }
     },
     {
@@ -20478,7 +21614,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3381,
             "candidate": 78,
-            "answer_feedback": "You're certainly getting attention in the news for this stance, but it is not a mainstream position in your party. Perhaps this will establish you as an independent thinker..."
+            "answer_feedback": " Combining your campaign with the national Democratic organization is a brutal process, and by the time Jodie finally comes back with news of some stability, Bush has built up his money lead even more. \n"
         }
     },
     {
@@ -20487,7 +21623,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3383,
             "candidate": 78,
-            "answer_feedback": "This is a good, liberal answer that will motivate your base. As always, make sure you find the right balance between getting your troops out and appealing to undecided voters."
+            "answer_feedback": " The impacts of this decision are seismic, as the hotline begins generating triple the money it was overnight, as pundits praise your decision as you stepping up to the mantle of a “serious” presidential candidate. Meanwhile, a steady trickle of hardcore staffers begins leaving, and an MTV profile on disaffected voters notes several who now view you skeptically."
         }
     },
     {
@@ -20496,7 +21632,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3384,
             "candidate": 78,
-            "answer_feedback": "This is a good, liberal answer that will motivate your base. As always, make sure you find the right balance between getting your troops out and appealing to undecided voters."
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
         }
     },
     {
@@ -20888,38 +22024,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 963,
-        "fields": {
-            "answer": 3381,
-            "candidate": 79,
-            "answer_feedback": "What?! The purpose of your candidacy is to provide a solid, left-wing alternative to the two main parties. People are wondering what you meant by taking this stance."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 964,
         "fields": {
             "answer": 3382,
-            "candidate": 79,
-            "answer_feedback": "What?! The purpose of your candidacy is to provide a solid, left-wing alternative to the two main parties. People are wondering what you meant by taking this stance."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 965,
-        "fields": {
-            "answer": 3383,
-            "candidate": 79,
-            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 966,
-        "fields": {
-            "answer": 3384,
-            "candidate": 79,
-            "answer_feedback": "This is a good, left-wing answer that will motivate your base."
+            "candidate": 78,
+            "answer_feedback": " Dick Gephardt likes to talk about embattled Midwestern factory workers, but he’s a natural fit inside Manhattan’s corporate boardrooms, and cajoles several CEOs into coming around to you by emphasizing your fiscal responsibility."
         }
     },
     {
@@ -21821,6 +22930,321 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 78,
             "answer_feedback": "The LGBT community, who already planned to vote for you en masse, responds to your declaration with an unprecedented outflow of support. Meanwhile, the Washington Post reports that the following week, there are at least 1,200 recorded instances of church leaders saying you’re going to hell. "
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113791,
+        "fields": {
+            "answer": 113790,
+            "candidate": 78,
+            "answer_feedback": " Combining your campaign with the national Democratic organization is a brutal process, and by the time Jodie finally comes back with news of some stability, Bush has built up his money lead even more. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113795,
+        "fields": {
+            "answer": 113794,
+            "candidate": 78,
+            "answer_feedback": "On Wall Street, David Pryor plays the good old boy routine well, pretending to be shocked at the size of the buildings and impressed with the fancy New Yorkers, laughing straight to the bank as he walks away with much more support than you ever thought you’d see."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113801,
+        "fields": {
+            "answer": 113800,
+            "candidate": 78,
+            "answer_feedback": " The impacts of this decision are seismic, as the hotline begins generating triple the money it was overnight, as pundits praise your decision as you stepping up to the mantle of a “serious” presidential candidate. Meanwhile, a steady trickle of hardcore staffers begins leaving, and an MTV profile on disaffected voters notes several who now view you skeptically."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113807,
+        "fields": {
+            "answer": 113806,
+            "candidate": 78,
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113811,
+        "fields": {
+            "answer": 113810,
+            "candidate": 78,
+            "answer_feedback": " Combining your campaign with the national Democratic organization is a brutal process, and by the time Jodie finally comes back with news of some stability, Bush has built up his money lead even more. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113815,
+        "fields": {
+            "answer": 113814,
+            "candidate": 78,
+            "answer_feedback": "Bill Bradley has the ability to speak corporate, but many businessmen are quick to remember his initial opposition to Reagan’s tax cuts, and he leaves with a decent but unimpressive list of unofficial endorsements."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113821,
+        "fields": {
+            "answer": 113820,
+            "candidate": 78,
+            "answer_feedback": " The impacts of this decision are seismic, as the hotline begins generating triple the money it was overnight, as pundits praise your decision as you stepping up to the mantle of a “serious” presidential candidate. Meanwhile, a steady trickle of hardcore staffers begins leaving, and an MTV profile on disaffected voters notes several who now view you skeptically."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113827,
+        "fields": {
+            "answer": 113826,
+            "candidate": 78,
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113831,
+        "fields": {
+            "answer": 113830,
+            "candidate": 78,
+            "answer_feedback": " Combining your campaign with the national Democratic organization is a brutal process, and by the time Jodie finally comes back with news of some stability, Bush has built up his money lead even more. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113835,
+        "fields": {
+            "answer": 113834,
+            "candidate": 78,
+            "answer_feedback": "Paul Tsongas, fiscally, is the closest thing to a Republican that a Democrat can be. It’s no surprise that he makes hay with finding new revenue streams, cleaning Wall Street out in a day and finding the time to go up to Boston, where he gains the undying support of Bain Capital’s CEO."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113841,
+        "fields": {
+            "answer": 113840,
+            "candidate": 78,
+            "answer_feedback": " The impacts of this decision are seismic, as the hotline begins generating triple the money it was overnight, as pundits praise your decision as you stepping up to the mantle of a “serious” presidential candidate. Meanwhile, a steady trickle of hardcore staffers begins leaving, and an MTV profile on disaffected voters notes several who now view you skeptically."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113847,
+        "fields": {
+            "answer": 113846,
+            "candidate": 78,
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113851,
+        "fields": {
+            "answer": 113850,
+            "candidate": 78,
+            "answer_feedback": " Combining your campaign with the national Democratic organization is a brutal process, and by the time Jodie finally comes back with news of some stability, Bush has built up his money lead even more. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113855,
+        "fields": {
+            "answer": 113854,
+            "candidate": 78,
+            "answer_feedback": "The sight of watching Jesse Jackson try to play ball with Wall Street is part comedy, part tragedy, as a meeting with banking leaders turns into a stern lecture on inaction in the face of tyranny. He emerges with some new funds, but it’s a pittance. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113861,
+        "fields": {
+            "answer": 113860,
+            "candidate": 78,
+            "answer_feedback": " The impacts of this decision are seismic, as the hotline begins generating triple the money it was overnight, as pundits praise your decision as you stepping up to the mantle of a “serious” presidential candidate. Meanwhile, a steady trickle of hardcore staffers begins leaving, and an MTV profile on disaffected voters notes several who now view you skeptically."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113867,
+        "fields": {
+            "answer": 113866,
+            "candidate": 78,
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113871,
+        "fields": {
+            "answer": 113870,
+            "candidate": 78,
+            "answer_feedback": "    Your campaign is somewhat successful at incorporating the larger Democratic party, but the money that you had hoped would come later still fails to show, as Bush maintains his financial advantage.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113881,
+        "fields": {
+            "answer": 113880,
+            "candidate": 78,
+            "answer_feedback": "Many had predicted that this move was coming, and to nobody’s surprise, greatly increases your cash flow. Still, your call centers report decreased employment, with some former employees moving to nonprofits focused on political reform."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113887,
+        "fields": {
+            "answer": 113886,
+            "candidate": 78,
+            "answer_feedback": "Usenet users are horrified at the thought of someone sending them unsolicited messages like you have as every newsgroup is flooded with messages about Jerry Brown being hip with technology. Ultimately, you raise a paltry $4734 from these efforts, with one user comparing your messages to the meat product Spam."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113891,
+        "fields": {
+            "answer": 113890,
+            "candidate": 78,
+            "answer_feedback": "Standing pat with Bush sends worried Democrats into a frenzy, with some openly wondering when you’re going to put the foot down and take advantage of your cash. The real believers know that there must be a plan for it. There’s always a plan. \n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113895,
+        "fields": {
+            "answer": 113894,
+            "candidate": 78,
+            "answer_feedback": "Ads blast the nation’s television screens, praising you for your work as governor of California while blasting Bush’s performance on the economy. They do their job, but only echo what you’ve already been saying."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113901,
+        "fields": {
+            "answer": 113900,
+            "candidate": 78,
+            "answer_feedback": "The forces of organized labor that helped elevate your father have since diminished, but the fundamentals of politics remain similar. Soon, your campaign is knocking on millions more doors than Bush is, sending James Baker into a spiral."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113904,
+        "fields": {
+            "answer": 113903,
+            "candidate": 78,
+            "answer_feedback": "You turn the charm up to 11, but it’s simply no use. America’s uber-wealthy want little to do with your candidacy. As you leave a meeting with Robert Rubin where he laughs you out, you silently vow to crush him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113908,
+        "fields": {
+            "answer": 113907,
+            "candidate": 78,
+            "answer_feedback": "Standing pat with Bush sends worried Democrats into a frenzy, with some openly wondering when you’re going to put the foot down and take advantage of your cash. The real believers know that there must be a plan for it. There’s always a plan. \n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113912,
+        "fields": {
+            "answer": 113911,
+            "candidate": 78,
+            "answer_feedback": "The camera swoops in on your face as you stoically gaze across a rocky stretch of the California coastline. “For too long, we’ve been held back by big corporations and a dysfunctional Congress. Join the second American revolution, vote Jerry Brown, and take back America!”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113918,
+        "fields": {
+            "answer": 113917,
+            "candidate": 78,
+            "answer_feedback": "The forces of organized labor that helped elevate your father have since diminished, but the fundamentals of politics remain similar. Soon, your campaign is knocking on millions more doors than Bush is, sending James Baker into a spiral."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113921,
+        "fields": {
+            "answer": 113920,
+            "candidate": 78,
+            "answer_feedback": "You turn the charm up to 11, but it’s simply no use. America’s uber-wealthy want little to do with your candidacy. As you leave a meeting with Robert Rubin where he laughs you out, you silently vow to crush him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113925,
+        "fields": {
+            "answer": 113924,
+            "candidate": 78,
+            "answer_feedback": "Standing pat with Bush sends worried Democrats into a frenzy, with some openly wondering when you’re going to put the foot down and take advantage of your cash. The real believers know that there must be a plan for it. There’s always a plan. \n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113929,
+        "fields": {
+            "answer": 113928,
+            "candidate": 78,
+            "answer_feedback": "The camera swoops in on your face as you stoically gaze across a rocky stretch of the California coastline. “For too long, we’ve been held back by big corporations and a dysfunctional Congress. Join the second American revolution, vote Jerry Brown, and take back America!”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113935,
+        "fields": {
+            "answer": 113934,
+            "candidate": 78,
+            "answer_feedback": "The forces of organized labor that helped elevate your father have since diminished, but the fundamentals of politics remain similar. Soon, your campaign is knocking on millions more doors than Bush is, sending James Baker into a spiral."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113938,
+        "fields": {
+            "answer": 113937,
+            "candidate": 78,
+            "answer_feedback": "Whatever happened to Jerry Brown, the man fighting the machine? You can’t remember. Instead, all you know is that the corporate boardrooms love you, and that you love them too. That night, you have a pleasant dream of diving into gold coins à la Scrooge McDuck."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113942,
+        "fields": {
+            "answer": 113941,
+            "candidate": 78,
+            "answer_feedback": "Standing pat with Bush sends worried Democrats into a frenzy, with some openly wondering when you’re going to put the foot down and take advantage of your cash. The real believers know that there must be a plan for it. There’s always a plan. \n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113946,
+        "fields": {
+            "answer": 113945,
+            "candidate": 78,
+            "answer_feedback": "The camera swoops in on your face as you stoically gaze across a rocky stretch of the California coastline. “For too long, we’ve been held back by big corporations and a dysfunctional Congress. Join the second American revolution, vote Jerry Brown, and take back America!”"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113952,
+        "fields": {
+            "answer": 113951,
+            "candidate": 78,
+            "answer_feedback": "The forces of organized labor that helped elevate your father have since diminished, but the fundamentals of politics remain similar. Soon, your campaign is knocking on millions more doors than Bush is, sending James Baker into a spiral."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113955,
+        "fields": {
+            "answer": 113954,
+            "candidate": 78,
+            "answer_feedback": "Whatever happened to Jerry Brown, the man fighting the machine? You can’t remember. Instead, all you know is that the corporate boardrooms love you, and that you love them too. That night, you have a pleasant dream of diving into gold coins à la Scrooge McDuck."
+        }
     }
 ]
 
@@ -21828,6 +23252,7 @@ campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
 campaignTrail_temp.candidate_last_name = "Brown";
 campaignTrail_temp.running_mate_last_name = "For President";
+
 
 
 e=campaignTrail_temp
@@ -22025,7 +23450,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[14] = tunnel(113600);
         console.log ("gop lowM lowE")
     }
-    else if (estab < 0 && momentum < 1 && ans == 3410){
+    else if (moonbeam < 1 && orange < 1 && ans == 3410){
         campaignTrail_temp.questions_json[14] = tunnel(113600);
         console.log ("gop lowM lowE")
     }
@@ -22051,6 +23476,45 @@ cyoAdventure = function(a) {
         console.log ("jackson quayle")
     }
      
+
+
+
+
+    /// I need cash
+
+    //tsongas
+    if (momentum < 0 && vpcheck == 1){
+        campaignTrail_temp.questions_json[15] = tunnel(113829);
+    }
+    if (momentum < 0 && vpcheck == 3){
+        campaignTrail_temp.questions_json[15] = tunnel(113789);
+    }
+    if (momentum < 0 && vpcheck == 4){
+        campaignTrail_temp.questions_json[15] = tunnel(113809);
+    }
+    if (momentum < 0 && vpcheck == 5){
+        campaignTrail_temp.questions_json[15] = tunnel(113829);
+    }
+    if (momentum > 1){ ///// We will NOT be adding vps for now sorry shockonomics but my jaw hurts
+        campaignTrail_temp.questions_json[15] = tunnel(113869);
+    }
+
+    if (momentum > 1){ 
+        campaignTrail_temp.questions_json[15] = tunnel(113869);
+    }
+    else if (moonbeam < 1 && orange < 1 && ans == 3463 || ans == 3563 || ans == 21391){
+        campaignTrail_temp.questions_json[15] = tunnel(113889);
+    }
+    else if (moonbeam > 0 && orange < 1 && ans == 3463 || ans == 3563 || ans == 21391){
+        campaignTrail_temp.questions_json[15] = tunnel(113906);
+    }
+    else if (moonbeam > 0 && orange > 0 && ans == 3463 || ans == 3563 || ans == 21391){
+        campaignTrail_temp.questions_json[15] = tunnel(113923);
+    }
+    else if (moonbeam < 1 && orange > 0 && ans == 3463 || ans == 3563 || ans == 21391){
+        campaignTrail_temp.questions_json[15] = tunnel(113940);
+    }
+
      //VP Trigger Question (Convention)
     if (e.question_number == 5) {
         window.setTimeout(e.vpSwitcher, 20)
