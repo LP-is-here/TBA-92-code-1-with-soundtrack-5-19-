@@ -8806,7 +8806,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3325,
             "candidate": 78,
             "affected_candidate": 79,
-            "global_multiplier": -4.5
+            "global_multiplier": -0.99
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1127,
+        "fields": {
+            "answer": 3325,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.15
         }
     },
     {
@@ -11766,7 +11776,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114165,
             "candidate": 78,
             "affected_candidate": 79,
-            "global_multiplier": 2
+            "global_multiplier": 0.14
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 114167,
+        "fields": {
+            "answer": 114165,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.2
         }
     },
     {
@@ -11806,7 +11826,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114189,
             "candidate": 78,
             "affected_candidate": 79,
-            "global_multiplier": 2
+            "global_multiplier": 0.14
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 114191,
+        "fields": {
+            "answer": 114189,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.2
         }
     },
     {
@@ -11846,7 +11876,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114261,
             "candidate": 78,
             "affected_candidate": 79,
-            "global_multiplier": 2
+            "global_multiplier": 0.14
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 114263,
+        "fields": {
+            "answer": 114261,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": -0.2
         }
     },
     {
@@ -11966,7 +12006,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114189,
             "candidate": 79,
             "affected_candidate": 79,
-            "global_multiplier": 5
+            "global_multiplier": 0.4
         }
     },
     {
@@ -11976,7 +12016,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114261,
             "candidate": 79,
             "affected_candidate": 79,
-            "global_multiplier": 5
+            "global_multiplier": 0.4
         }
     },
     {
@@ -11986,7 +12026,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 114165,
             "candidate": 79,
             "affected_candidate": 79,
-            "global_multiplier": 5
+            "global_multiplier": 0.4
         }
     },
     {
@@ -26359,7 +26399,7 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
         campaignTrail_temp.questions_json[16] = tunnel(114099);
     }
 
-  if (ans == 114166 || ans == 114189){ 
+  if (ans == 114165 || ans == 114189){ 
         campaignTrail_temp.questions_json[17] = tunnel(114276);
     }
 
@@ -26438,7 +26478,10 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
            )
           }
         
-    
+    /// Candidate Switching Wahooo
+
+
+    // Brown -> Clinton
      
      if(ans == 12240){
         e.global_parameter_json[0].fields.question_count = 1
@@ -26446,7 +26489,23 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
         e.candidate_json[id].fields.first_name = "Bill"
         e.candidate_json[id].fields.last_name = "Clinton"
         corrr=`\n<h2>THE COMEBACK KID</h2><font id='arial' size='4' color='white'><em>`+`</em></font>`
-        campaignTrail_temp.running_mate_image_url = 'blob:https://imgur.com/9a30d2c0-7dfd-4d5a-b640-24365e2d9db6';
+    }
+
+
+    // Perot -> Gritz
+    if(ans == 3325){
+        var id = e.candidate_json.map(p=>p.pk).indexOf(79)
+        e.candidate_json[id].fields.first_name = "Bo"
+        e.candidate_json[id].fields.last_name = "Gritz"
+        e.candidate_json[id].fields.color_hex = "#016300" 
+    }
+
+        // Gritz -> Perot
+    if(ans == 114261 ||ans ==  114189 ||ans ==  114165){
+        var id = e.candidate_json.map(p=>p.pk).indexOf(79)
+        e.candidate_json[id].fields.first_name = "Ross"
+        e.candidate_json[id].fields.last_name = "Perot"
+        e.candidate_json[id].fields.color_hex = "#ffce47" 
     }
 
 }
