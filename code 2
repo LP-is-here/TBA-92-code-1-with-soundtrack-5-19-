@@ -26264,10 +26264,10 @@ cyoAdventure = function(a) {
 
 
         if (playerPolling < 0.48){
-            var momentum = 0
+            var momentum = 2
             console.log(playerPolling)
             console.log(momentum)
-            console.log("below 48%")                  
+            console.log("bush below 48%")                  
               }
         
         else if (playerPolling < 0.51 && playerPolling > 0.48){
@@ -26278,10 +26278,10 @@ cyoAdventure = function(a) {
               }
               
         else if (playerPolling > 0.51){
-            var momentum = 2
+            var momentum = 0
             console.log(playerPolling)
             console.log(momentum)
-            console.log("above 51%")                  
+            console.log("bush above 51%")                  
                   }
 
 
@@ -26794,3 +26794,92 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+    //function to add the advice - add this to your code 2 outside any other function. For example, at the very bottom
+    
+    
+    function addVPTooltips(pks, Tooltips, pictureLink) {
+        if (pks.length !== Tooltips.length) {
+            console.error("The lengths of pks and Tooltips arrays should match!");
+            return;
+        }
+      
+        for (let i = 0; i < pks.length; i++) {
+            const pk = pks[i];
+            const Tooltip = Tooltips[i];
+      
+            let ansIndex = campaignTrail_temp.answers_json.findIndex(item => item.pk === pk);
+      
+            // Check if ansIndex is valid
+            if (ansIndex !== -1) {
+                // Save the original description if not already saved
+                if (!campaignTrail_temp.answers_json[ansIndex].fields.originalDescription) {
+                    campaignTrail_temp.answers_json[ansIndex].fields.originalDescription = campaignTrail_temp.answers_json[ansIndex].fields.description;
+                }
+      
+                // Add the new tooltip with associated picture to the active hints
+                campaignTrail_temp.answers_json[ansIndex].fields.activeHints.push({
+                    text: Tooltip,
+                    picture: pictureLink // if you later decide to have different pictures for different tooltips, just change this to the corresponding link
+                });
+      
+                // Rebuild the description from the original description and active hints
+                let rebuiltDescription = campaignTrail_temp.answers_json[ansIndex].fields.originalDescription;
+                campaignTrail_temp.answers_json[ansIndex].fields.activeHints.forEach(hint => {
+                    const tooltipContent = `
+                        <span class='mytooltip' style='background-color: lightgreen'>
+                            [A]
+                            <span class='bubble bubble-bottom-left'>
+                                <div style='display: flex; align-items: center;'>
+                                    <img src='${hint.picture}' style='height: 4em;'>
+                                    <span style='display: inline-block; margin-left: 3px;'>${hint.text}</span>
+                                </div>
+                            </span>
+                        </span>
+                    `;
+                    rebuiltDescription = tooltipContent + rebuiltDescription;
+                });
+      
+                campaignTrail_temp.answers_json[ansIndex].fields.description = rebuiltDescription;
+                console.log ("Success")
+            }
+            else{
+                console.log ("PANIC")
+            }
+        }
+      
+        pks.forEach((pk, index) => {
+            const ansIndex = campaignTrail_temp.answers_json.findIndex(item => item.pk === pk);
+            if (ansIndex !== -1) {
+                setLabelContentByPk(pk, campaignTrail_temp.answers_json[ansIndex].fields.description);
+            }
+        });
+      }
+      
+      function setLabelContentByPk(pk, newContent) {
+        // Find the input element with the given pk
+        const radioInput = document.querySelector(`input[type="radio"][value="${pk}"]`);
+      
+        // If the radio input is found, update the associated label
+        if (radioInput) {
+            const associatedLabel = document.querySelector(`label[for="${radioInput.id}"]`);
+            if (associatedLabel) {
+                associatedLabel.innerHTML = newContent;
+            }
+        }
+      }
+  
+  
+  //Usage:
+  //I'd recommend you check inside the CYOA function what the VP is after the convention speech
+  //Something like if (campaignTrail_temp.running_mate_last_name == "Astronomical")
+  //Then call the function with the following arguments
+  //addVPTooltips([pk1, pk2, pk3], ["Do this", "Do that", "I'm quitting"], campaignTrail_temp.running_mate_image_url)
+  //This will add advice to the answers with pk1, pk2, pk3. The advice is "Do this" for pk1, "Do that" for pk2 and so forth
+  // The image in the speech bubble will be the same one as on the bottom. If you want to use another image, just replace with
+  // campaignTrail_temp.running_mate_image_url with a link to a different image
+  
+  campaignTrail_temp.answers_json.forEach(answer => {
+    if (!answer.fields.activeHints) {
+        answer.fields.activeHints = [];
+    }
+  });
