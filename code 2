@@ -26109,6 +26109,7 @@ var rossvar = 0;
 //This stores which questions affect which variables
 
 /// patented john arizona spaghetti code right here
+/// I COULD just check for the vps last name but I like having a variable in the same place and I'm used to it atp
 var vpMap = {
     3321: 1,
     113653: 2,
@@ -26233,19 +26234,19 @@ cyoAdventure = function(a) {
                
 
   // these two keep breaking shit idk why. keep an eye on them though....
-    if (rossMap.hasOwnProperty(ans)) {
-      rossvar += rossMap[ans];
-         console.log("waiting for perot")
+      if (rossMap.hasOwnProperty(ans)) {
+           rossvar += rossMap[ans];
+       console.log("waiting for perot")
          console.log(rossvar)
             }
 
 
 
     if (protectionismMap.hasOwnProperty(ans)) {
-              protectionism += protectionismMap[ans];
-                   console.log("giant sucking sound")
-                     console.log(protectionism)
-                           }
+            protectionism += protectionismMap[ans];
+         console.log("giant sucking sound")
+            console.log(protectionism)
+                }
                       
     if(ans == 3501) {
         if (!advice) {
@@ -26264,10 +26265,10 @@ cyoAdventure = function(a) {
 
 
         if (playerPolling < 0.48){
-            var momentum = 2
+            var momentum = 0
             console.log(playerPolling)
             console.log(momentum)
-            console.log("bush below 48%")                  
+            console.log("below 48%")                  
               }
         
         else if (playerPolling < 0.51 && playerPolling > 0.48){
@@ -26278,15 +26279,15 @@ cyoAdventure = function(a) {
               }
               
         else if (playerPolling > 0.51){
-            var momentum = 0
+            var momentum = 2
             console.log(playerPolling)
             console.log(momentum)
-            console.log("bush above 51%")                  
+            console.log("above 51%")                  
                   }
 
 
 
-    /////// VP Tooltip Spaghetti Code (I 100% could have just gotten the advice function working but I don't WANT TO so I have this insane spaghetti code instead)
+    /////// VP Tooltip Spaghetti Code (will fix later and get advice function working)
     if(vpcheck == 2){
      addVPTooltips([114251, 114179], ["I can handle this for you", "I can handle this for you"], campaignTrail_temp.running_mate_image_url)
 
@@ -26307,54 +26308,54 @@ cyoAdventure = function(a) {
         console.log ("normal")
     }
 
-    /// Democrip Convention
+    /// Democrip Convention (Wellstone is default)
     if(estab > 2){
         campaignTrail_temp.questions_json[5] = tunnel(21404);
     }
     
-    /// baskemptbal
+    /// bradley aids cyoa
     if(vpcheck == 3){
         campaignTrail_temp.questions_json[8] = tunnel(113732);
     }
 
     /// Rebloodlican Convention
-    if (estab < -1 && momentum < 1 && orange < 1){
+    if (campaignTrail_temp.question_number == 13 && estab < -1 && momentum < 1 && orange < 1){
         campaignTrail_temp.questions_json[14] = tunnel(113418);
         console.log ("gop lowM lowE lowO")
     }
 
-    else if (estab < 1 && momentum < 2 && orange >= 1){
+    else if (campaignTrail_temp.question_number == 13 && estab < 1 && momentum < 2 && orange >= 1){
         campaignTrail_temp.questions_json[14] = tunnel(113444);
         console.log ("gop lowM lowE hiO")
     }
 
-    else if (estab < 1 && momentum > 1 && moonbeam < 0){
+    else if (campaignTrail_temp.question_number == 13 && estab < 1 && momentum > 1 && moonbeam < 0){
         campaignTrail_temp.questions_json[14] = tunnel(113470);
         console.log ("gop hiM lowE lowMB")
     }
 
-    else if (estab < 1 && momentum > 1 && moonbeam >= 0){
+    else if (campaignTrail_temp.question_number == 13 && estab < 1 && momentum > 1 && moonbeam >= 0){
         campaignTrail_temp.questions_json[14] = tunnel(113496);
         console.log ("gop hiM lowE hiMB")
     }
                                                     /// i am so fucking tired bro i will code the long shot pat buchanan version later sorry
-    else if (estab > 1 && momentum > 1){
+    else if (campaignTrail_temp.question_number == 13 && estab > 1 && momentum > 1){
         campaignTrail_temp.questions_json[14] = tunnel(113496);
         console.log ("gop hiM hiE")
     }
-    else if (estab > 2 && momentum < 1){
+    else if (campaignTrail_temp.question_number == 13 && estab > 2 && momentum < 1){
         campaignTrail_temp.questions_json[14] = tunnel(113548);
         console.log ("gop lowM hiE")
     }
-    else if (estab > 2 && momentum > 1){
+    else if (campaignTrail_temp.question_number == 13 && estab > 2 && momentum > 1){
         campaignTrail_temp.questions_json[14] = tunnel(113574);
         console.log ("gop hiM hiE")
     }
-    else if (estab < 0 && momentum < 1){
+    else if (campaignTrail_temp.question_number == 13 && estab < 0 && momentum < 1){
         campaignTrail_temp.questions_json[14] = tunnel(113600);
         console.log ("gop lowM lowE")
     }
-    else if (moonbeam < 1 && orange < 1 && ans == 3410){
+    else if (campaignTrail_temp.question_number == 13 && moonbeam < 1 && orange < 1 && ans == 3410){
         campaignTrail_temp.questions_json[14] = tunnel(113600);
         console.log ("gop lowM lowE")
     }
@@ -26386,9 +26387,9 @@ cyoAdventure = function(a) {
 
 
 
-    /// I need cash
+    /// fundraising question
 
-    //tsongas
+    //no vpcheck 2 because tsongas is default
     if (momentum == 0 && vpcheck == 1){
         campaignTrail_temp.questions_json[15] = tunnel(113829);
     }
@@ -26421,14 +26422,14 @@ cyoAdventure = function(a) {
 
 
 
-    ///// The great big NAFTA question (which would have 22 fucking versions if I didn't cut it down!!) 22 versions that's a really big number don't you think if I had to balance that I would leave the team
-    /// ahgh
+    //// NAFTA Question
 
 
+    /// Came out against NAFTA in primary
     if (momentum <= 0 && estab < -3 && vpcheck == 2 || vpcheck == 5){ 
         campaignTrail_temp.questions_json[16] = tunnel(114049);
     }
-if (protectionism > 0 && vpcheck == 2 && rossvar > 0){ 
+    if (protectionism > 0 && vpcheck == 2 && rossvar > 0){ 
         campaignTrail_temp.questions_json[16] = tunnel(114250);
     }
     else if (protectionism > 0 && vpcheck == 2){ 
@@ -26443,7 +26444,7 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
         campaignTrail_temp.questions_json[16] = tunnel(114124);
     }
 
-
+    /// Stayed neutral on NAFTA in primary
         else if (momentum <= 0 && estab >= -2 && estab < 2){ 
         campaignTrail_temp.questions_json[16] = tunnel(113972);
     }
@@ -26463,7 +26464,7 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
         campaignTrail_temp.questions_json[16] = tunnel(114099);
     }
 
-  if (ans == 114165 || ans == 114189){ 
+     if (ans == 114165 || ans == 114189){ 
         campaignTrail_temp.questions_json[17] = tunnel(114276);
     }
 
@@ -26476,6 +26477,10 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
     if (momentum == 2){
       campaignTrail_temp.questions_json[18] = tunnel(114578);
     }
+
+
+
+
     //VP Trigger Question (Convention)
     if (e.question_number == 5) {
         window.setTimeout(e.vpSwitcher, 20)
@@ -26566,6 +26571,7 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
 
 
     // Perot -> Gritz
+
     if(ans == 3325){
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
         e.candidate_json[id].fields.first_name = "Bo"
@@ -26573,7 +26579,8 @@ if (protectionism > 0 && vpcheck == 2 && rossvar > 0){
         e.candidate_json[id].fields.color_hex = "#016300" 
     }
 
-        // Gritz -> Perot
+    // Gritz -> Perot
+    
     if(ans == 114261 ||ans ==  114189 ||ans ==  114165){
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
         e.candidate_json[id].fields.first_name = "Ross"
