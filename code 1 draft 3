@@ -892,7 +892,7 @@ tooltipList = [
   {searchString: "Bob Casey", explanationText: "<img src =https://i.imgur.com/yJDzM4X.png>  Immensely popular governor of Pennsylvania whose hardcore stance on abortion even frightens some Republicans."},
   {searchString: "'potato'", explanationText: "<img src =https://i.imgur.com/YY95I7L.png>"},
   {searchString: "Kinnock", explanationText: "<img src =https://i.imgur.com/Oww1l2q.png> Neil Kinnock, recently elected this summer in a surprise upset"},
-  {searchString: "John Prescott", explanationText: "<img src =https://i.imgur.com/BB2gwfU.png> British Prime Minster, recently elected this summer in a surprise upset"},
+  {searchString: "John Prescott", explanationText: "<img src =https://i.imgur.com/BB2gwfU.png>"},
 
 
 
