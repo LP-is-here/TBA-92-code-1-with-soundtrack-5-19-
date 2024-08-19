@@ -80,7 +80,7 @@ campaignTrail_temp.candidate_json = [
           "description": "<p>NO NEW TAXES?!?!?!</p>",
           "color_hex": "#bb0001",
           "secondary_color_hex": null,
-          "is_active": 1,
+          "is_active": 0,
           "image_url": "https://i.imgur.com/nXGrFXX.png",
           "electoral_victory_message": "This guy wins!",
           "electoral_loss_message": "This guy loses!",
@@ -876,9 +876,9 @@ tooltipList = [
   {searchString: "Zbigniew Brzezinski", explanationText: "<img src=https://i.imgur.com/cjp9dlu.png> Carter's national security advisor, well known foreign policy Realist"},
   {searchString: "Nayirah", explanationText: "<img src=https://i.imgur.com/Jeyz8R3.png> Daughter of the former Kuwaiti ambassador to the United States, famous for her false testimony to Congress about Iraqi war crimes"},
   {searchString: "UNSCOM", explanationText: "United Nations Special Commission to ensure Iraqi compliance with WMD guidelines."},
-  {searchString: "Tom Hayden", explanationText: "<img src=https://imgur.com/ypIHmm9> California State Assemblyman and candidate for State Senate this year. Better known for other work."},
-  {searchString: "UNSCOM", explanationText: "<img src =https://imgur.com/HSChsP1> Rapper and political activist"},
-  {searchString: "Mussolini", explanationText: "<img src =https://imgur.com/gjfIfgN> O con noi o contro di noi"},
+  {searchString: "Tom Hayden", explanationText: "<img src=https://imgur.com/ypIHmm9.png> California State Assemblyman and candidate for State Senate this year. Better known for other work."},
+  {searchString: "Chuck D", explanationText: "<img src =https://imgur.com/HSChsP1.png> Rapper and political activist"},
+  {searchString: "Mussolini", explanationText: "<img src =https://imgur.com/gjfIfgN.png> O con noi o contro di noi"},
   {searchString: "Cranston", explanationText: "<img src =https://i.imgur.com/FTonFxA.png> Dignified liberal serving since 1969. Also a less-dignified member of the Keating Five."},
   {searchString: "Rush Limbaugh", explanationText: "<img src =https://i.imgur.com/VW0l8xC.png> Big fat idiot"},
   {searchString: "Gennifer Flowers-", explanationText: "<img src =https://i.imgur.com/taAJjuD.png> Arkansan government employee who accused Bill Clinton of having extramarital sex with her"},
@@ -889,8 +889,10 @@ tooltipList = [
   {searchString: "Bible Belt", explanationText: "<img src =https://i.imgur.com/eS2ITwB.png> Highly evangelical region of the country, located mostly in the Deep South."},
   {searchString: "dual monarchy", explanationText: "<img src =https://i.imgur.com/E4ppY2v.png>  Two kingdoms are ruled by the self monarch, but are otherwise self-governing."},
   {searchString: "diarchy", explanationText: "<img src =https://i.imgur.com/1Xsx0fx.png>  One singular kingdom is ruled by two monarchs."},
-  {searchString: "Bob Casey", explanationText: "<img src =https://i.imgur.com/AoPo7AU.jpeg>  Immensely popular governor of Pennsylvania whose hardcore stance on abortion even frightens some Republicans."},
+  {searchString: "Bob Casey", explanationText: "<img src =https://i.imgur.com/yJDzM4X.png>  Immensely popular governor of Pennsylvania whose hardcore stance on abortion even frightens some Republicans."},
   {searchString: "'potato'", explanationText: "<img src =https://i.imgur.com/YY95I7L.png>"},
+  {searchString: "Kinnock", explanationText: "<img src =https://i.imgur.com/Oww1l2q.png> Neil Kinnock, recently elected this summer in a surprise upset"},
+  {searchString: "John Prescott", explanationText: "<img src =https://i.imgur.com/BB2gwfU.png> British Prime Minster, recently elected this summer in a surprise upset"},
 
 
 
