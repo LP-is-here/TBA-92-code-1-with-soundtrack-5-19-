@@ -437,7 +437,7 @@ jet_data = {
   "innerWindowColor": "#5075bf",
   "bannerImageUrl": "https://i.imgur.com/Lv0EL9w.png",
   "backgroundImageUrl": "https://i.imgur.com/yeuZGJh.png",
-  "endingTextColor": "#000000",
+  "endingTextColor": "#ffffff",
   "customQuote": "We are not disorganized. Our campaign transcends understanding.",
   "gameTitle": "MOONBEAM - Take Back America!"
 }
@@ -472,9 +472,56 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
 HistHexcolour=["#0039a5","#bb0001","#ffc300","#016300"];
 HistName=[" Jerry Brown"," George Bush"," Andre Marrou", " Bo Gritz"];
 HistEV=[274,264,0,0];
-HistPV=["50,261,112 ","50,452,809","510,193","157,264 "];
+HistPV=["50,261,112 ","50,452,809","510,193","157,264"];
 HistPVP=["49.6%","49.8%","0.5%","0.2%"];
 
+campaignTrail_temp.achievements = {
+  "Operation BUSH" : {
+  "image" : "https://i.imgur.com/mpxJ5aM.png",
+   "description" : "Defeat Bush and Quayle with Jesse Jackson as your running mate.",
+   "cannotBeCheated" : true
+ },
+ "Party Unity" : {
+  "image" : "https://i.imgur.com/4v50hPL.png",
+  "description" : "Reconcile with Bill Clinton",
+  "cannotBeCheated" : true
+ },
+  "California and Coal Country" : {
+  "image" : "https://i.imgur.com/edxeGrb.png",
+  "description" : "Win Kentucky.",
+  "cannotBeCheated" : true
+ },
+ "Profit and Ross" : {
+  "image" : "https://i.imgur.com/14kqvGj.png",
+  "description" : "Reinvent your thoughts on NAFTA.",
+  "cannotBeCheated" : true
+ },
+ "2137" : {
+  "image" : "https://i.imgur.com/PYzgLIQ.png",
+  "description" : "Find your faith.",
+  "cannotBeCheated" : true
+},
+  "Bunga Bunga" : {
+  "image" : "https://i.imgur.com/TjiuSqd.png",
+  "description" : "Make a deal with il Diavolo.",
+  "cannotBeCheated" : true
+},
+ "Liebe ist für alle da" : {
+  "image" : "https://i.imgur.com/gURgOk3.png",
+  "description" : "Conquer the Berlin nightlife.",
+  "cannotBeCheated" : true
+},
+"Slapshot" : {
+ "image" : "https://i.imgur.com/sjBQJDs.png",
+ "description" : "Enlist the help of the GOAT.",
+ "cannotBeCheated" : true
+},
+"Man of Tomorrow" : {
+ "image" : "https://i.imgur.com/w0Aiozy.png",
+ "description" : "Win at least 340 electoral votes.",
+ "cannotBeCheated" : true
+}
+}
 /// Polling CYOA
 e.collect_results = true;
 
