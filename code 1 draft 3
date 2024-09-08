@@ -446,7 +446,7 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
 
 //#endcode
 
-HistHexcolour=["#0039a5","#bb0001","#ffc300","#016300"];
+HistHexcolour=["#00487c","#7b000c","#e4b81d","#016300"];
 HistName=[" Jerry Brown"," George Bush"," Andre Marrou", " Bo Gritz"];
 HistEV=[274,264,0,0];
 HistPV=["50,261,112 ","50,452,809","510,193","157,264"];
