@@ -28046,7 +28046,7 @@ cyoAdventure = function(a) {
 
 
         if (playerPolling < 0.48){
-            var momentum = 0
+            var momentum = 2
             console.log(playerPolling)
             console.log(momentum)
             console.log("below 48%")                  
@@ -28060,7 +28060,7 @@ cyoAdventure = function(a) {
               }
               
         else if (playerPolling > 0.51){
-            var momentum = 2
+            var momentum = 0
             console.log(playerPolling)
             console.log(momentum)
             console.log("above 51%")                  
@@ -28070,11 +28070,11 @@ cyoAdventure = function(a) {
 
     /////// VP Tooltip Spaghetti Code (will fix later and get advice function working)
     if(vpcheck == 1){
-        vpTable["Jerry Brown"] = "Paul Tsongas"; 
+        
     }
 
     if(vpcheck == 2){
-        vpTable["Jerry Brown"] = "Dick Gephardt"; 
+       
         
 
      addVPTooltips([114251, 114179], ["I can handle this for you", "I can handle this for you"], campaignTrail_temp.running_mate_image_url)
@@ -28082,15 +28082,15 @@ cyoAdventure = function(a) {
     }
   
     if(vpcheck == 3){
-        vpTable["Jerry Brown"] = "Bill Bradley"; 
+        
     }
 
     if(vpcheck == 4){
-        vpTable["Jerry Brown"] = "David Pryor"; 
+       
     }
 
     if(vpcheck == 5){
-        vpTable["Jerry Brown"] = "Jesse Jackson"; 
+       
     }
 
 
@@ -28507,23 +28507,29 @@ var changeGameDisp = (hide) => {
         }
         if(e.running_mate_last_name==="Gephardt"){
             campaignTrail_temp.questions_json[6] = tunnel(113652);
+            vpTable["Jerry Brown"] = "Dick Gephardt"; 
             changeImage("https://i.imgur.com/BHzPf4K.png");
             console.log ("Geppy")
         }
         if(e.running_mate_last_name==="Bradley"){
             campaignTrail_temp.questions_json[6] = tunnel(113655);
+            vpTable["Jerry Brown"] = "Bill Bradley"; 
             console.log ("Bradley")
         }
         if(e.running_mate_last_name==="Pryor"){
             campaignTrail_temp.questions_json[6] = tunnel(113658);
+            vpTable["Jerry Brown"] = "David Pryor"; 
             console.log ("Pryor")
         }
         if(e.running_mate_last_name==="Jackson"){
             campaignTrail_temp.questions_json[6] = tunnel(113661);
             changeImage("https://i.imgur.com/PzLxNWZ.png");
+            vpTable["Jerry Brown"] = "Jesse Jackson"; 
             console.log ("Jackson")
         }
         if(e.running_mate_last_name==="Tsongas"){
+            vpTable["Jerry Brown"] = "Paul Tsongas"; 
+            changeImage("https://i.imgur.com/eRBwU1Y.png");
             console.log ("Tsongas")
         }
         $("#inner_window_4").remove();
@@ -28660,7 +28666,7 @@ vpTableHistorical = {
 "Andre Marrou" : "Nancy Lord",
 "Bo Gritz" : "Cyril Minett"
 }
-HistHexcolour=["#0039a5","#bb0001","#ffc300","#016300"];
+HistHexcolour=["#00487c","#7b000c","#e4b81d","#016300"];
 HistName=[" Jerry Brown"," George Bush"," Andre Marrou", " Bo Gritz"];
 HistEV=[274,264,0,0];
 HistPV=["50,261,112 ","50,452,809","510,193","157,264 "];
