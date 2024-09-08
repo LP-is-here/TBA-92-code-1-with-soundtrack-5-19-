@@ -799,7 +799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3102,
         "fields": {
             "question": 317,
-            "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are shipping jobs overseas and destroying the working class. I’m calling for you, the people, to vote for me, to vote for those fighting this cabal, and take America back! "
+            "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are looting the lower classes for all they’re worth. I’m calling for you, the people, to vote for me, to vote for those fighting this cabal, and take America back! "
         }
     },
     {
@@ -1239,7 +1239,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3409,
         "fields": {
             "question": 370,
-            "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him on his support for NAFTA in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
+            "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
         }
     },
     {
@@ -1439,7 +1439,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3501,
         "fields": {
             "question": 397,
-            "description": "Like the Romans said, Nemo dat non habet. If we start campaigning now, we’re going to lose funds for nothing. It’s better to bide our time and then make our entrance with a splash, really make it clear how I’m the outsider here.\n"
+            "description": " Like the Romans said, Nemo dat non habet. If we start campaigning now, we’re going to lose funds for nothing. It’s better to bide our time and then make our entrance with a splash, really make it clear how I’m the outsider here.\n"
         }
     },
     {
@@ -27829,46 +27829,10 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/bir35b3.png";
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/S7rUJqK.png";
-campaignTrail_temp.candidate_last_name = "";
-campaignTrail_temp.running_mate_last_name = "TEST";
-// Initial variable holding the image URL
-let imgUrl = "https://i.imgur.com/A1674e8.png";
-
-// Create a <style> element
-const customStyling = document.createElement("style");
-
-// Function to update the style based on the image URL
-function updateStyling(imgUrl) {
-  customStyling.innerHTML = `
-    #campaign_sign {
-        background-image: url("${imgUrl}");
-        background-size: cover;
-        border-color: #c9c9c9;    
-        border-width: .01em;
-        margin: 1 auto;
-        font-size: 0em;
-        background-position: center;
-        width: 100%; 
-        height: 92px; 
-        margin-left: -0.07em;
-      }
-      `;
-}
-
-// Append the <style> element to the head of the document
-document.head.appendChild(customStyling);
-
-// Set the initial styling
-updateStyling(imgUrl);
-
-// Example of changing the image URL based on a variable
-function changeImage(newImgUrl) {
-  imgUrl = newImgUrl;
-  console.log("Imgur Success")
-  updateStyling(imgUrl);  // Update the styling with the new image URL
-}
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ykjgu6Y.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/0BZjeRD.png";
+campaignTrail_temp.candidate_last_name = "Brown";
+campaignTrail_temp.running_mate_last_name = "For President";
 
 
 
@@ -28069,30 +28033,10 @@ cyoAdventure = function(a) {
 
 
     /////// VP Tooltip Spaghetti Code (will fix later and get advice function working)
-    if(vpcheck == 1){
-        vpTable["Jerry Brown"] = "Paul Tsongas"; 
-    }
-
     if(vpcheck == 2){
-        vpTable["Jerry Brown"] = "Dick Gephardt"; 
-        
-
      addVPTooltips([114251, 114179], ["I can handle this for you", "I can handle this for you"], campaignTrail_temp.running_mate_image_url)
 
     }
-  
-    if(vpcheck == 3){
-        vpTable["Jerry Brown"] = "Bill Bradley"; 
-    }
-
-    if(vpcheck == 4){
-        vpTable["Jerry Brown"] = "David Pryor"; 
-    }
-
-    if(vpcheck == 5){
-        vpTable["Jerry Brown"] = "Jesse Jackson"; 
-    }
-
 
           
     /// Working with Clinton
@@ -28507,7 +28451,6 @@ var changeGameDisp = (hide) => {
         }
         if(e.running_mate_last_name==="Gephardt"){
             campaignTrail_temp.questions_json[6] = tunnel(113652);
-            changeImage("https://i.imgur.com/BHzPf4K.png");
             console.log ("Geppy")
         }
         if(e.running_mate_last_name==="Bradley"){
@@ -28520,7 +28463,6 @@ var changeGameDisp = (hide) => {
         }
         if(e.running_mate_last_name==="Jackson"){
             campaignTrail_temp.questions_json[6] = tunnel(113661);
-            changeImage("https://i.imgur.com/PzLxNWZ.png");
             console.log ("Jackson")
         }
         if(e.running_mate_last_name==="Tsongas"){
@@ -28616,7 +28558,7 @@ campaignTrail_temp.jet_data = [{
         "canName": "Brown",
         "runName": "For President",
         "runImage": "https://i.imgur.com/0BZjeRD.png",
-        "canImage": "https://i.imgur.com/RwyaTWV.png"
+        "canImage": "https://i.imgur.com/ykjgu6Y.png"
     },
     "nicknames": {
         "77": "bush",
@@ -28634,10 +28576,10 @@ campaignTrail_temp.jet_data = [{
 
 
 
-let brownvp = "Bill Bradley";
+let vpName = "Bill Bradley";
 
 vpTable = {
-"Jerry Brown" : brownvp,
+"Jerry Brown" : vpName,
 
 "George Bush" : "Dan Quayle",
 
@@ -28796,12 +28738,10 @@ construct = (a = 1) => {
         
         if (quickstats[0] >= 340 ) { 
             
-            e.header = "<FONT COLOR=“#FFFFF0><h2>“This text should not be blue. If it is blue again I will be so mad”</h2>";
+            e.header = "<FONT COLOR=“#ffffff><h2>“THE 1992 ELECTIONS: PRESIDENT -- THE OVERVIEW; CLINTON CAPTURES PRESIDENCY WITH HUGE ELECTORAL MARGIN; WINS A DEMOCRATIC CONGRESS”</h2>";
             setMusic("https://od.lk/s/OThfNDAzMzIxOTFf/Don%27t%20Stop%20%5BKeaa1JNFzx8%5D.mp3");
-            e.pages = ["<br>Gov. Bill Clinton of Arkansas was elected the 42d President of the United States yesterday, breaking a 12-year Republican hold on the White House.<br>Mr. Clinton shattered the Republicans' political base with a promise of change to an electorate clearly discontented with President Bush.<br><br>With Bush’s high approval ratings, many pundits assumed that he would sail to reelection. Many speculated potential Democratic candidates chose not to run, with Mario Cuomo focusing on his governorship and Jerry Brown choosing to run a successful Senate campaign instead. This sparse field of candidates allowed Governor Clinton to run for the nomination practically uncontested, with his most prominent opposition in the form of Senator Paul Tsongas dropping out after underperforming on Super Tuesday. Clinton’s ability to easily unite the party behind him has been cited as a large contributor in his strong performance yesterday.<br><br>Ross Perot, the Texas billionaire who roiled this race throughout, finished third, drawing roughly equally from both major party candidates, according to Voter Research & Surveys, the television polling consortium. His share of the popular vote had the potential to exceed any third-party candidate's in more than half a century.<br><br>The Governor from Arkansas won such big, closely contested states as Michigan, Missouri, Pennsylvania, New Jersey and Illinois. As polls closed across the nation, networks announced projected winners based on voter surveys. It was Ohio that put him over the top shortly before 11 P.M., followed closely by California. Based on those projections, Mr. Bush prevailed in his adopted state of Texas and other pockets of Republican states around the country.<br><br>In a victory speech to a joyous crowd in Little Rock, Mr. Clinton declared, 'On this day, with high hopes and brave hearts, in massive numbers, the American people have voted to make a new beginning.' </FONT></p>", "<div style='overflow-y: scroll;height: 30em;'><table style='margin:0px;padding:0pxwidth: 100%;;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'> <FONT COLOR=“ffffff”><h3>there was a culture ending written for this but i cant find it :p</FONT><p> also for some reason switching to this slide breaks everything which I'm trying to fix I promise I just do not understand scrollbars. Also I do not know why the text is blue it's supposed to be white.</p>"];
+            e.pages = ["<div style='overflow-y: scroll;height: 30em;'><table style='margin:0px;padding:0pxwidth: 100%;;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'> <FONT COLOR=“#ffffff”><p><em>Nov. 4, 1992</em><br>Gov. Bill Clinton of Arkansas was elected the 42d President of the United States yesterday, breaking a 12-year Republican hold on the White House.<br>Mr. Clinton shattered the Republicans' political base with a promise of change to an electorate clearly discontented with President Bush.<br><br>With Bush’s high approval ratings, many pundits assumed that he would sail to reelection. Many speculated potential Democratic candidates chose not to run, with Mario Cuomo focusing on his governorship and Jerry Brown choosing to run a successful Senate campaign instead. This sparse field of candidates allowed Governor Clinton to run for the nomination practically uncontested, with his most prominent opposition in the form of Senator Paul Tsongas dropping out after underperforming on Super Tuesday. Clinton’s ability to easily unite the party behind him has been cited as a large contributor in his strong performance yesterday.<br><br>Ross Perot, the Texas billionaire who roiled this race throughout, finished third, drawing roughly equally from both major party candidates, according to Voter Research & Surveys, the television polling consortium. His share of the popular vote had the potential to exceed any third-party candidate's in more than half a century.<br><br>The Governor from Arkansas won such big, closely contested states as Michigan, Missouri, Pennsylvania, New Jersey and Illinois. As polls closed across the nation, networks announced projected winners based on voter surveys. It was Ohio that put him over the top shortly before 11 P.M., followed closely by California. Based on those projections, Mr. Bush prevailed in his adopted state of Texas and other pockets of Republican states around the country.<br><br>In a victory speech to a joyous crowd in Little Rock, Mr. Clinton declared, 'On this day, with high hopes and brave hearts, in massive numbers, the American people have voted to make a new beginning.' </FONT></p>", "<div style='overflow-y: scroll;height: 30em;'><table style='margin:0px;padding:0pxwidth: 100%;;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style='margin-left: 0em;margin-right: 0em;'> <FONT COLOR=“ffffff”><h3>there was a culture ending written for this but i cant find it :p</FONT><p> also for some reason switching to this slide breaks everything which I'm trying to fix I promise I just do not understand scrollbars. Also I do not know why the text is blue it's supposed to be white.</p>"];
             e.image = "https://i.imgur.com/4gNeNuW.png";
-            document.body.background = "https://i.imgur.com/bd5Ot1n.jpeg"
-            document.getElementById("header").src = "https://i.imgur.com/X87bU8L.png" 
             return construct(0);
         }
         
