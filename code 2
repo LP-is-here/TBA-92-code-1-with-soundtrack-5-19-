@@ -799,7 +799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3102,
         "fields": {
             "question": 317,
-            "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are shipping jobs overseas and destroying the working class. I’m calling for you, the people, to vote for me, to vote for those fighting this cabal, and take America back! "
+            "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are shipping jobs overseas and destroying the working class. I’m calling for you to vote for me, to vote for those fighting this cabal, and take America back! "
         }
     },
     {
@@ -1239,7 +1239,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3409,
         "fields": {
             "question": 370,
-            "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him on his support for NAFTA in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
+            "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him on trade in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
         }
     },
     {
