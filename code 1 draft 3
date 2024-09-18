@@ -428,7 +428,7 @@ corrr = '\n              <h2>MOONBEAM - Take Back America!</h2>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#0b2740";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#001839";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#2d4f6b";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
