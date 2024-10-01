@@ -6,5 +6,11 @@
  <br> -<s>Fixing starting polling</s> As complete as it should be rn.
  <br> -Fixing feedback effects (needs a quick meeting in GC)
  <br> - <s>Other various 2000-1992 transfers </s>
-
+<br>
+<br>
+<br>FOR MEEEEEEEEE:
+<br> FIX THE LAST COUPLE QUESTIONS
+<br> GET CYOA WORKING
+<br> IMPLEMENT THE STUPID SHIT
+<br> Q DROP SOON TRUE BELIEVERS RAAHHH
  <br> Feel free to add more, this is just off the top of my head for now.
