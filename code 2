@@ -904,7 +904,7 @@ campaignTrail_temp.questions_json = [
         "pk": 115089,
         "fields": {
             "priority": 3,
-            "description": "As you get off the plane in Riyadh, all you can think about is how hot the Saudi sun is. Defense minister Sultan and his men, assigned as your greeting party, have a cloying tone which further puts you at unease. Even so, you remind yourself that in the wake of Desert Storm, a trip to support America’s Saudi allies is a smart move that the experts will approve of. \n\n\n",
+            "description": "As you get off the plane in Riyadh, all you can think about is how hot the Saudi sun is. Defense minister Sultan and his men, assigned as your greeting party, have a cloying tone which further puts you at unease. Even so, you remind yourself that in the wake of Desert Storm, a trip to support America’s Saudi allies is a smart move that the experts will approve of after your previous dovish stances.",
             "likelihood": 1
         }
     },
@@ -913,7 +913,7 @@ campaignTrail_temp.questions_json = [
         "pk": 115110,
         "fields": {
             "priority": 3,
-            "description": "As you get off the plane in Riyadh, all you can think about is how hot the Saudi sun is. Defense minister Sultan and his men, assigned as your greeting party, have a cloying tone which further puts you at unease. Even so, you remind yourself that in the wake of Desert Storm, a trip to support America’s Saudi allies is a smart move that the experts will approve of. \n\n\n",
+            "description": "As you get off the plane in Riyadh, all you can think about is how hot the Saudi sun is. Defense minister Sultan and his men, assigned as your greeting party, have a cloying tone which further puts you at unease. Even so, you remind yourself that in the wake of Desert Storm, a trip to support America’s Saudi allies is a smart move that the experts will approve of after your previous dovish stances.",
             "likelihood": 1
         }
     },
@@ -970,7 +970,7 @@ campaignTrail_temp.answers_json = [
       "pk": 3102,
       "fields": {
           "question": 317,
-          "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are shipping jobs overseas and destroying the working class. I’m calling for you to vote for me, to vote for those fighting this cabal, and take America back! "
+          "description": "At the highest echelons in America, there resides a shadowy cabal of businessmen, the puppet masters behind special interest groups who are shipping jobs overseas and destroying the working class. I’m calling for you to vote for me, to fight this cabal, and take America back!"
       }
   },
   {
@@ -986,7 +986,7 @@ campaignTrail_temp.answers_json = [
       "pk": 3104,
       "fields": {
           "question": 317,
-          "description": "Today, America stands at a financial precipice. Despite President Bush increasing our taxes, the federal government is posting its highest ever deficit this year: $268.7 billion dollars. The only way for us to get out of this calamity is through tightening some belts–not the worn belt of the farmer in the Salinas valley, or the dockworker in Oakland, but the designer belt of the CEO in his Malibu mansion as he laps up government waste!” "
+          "description": "Today, America stands at a financial precipice. Despite President Bush increasing our taxes, the government is posting its highest ever deficit this year: $268.7 billion dollars. The only way for us to get out of this calamity is through tightening some belts–not the worn belt of the farmer in the Salinas valley, or the dockworker in Oakland, but the designer belt of the CEO in his Malibu mansion as he laps up government waste!” "
       }
   },
   {
@@ -1379,7 +1379,7 @@ campaignTrail_temp.answers_json = [
       "pk": 3409,
       "fields": {
           "question": 370,
-          "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him on trade in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
+          "description": "Jacques has a good idea. Tsongas and I aren't exactly the same, but our voters are pretty well-aligned. If he drops out, his people are ours, and we win the race. If we really lay into him on NAFTA in the debate in Sioux Falls, generate some moments the media will latch onto, we can capture his mojo entirely."
       }
   },
   {
@@ -1475,7 +1475,7 @@ campaignTrail_temp.answers_json = [
       "pk": 3461,
       "fields": {
           "question": 383,
-          "description": "Look, you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a whole show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any real differences with Bush? \n"
+          "description": "Look, you could do a lot worse than Bill Clinton, such as the guy we have in the White House. But take a moment and look at this guy: he promised to cut spending for the people who need it the most, refuses to talk about anything more than shop on the environment, and even made a show of executing a man who virtually had a lobotomy! Am I going crazy here, or do Clinton and his cronies not have any differences with Bush?"
       }
   },
   {
@@ -1483,7 +1483,7 @@ campaignTrail_temp.answers_json = [
       "pk": 3462,
       "fields": {
           "question": 383,
-          "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me.\n"
+          "description": "I’m a son of the Bay Area, but when I see the devastation that has been wrought in Los Angeles, in my state, I feel the need to act. Damn the torpedoes, let’s go to L.A. the literal moment it’s safe and hold a press conference with mayor Bradley. All eyes will be on me."
       }
   },
   {
@@ -3123,7 +3123,7 @@ campaignTrail_temp.answers_json = [
       "pk": 114539,
       "fields": {
           "question": 114526,
-          "description": "\nI believe that America should defend its allies, but the actual reasoning behind our intervention was sketchy at best. Remember Nayirah? There were no babies thrown out of incubators, and it’s a fact that the sheiks who run Kuwait spent millions greasing the wheels for us to come in, guns blazing. "
+          "description": "I believe that America should defend its allies, but the actual reasoning behind our intervention was sketchy at best. Remember Nayirah? There were no babies thrown out of incubators, and it’s a fact that the sheiks who run Kuwait spent millions greasing the wheels for us to come in, guns blazing. "
       }
   },
   {
@@ -8977,7 +8977,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
       "fields": {
           "candidate": 78,
           "state": 200,
-          "state_multiplier": 0.8
+          "state_multiplier": 0.85
       }
   },
   {
@@ -9148,7 +9148,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
       "fields": {
           "candidate": 78,
           "state": 219,
-          "state_multiplier": 0.8
+          "state_multiplier": 0.86
       }
   },
   {
@@ -9337,7 +9337,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
       "fields": {
           "candidate": 79,
           "state": 189,
-          "state_multiplier": 1.3
+          "state_multiplier": 1.43
       }
   },
   {
@@ -12935,9 +12935,9 @@ campaignTrail_temp.answer_score_global_json = [
       "pk": 114345,
       "fields": {
           "answer": 3325,
-          "candidate": 78,
+          "candidate": 78,  
           "affected_candidate": 79,
-          "global_multiplier": -0.99
+          "global_multiplier": -0.64799999999999
       }
   },
   {
@@ -24334,7 +24334,7 @@ campaignTrail_temp.answer_feedback_json = [
   "fields": {
       "answer": 115226,
       "candidate": 78,
-      "answer_feedback": "    In Windsor, you accompany Mulroney to a televised press conference on the state of the auto industry and NAFTA’s potential ramifications on it, and then walk across the Ambassador Bridge to Detroit, where cheering throngs of people greet you.\n\n\n\n\n\n\n\n\n\n\n\n"
+      "answer_feedback": "In Windsor, you accompany Mulroney to a televised press conference on the state of the auto industry and NAFTA’s potential ramifications on it, and then walk across the Ambassador Bridge to Detroit, where cheering throngs of people greet you.\n\n\n\n\n\n\n\n\n\n\n\n"
   }
 },
 {
@@ -24410,6 +24410,7 @@ var momentum = 0;
 var reagan = 0;
 var advice = false;
 var protectionism = 0;
+var hawktuah = 0;
 var rossvar = 0;
 var SenateEnding = 0;
 
@@ -24419,10 +24420,15 @@ var SenateEnding = 0;
 /// I COULD just check for the vps last name but I like having a variable in the same place and I'm used to it atp
 var vpMap = {
     3321: 1,
+    114550: 1,
     113653: 2,
+    114552: 2,
     113656: 3,
+    114554: 3,
     113659: 4,
+    114556: 4,
     113662: 5,
+    114558: 5,
 
   }
 
@@ -24472,12 +24478,26 @@ var estabMap = {
  
 var protectionismMap = {
     3399: 1,
+    3409: 1,
+    3102: 1,
 }
 
 var rossMap = {
     3341: 1,
     3105: 1,
     3343: 1,
+}
+
+var hawkmap = {
+    3342: -1,
+    3337: -1,
+    3338: 1,
+    3339: -2,
+    3340: 2,
+    114527: -1,
+    114533: 1,
+    114539: -2,
+    114545: 2,
 }
 
 
@@ -24538,6 +24558,12 @@ cyoAdventure = function(a) {
          console.log("vpcheck")
             console.log(vpcheck)
                 }
+
+        if (hawkmap.hasOwnProperty(ans)) {
+              hawktuah += hawkmap[ans];
+         console.log("HAWK TUAH")
+             console.log(hawktuah)
+                        }
                
 
   // these two keep breaking shit idk why. keep an eye on them though....
@@ -24555,12 +24581,6 @@ cyoAdventure = function(a) {
             console.log(protectionism)
                 }
                       
-    if(ans == 3501) {
-        if (!advice) {
-        addVPTooltips([3102,3103], ["Test1", "Test2"], campaignTrail_temp.running_mate_image_url)
-            advice = true
-            }     
-        }    
     
     
     
@@ -24569,6 +24589,7 @@ cyoAdventure = function(a) {
         //////////////////////////////
         let pop_vote = e.current_results[0];
         let playerPolling = pop_vote[0].pvp;
+      ///  let playerPolling = (pop_vote.find(p => p.pk === e.candidate_id)).pvp[
 
 
         if (playerPolling < 0.48){
@@ -24594,30 +24615,6 @@ cyoAdventure = function(a) {
 
 
 
-    /////// VP Tooltip Spaghetti Code (will fix later and get advice function working)
-    if(vpcheck == 1){
-        
-    }
-
-    if(vpcheck == 2){
-       
-        
-
-     addVPTooltips([114251, 114179], ["I can handle this for you", "I can handle this for you"], campaignTrail_temp.running_mate_image_url)
-
-    }
-  
-    if(vpcheck == 3){
-        
-    }
-
-    if(vpcheck == 4){
-       
-    }
-
-    if(vpcheck == 5){
-       
-    }
 
 
           
@@ -24769,9 +24766,7 @@ cyoAdventure = function(a) {
 
 
     /// Came out against NAFTA in primary
-    if (momentum <= 0 && estab < -3 && vpcheck == 2 || vpcheck == 5){ 
-        campaignTrail_temp.questions_json[16] = tunnel(114049);
-    }
+
     if (protectionism > 0 && vpcheck == 2 && rossvar > 0){ 
         campaignTrail_temp.questions_json[16] = tunnel(114250);
     }
@@ -24807,6 +24802,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.questions_json[16] = tunnel(114099);
     }
 
+    /// rahss perot education
      if (ans == 114165 || ans == 114189){ 
         campaignTrail_temp.questions_json[17] = tunnel(114276);
     }
@@ -24824,22 +24820,64 @@ cyoAdventure = function(a) {
 
 //// INTERNATIONAL SHIT VERSION 0.2
 //WE
-    if (ans == 3359 || ans == 114562 || ans == 114579){
-        campaignTrail_temp.questions_json[20] = tunnel(114805);
+    if (ans == 3359 || ans == 114562 || ans == 114579 && hawktuah < -1){
+        campaignTrail_temp.questions_json[20] = tunnel(114655);
+    }
+    if (ans == 3359 || ans == 114562 || ans == 114579 && hawktuah > -2 && hawktuah < 1){
+        campaignTrail_temp.questions_json[20] = tunnel(114783);
+    }
+    if (ans == 3359 || ans == 114562 || ans == 114579 && hawktuah == 1){
+        campaignTrail_temp.questions_json[20] = tunnel(114676);
+    }
+    if (ans == 3359 || ans == 114562 || ans == 114579 && hawktuah == 2){
+        campaignTrail_temp.questions_json[20] = tunnel(114723);
     }
 //EE
-    if (ans == 3360 || ans == 114564 || ans == 114581){
+    if (ans == 3360 || ans == 114564 || ans == 114581 && hawktuah < -1){
         campaignTrail_temp.questions_json[20] = tunnel(114946);
     }
+    if (ans == 3360 || ans == 114564 || ans == 114581 && hawktuah == -1){
+        campaignTrail_temp.questions_json[20] = tunnel(114925);
+    }
+    if (ans == 3360 || ans == 114564 || ans == 114581 && hawktuah == 0){
+        campaignTrail_temp.questions_json[20] = tunnel(114946);
+    }
+    if (ans == 3360 || ans == 114564 || ans == 114581 && hawktuah == 1){
+        campaignTrail_temp.questions_json[20] = tunnel(114829);
+    }
+    if (ans == 3360 || ans == 114564 || ans == 114581 && hawktuah == 2){
+        campaignTrail_temp.questions_json[20] = tunnel(114858);
+    }
 //AS
-    if (ans == 3361 || ans == 114568 || ans == 114585){
-        campaignTrail_temp.questions_json[20] = tunnel(115047);
+    if (ans == 3361 || ans == 114568 || ans == 114585  && hawktuah < -1){
+        campaignTrail_temp.questions_json[20] = tunnel(114963);
+    }
+    if (ans == 3361 || ans == 114568 || ans == 114585 && hawktuah > -2 && hawktuah < 1){
+        campaignTrail_temp.questions_json[20] = tunnel(115089);
+    }
+    if (ans == 3361 || ans == 114568 || ans == 114585 && hawktuah == 1){
+        campaignTrail_temp.questions_json[20] = tunnel(115001);
+    }
+    if (ans == 3361 || ans == 114568 || ans == 114585  && hawktuah == 2){
+        campaignTrail_temp.questions_json[20] = tunnel(115025);
     }
 //NA
-    if (ans == 3362 || ans == 114572 || ans == 114589){
+    if (ans == 3362 || ans == 114572 || ans == 114589 && hawktuah < -1){
     campaignTrail_temp.questions_json[20] = tunnel(115173);
     }
+    if (ans == 3362 || ans == 114572 || ans == 114589 && hawktuah > -2 && hawktuah < 1){
+    campaignTrail_temp.questions_json[20] = tunnel(115131);
+    }
+    if (ans == 3362 || ans == 114572 || ans == 114589 && hawktuah == 1){
+    campaignTrail_temp.questions_json[20] = tunnel(115215);
+    }
+    if (ans == 3362 || ans == 114572 || ans == 114589 && hawktuah == 2){
+    campaignTrail_temp.questions_json[20] = tunnel(115152);
+    }
 
+
+
+    /// i dont remmember what this issssss lol :sob:
 
     if (momentum == 1){
         campaignTrail_temp.questions_json[19] = tunnel(114561);
@@ -25245,6 +25283,7 @@ function onGameWindowChangeCandidates() {
             row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
         }
         else {
+            console.log("HELLLLP")
             row.children[1].innerHTML = vpTable[name];
         }
     }
@@ -25264,11 +25303,18 @@ function onGameWindowChangeCandidates() {
             row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
         }
         else {
+            console.log("HELLLLP")
+
             row.children[1].innerHTML = vpTableHistorical[name];
         }
     }
 }
+const gameWindowNode = document.getElementById("game_window");
+const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
 
+const candidateObserver = new MutationObserver(onGameWindowChangeCandidates);
+candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
+// constructs endings based on header and pages
 construct = (a = 1) => {
     e.page = e.page + a < e.pages.length ? e.page + a : 0
     let html = e.header;
@@ -25379,89 +25425,6 @@ construct = (a = 1) => {
 
 
 
-    //function to add the advice - add this to your code 2 outside any other function. For example, at the very bottom
-    
-    
-    function addVPTooltips(pks, Tooltips, pictureLink) {
-        if (pks.length !== Tooltips.length) {
-            console.error("The lengths of pks and Tooltips arrays should match!");
-            return;
-        }
-      
-        for (let i = 0; i < pks.length; i++) {
-            const pk = pks[i];
-            const Tooltip = Tooltips[i];
-      
-            let ansIndex = campaignTrail_temp.answers_json.findIndex(item => item.pk === pk);
-      
-            // Check if ansIndex is valid
-            if (ansIndex !== -1) {
-                // Save the original description if not already saved
-                if (!campaignTrail_temp.answers_json[ansIndex].fields.originalDescription) {
-                    campaignTrail_temp.answers_json[ansIndex].fields.originalDescription = campaignTrail_temp.answers_json[ansIndex].fields.description;
-                }
-      
-                // Add the new tooltip with associated picture to the active hints
-                campaignTrail_temp.answers_json[ansIndex].fields.activeHints.push({
-                    text: Tooltip,
-                    picture: pictureLink // if you later decide to have different pictures for different tooltips, just change this to the corresponding link
-                });
-      
-                // Rebuild the description from the original description and active hints
-                let rebuiltDescription = campaignTrail_temp.answers_json[ansIndex].fields.originalDescription;
-                campaignTrail_temp.answers_json[ansIndex].fields.activeHints.forEach(hint => {
-                    const tooltipContent = `
-                        <span class='mytooltip' style='background-color: lightgreen'>
-                            [A]
-                            <span class='bubble bubble-bottom-left'>
-                                <div style='display: flex; align-items: center;'>
-                                    <img src='${hint.picture}' style='height: 4em;'>
-                                    <span style='display: inline-block; margin-left: 3px;'>${hint.text}</span>
-                                </div>
-                            </span>
-                        </span>
-                    `;
-                    rebuiltDescription = tooltipContent + rebuiltDescription;
-                });
-      
-                campaignTrail_temp.answers_json[ansIndex].fields.description = rebuiltDescription;
-                console.log ("Success")
-            }
-            else{
-                console.log ("PANIC")
-            }
-        }
-      
-        pks.forEach((pk, index) => {
-            const ansIndex = campaignTrail_temp.answers_json.findIndex(item => item.pk === pk);
-            if (ansIndex !== -1) {
-                setLabelContentByPk(pk, campaignTrail_temp.answers_json[ansIndex].fields.description);
-            }
-        });
-      }
-      
-      function setLabelContentByPk(pk, newContent) {
-        // Find the input element with the given pk
-        const radioInput = document.querySelector(`input[type="radio"][value="${pk}"]`);
-      
-        // If the radio input is found, update the associated label
-        if (radioInput) {
-            const associatedLabel = document.querySelector(`label[for="${radioInput.id}"]`);
-            if (associatedLabel) {
-                associatedLabel.innerHTML = newContent;
-            }
-        }
-      }
-  
-  
-  //Usage:
-  //I'd recommend you check inside the CYOA function what the VP is after the convention speech
-  //Something like if (campaignTrail_temp.running_mate_last_name == "Astronomical")
-  //Then call the function with the following arguments
-  //addVPTooltips([pk1, pk2, pk3], ["Do this", "Do that", "I'm quitting"], campaignTrail_temp.running_mate_image_url)
-  //This will add advice to the answers with pk1, pk2, pk3. The advice is "Do this" for pk1, "Do that" for pk2 and so forth
-  // The image in the speech bubble will be the same one as on the bottom. If you want to use another image, just replace with
-  // campaignTrail_temp.running_mate_image_url with a link to a different image
   
   campaignTrail_temp.answers_json.forEach(answer => {
     if (!answer.fields.activeHints) {
