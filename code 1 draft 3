@@ -54,7 +54,7 @@ campaignTrail_temp.candidate_json = [
           "party": "Democrat",
           "state": "California",
           "priority": 1,
-          "description": "<p>MOONBEAM</p>",
+          "description": "<p>Jerry Brown doesn’t need America. Jerry Brown doesn’t need anything. In another universe, Jerry could’ve easily spent his whole life in solitude learning the truths of the world through meditation, or perhaps helping the poor through their struggles on the mortal plane. He already avenged his father and took California back, already showed the people how to govern as a truly honest citizen, already embraced the limelight of political celebrity, and already proved that he could throw it all away for a higher calling.</p><p>America, however? America needs Jerry Brown. Since he last vied for the presidency, the dark forces that his father failed to contain have swept across the nation and laid waste to the great nation he once knew. The great capital of Washington D.C. has been transformed into a citadel of corruption, with Reagan’s pawn, Bush, serving as the false king of a uniparty Congress whose only goals are to enrich themselves and their decadent corporate overlords. With nobody else left to challenge this new oligarchy, the man they call Moonbeam knows that he is the nation’s last hope. As he begins his fight to take back America, Brown knows that the only way to win is not to campaign for the people–it’s to enlighten them.</p>",
           "color_hex": "#00487c",
           "secondary_color_hex": null,
           "is_active": 1,
