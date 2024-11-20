@@ -208,7 +208,7 @@
         },
         {
             "model": "campaign_trail.question",
-            "pk": 359,
+            "pk": 77359,
             "fields": {
                 "priority": 3,
                 "description": "You’re keeping a brave face, but at any moment, you worry that the bottom could fall out, with polling showing high skepticism of your policies and Bush loudly threatening to shatter you and all you stand for. Still, Jodie and co. believe that the polling is failing to capture the disengaged people you’re speaking out to, and that they’ll come home come November.",
@@ -1382,7 +1382,7 @@
             "model": "campaign_trail.answer",
             "pk": 3370,
             "fields": {
-                "question": 359,
+                "question": 77359,
                 "description": "To this point, I’ve tried to walk the line, tried to make sure that I didn’t let the movement get too out of control. Sadly, we will never win this election unless we escalate things. Starting tomorrow, I’m going to relaunch my 1-800 number and really ramp up my appearances."
             }
         },
@@ -1390,7 +1390,7 @@
             "model": "campaign_trail.answer",
             "pk": 3371,
             "fields": {
-                "question": 359,
+                "question": 77359,
                 "description": "Jodie thinks that there’s this group of people who’ll turn out for me, but let’s be real: lots of people just don’t care enough. Bush has called me a radical, and while it’s too late to really change that, if I soften up a bit before election day, I can convince the actual voters that I’m capable of learning."
             }
         },
@@ -1398,7 +1398,7 @@
             "model": "campaign_trail.answer",
             "pk": 3372,
             "fields": {
-                "question": 359,
+                "question": 77359,
                 "description": "The reason Bush spends so much time attacking me is because he knows he can’t beat me, if we were to go one on one in a discussion about the economy. We need a system that works for the middle class, and we all know Mr. Special Interest isn’t even going to try to fix it."
             }
         },
@@ -1406,7 +1406,7 @@
             "model": "campaign_trail.answer",
             "pk": 3373,
             "fields": {
-                "question": 359,
+                "question": 77359,
                 "description": "I’ve been a Democrat all my life, and that has never changed. I know it’s fraught right now, and I know they’re not what they were, but we need to rally the unions, the local organizations, anybody who’s willing to go out there and knock on a door or two. The next four years depend on it."
             }
         },
@@ -9410,7 +9410,7 @@
             "fields": {
                 "candidate": 78,
                 "state": 191,
-                "state_multiplier": 0.8
+                "state_multiplier": 1
             }
         },
         {
@@ -28979,29 +28979,31 @@
             //OPERATION: DESTROY AMERICA//
             //////////////////////////////
             let pop_vote = e.current_results[0];
-            let playerPolling = pop_vote[0].pvp;
-        ///  let playerPolling = (pop_vote.find(p => p.pk === e.candidate_id)).pvp[
+            pop_vote.sort((a, b) => {
+                return a.pk - b.pk;
+            });
+            let playerPolling = (pop_vote.find(p => p.pk === e.candidate_id)).pvp;
 
 
             if (playerPolling < 0.48){
-                var momentum = 2
+                var momentum = 0
                 console.log(playerPolling)
                 console.log(momentum)
                 console.log("below 48%")                  
                 }
             
-            else if (playerPolling < 0.51 && playerPolling > 0.48){
+            else if (playerPolling < 0.50 && playerPolling > 0.48){
                 var momentum = 1
                 console.log(playerPolling)
                 console.log(momentum)
                 console.log("close race")                  
                 }
                 
-            else if (playerPolling > 0.51){
-                var momentum = 0
+            else if (playerPolling > 0.50){
+                var momentum = 2
                 console.log(playerPolling)
                 console.log(momentum)
-                console.log("above 51%")                  
+                console.log("above 50%")                  
                     }
 
 
@@ -29058,50 +29060,46 @@
         
 
         /// Rebloodlican Convention
-        if (estab < 0 && momentum == 0 && orange < 1){
-            campaignTrail_temp.questions_json[14] = tunnel(113418);
-            console.log ("gop lowM lowE lowO")
-        }
+
         
-        else if (momentum == 0 && orange < 1 && ans == 3410){
-            campaignTrail_temp.questions_json[14] = tunnel(113600);
-            console.log ("gop lowM lowE")
-        }
 
-        else if (estab < 1 && momentum == 0 && orange >= 1){
-            campaignTrail_temp.questions_json[14] = tunnel(113444);
-            console.log ("gop lowM lowE hiO")
+        
+        if (estab < 1 && momentum == 0) { 
+            if (ans == 3410) {
+                campaignTrail_temp.questions_json[14] = tunnel(113626);
+            } else {
+                campaignTrail_temp.questions_json[14] = tunnel(113600);
+            }
+            console.log("gop midM lowE");
+        } else if (estab < 1 && momentum == 1) {
+            if (orange < 2) {
+                campaignTrail_temp.questions_json[14] = tunnel(113418);
+                console.log("gop lowM lowE lowO");
+            } else {
+                campaignTrail_temp.questions_json[14] = tunnel(113444);
+                console.log("gop lowM lowE hiO");
+            }
+        } else if (estab < 1 && momentum == 2) {
+            if (moonbeam < 2) {
+                campaignTrail_temp.questions_json[14] = tunnel(113470);
+                console.log("gop hiM lowE lowMoon");
+            } else {
+                campaignTrail_temp.questions_json[14] = tunnel(113496);
+                console.log("gop hiM lowE hiMoon");
+            }
+        } else if (estab > 1) {
+            if (momentum == 0) {
+                campaignTrail_temp.questions_json[14] = tunnel(113548);
+                console.log("gop lowiM hiE");
+            } else if (momentum == 1) {
+                campaignTrail_temp.questions_json[14] = tunnel(113574);
+                console.log("gop midM hiE");
+            } else if (momentum == 2) {
+                campaignTrail_temp.questions_json[14] = tunnel(113522);
+                console.log("gop hiM hiE");
+            }
         }
-
-        else if (estab < 1 && momentum == 1 && moonbeam < 0){
-            campaignTrail_temp.questions_json[14] = tunnel(113470);
-            console.log ("gop hiM lowE lowMB")
-        }
-
-        else if ( estab < 1 && momentum == 1 && moonbeam >= 0){
-            campaignTrail_temp.questions_json[14] = tunnel(113496);
-            console.log ("gop hiM lowE hiMB")
-        }
-                                                        /// i am so fucking tired bro i will code the long shot pat buchanan version later sorry
-        else if (estab > 1 && momentum == 2){
-            campaignTrail_temp.questions_json[14] = tunnel(113496);
-            console.log ("gop hiM hiE")
-        }
-        else if (estab > 2 && momentum == 1){
-            campaignTrail_temp.questions_json[14] = tunnel(113548);
-            console.log ("gop lowM hiE")
-        }
-        else if (estab > 2 && momentum == 2){
-            campaignTrail_temp.questions_json[14] = tunnel(113574);
-            console.log ("gop hiM hiE")
-        }
-        else if (estab < 0 && momentum == 1){
-            campaignTrail_temp.questions_json[14] = tunnel(113600);
-            console.log ("gop lowM lowE")
-        }
-
-        else{
-        }
+    
         
         /// quayle hunting 
 
@@ -29338,12 +29336,12 @@
 
     /// BUSHINATOR 2 
     /// Operation: DESTROY AMERICA
-    if (estab < 0 && momentum == 0){
-        campaignTrail_temp.questions_json[23] = tunnel(359);
+    if (estab < 1 && momentum == 0){
+        campaignTrail_temp.questions_json[23] = tunnel(77359);
         console.log ("gop lowM lowE")
     }
     
-    else if (moonbeam == 1){
+    else if (estab < 1 && momentum == 1){
         campaignTrail_temp.questions_json[23] = tunnel(11112301);
         console.log ("gop midM lowE")
     }
@@ -29357,11 +29355,11 @@
         campaignTrail_temp.questions_json[23] = tunnel(11112352);
         console.log ("gop lowiM hiE")
     }
-    else if (estab > 2 && momentum == 1){
+    else if (estab > 1 && momentum == 1){
         campaignTrail_temp.questions_json[23] = tunnel(11112321);
         console.log ("gop midM hiE")
     }
-    else if (estab > 2 && momentum == 2){
+    else if (estab > 1 && momentum == 2){
         campaignTrail_temp.questions_json[23] = tunnel(11112281);
         console.log ("gop hiM hiE")
     }
@@ -29607,7 +29605,7 @@
             }
             if(e.running_mate_last_name==="Pryor"){
                 campaignTrail_temp.questions_json[6] = tunnel(113658);
-                changeImage("https://i.imgur.com/ls5vyEb.png");
+                changeImage("https://i.imgur.com/nvcfqxG.png");
                 vpTable["Jerry Brown"] = "David Pryor"; 
                 console.log ("Pryor")
             }
