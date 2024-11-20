@@ -17,7 +17,7 @@ campaignTrail_temp.global_parameter_json = [
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 26,
+            "question_count": 27,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
         }
@@ -941,6 +941,7 @@ campaignTrail_temp.global_parameter_json = [
     {searchString: "Bob Casey", explanationText: "<img src =https://i.imgur.com/yJDzM4X.png>  Immensely popular governor of Pennsylvania whose hardcore stance on abortion even frightens some Republicans."},
     {searchString: "'potato'", explanationText: "<img src =https://i.imgur.com/YY95I7L.png>"},
     {searchString: "Kinnock", explanationText: "<img src =https://i.imgur.com/Oww1l2q.png> Neil Kinnock, recently elected this summer in a surprise upset"},
+    {searchString: "Bush fidgets with his tie and poutily crosses his arms", explanationText: "<img src =https://i.imgur.com/2WfLCxA.png> <p? I'm sure he's just bored"},
     {searchString: "John Prescott", explanationText: "<img src =https://i.imgur.com/BB2gwfU.png>"},
     {searchString: "Senator Dole and Representative Gingrich It’s better to bide our time and then make our entrance with a splash, really make it clear how I’m the outsider ", explanationText: "<img src =https://i.imgur.com/BB2gwfU.png>"},
   
