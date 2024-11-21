@@ -175,7 +175,7 @@ campaignTrail_temp.questions_json = [
         "pk": 356,
         "fields": {
             "priority": 3,
-            "description": "George Bush is running right now like a man assured of victory, eager to repeat his landslide against Dukakis. With this in mind, Jodie brings Pat in with a poll that your deficit is due to the massive gap in faith people have between you and Bush the nation on the world stage. They issue an ultimatum: do something, anything, about foreign policy, or they leave the campaign. \n",
+            "description": "George Bush is running right now like a man assured of victory, eager to repeat his landslide against Dukakis. With this in mind, Jodie brings Pat in with a poll showing that your deficit is due to the massive gap in faith people have between you and Bush the nation on the world stage. They issue an ultimatum: do something, anything, about foreign policy, or they leave the campaign. \n",
             "likelihood": 1
         }
     },
@@ -1129,7 +1129,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3105,
         "fields": {
             "question": 317,
-            "description": "Can anyone here explain how our Congress is any different from a trip to a local store? You walk in, look at the price tag, and then pay to get what you want. Of course, there’s some differences. The items in the store will eventually expire, while our Congressmen languish there without term limits, to say nothing of how they give themselves a raise and the price goes up!”"
+            "description": "Can anyone here explain how our Congress is any different from a trip to a local store? You walk in, look at the price tag, and then pay to get what you want. Of course, there’s some differences. The items in the store will eventually expire, while our Congressmen languish there without term limits, to say nothing of how they give themselves a raise and the price goes up!"
         }
     },
     {
