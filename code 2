@@ -103,7 +103,7 @@ campaignTrail_temp.questions_json = [
         "pk": 351,
         "fields": {
             "priority": 2,
-            "description": "balanced budget",
+            "description": "National surveys have consistently reported that Americans view the federal budget deficit as the single most pressing problem facing the country, with unemployment falling closely behind. As an avowed deficit hawk, you’re uniquely placed to take advantage of America’s obsession with getting into the black. The only answer is how–Bush has already proved that increased taxes aren’t an option. ",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 391,
         "fields": {
             "priority": 3,
-            "description": "During the primaries, you explicitly called to abolish the department of education and spoke of cutting school budgets to create “reform.” Despite presenting yourself as pro-education, this Reaganesque rhetoric has proven to be a burden, as Republicans have consistently sought to use it as an issue to divide you from the left. ",
+            "description": "During the primaries, you explicitly called to abolish the Department of Education and spoke of cutting school budgets to create “reform.” Despite presenting yourself as pro-education, this Reaganesque rhetoric has proven to be a burden, as Republicans have consistently sought to use it as an issue to divide you from the left. ",
             "likelihood": 1
         }
     },
@@ -625,7 +625,7 @@ campaignTrail_temp.questions_json = [
         "pk": 114276,
         "fields": {
             "priority": 3,
-            "description": "During the primaries, you explicitly called to abolish the department of education and spoke of cutting school budgets to create “reform.” Despite presenting yourself as pro-education, this Reaganesque rhetoric has proven to be a burden, as Republicans have consistently sought to use it as an issue to divide you from the left. ",
+            "description": "During the primaries, you explicitly called to abolish the Department of Education and spoke of cutting school budgets to create “reform.” Despite presenting yourself as pro-education, this Reaganesque rhetoric has proven to be a burden, as Republicans have consistently sought to use it as an issue to divide you from the left. ",
             "likelihood": 1
         }
     },
