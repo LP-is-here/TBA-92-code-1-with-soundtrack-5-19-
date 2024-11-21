@@ -850,7 +850,7 @@ campaignTrail_temp.questions_json = [
         "pk": 114925,
         "fields": {
             "priority": 3,
-            "description": "When you had decided to go to Eastern Europe, you had no clue that you would end up in Croatia. As you’re having makeup applied in a Zagreb hotel room, Jodie explains that you have a perfect opportunity to position yourself as peacemaker in Yugoslavia, a role you play fairly well as you tour the destroyed former JNA barracks with president Tuđman.",
+            "description": "When you had decided to go to Eastern Europe, you had no clue that you would end up in Croatia. As you’re having makeup applied in a Zagreb hotel room, Jodie explains that you have a perfect opportunity to position yourself as peacemaker in Yugoslavia, a role you play fairly well as you tour the destroyed former JNA barracks with President Tuđman.",
             "likelihood": 1
         }
     },
@@ -859,7 +859,7 @@ campaignTrail_temp.questions_json = [
         "pk": 114946,
         "fields": {
             "priority": 3,
-            "description": "When you had decided to go to Eastern Europe, you had no clue that you would end up in Croatia. As you’re having makeup applied in a Zagreb hotel room, Jodie explains that you have a perfect opportunity to position yourself as peacemaker in Yugoslavia, a role you play fairly well as you tour the destroyed former JNA barracks with president Tuđman.",
+            "description": "When you had decided to go to Eastern Europe, you had no clue that you would end up in Croatia. As you’re having makeup applied in a Zagreb hotel room, Jodie explains that you have a perfect opportunity to position yourself as peacemaker in Yugoslavia, a role you play fairly well as you tour the destroyed former JNA barracks with President Tuđman.",
             "likelihood": 1
         }
     },
