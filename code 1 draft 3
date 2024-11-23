@@ -952,36 +952,3 @@ campaignTrail_temp.global_parameter_json = [
   ];
   z.observe(document, { subtree: true, childList: true });
 
-  // This might not work at ALL but who knows, if playtesters yell at me then it's my fault LOL
-function updateBackgroundImage() {
-  const resolutions = {
-      '1920x1080': 'https://i.imgur.com/Cipc2Dc.png', // 1080p
-      '1366x768': 'https://i.imgur.com/bFwT8OI.png',  // Replace with appropriate URL for 1366x768
-              //laptop
-              '1536x912': 'https://i.imgur.com/KtH6ZNx.png',  // Replace with appropriate URL for 1536x912
-              '2144x1286': 'https://i.imgur.com/Tlzmg65.png',  // Replace with appropriate URL for 2144x1286
-              '1920x1152': 'https://i.imgur.com/nN3kfY4.png',  // Replace with appropriate URL for 1920x1152
-  };
-
-  // Get available screen dimensions
-  const screenWidth = window.screen.availWidth;
-  const screenHeight = window.screen.availHeight;
-  const resolutionKey = `${screenWidth}x${screenHeight}`;
-  console.log (resolutionKey)
-
-  // Select the image based on resolution or fallback to default
-  const backgroundImageUrl = resolutions[resolutionKey] || resolutions['1920x1080'];
-
-  // Apply the background image to a target element
-  document.body.style.backgroundImage = `url(${backgroundImageUrl})`;
-  document.body.style.backgroundSize = 'cover'; // Ensure it covers the entire area
-  document.body.style.backgroundRepeat = 'no-repeat';
-  document.body.style.backgroundPosition = 'center';
-}
-
-// Call the function when the page loads
-window.onload = updateBackgroundImage;
-
-
-// Optional: Run it again when the screen is resized
-window.onresize = updateBackgroundImage;
