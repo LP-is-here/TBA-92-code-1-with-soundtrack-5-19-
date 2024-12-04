@@ -28,3 +28,9 @@
        <br> check in on ross perot and see if he's still bugging out
         <br> write more endings ig
         <br> achievements
+        <br> 
+        <br> _________________________________________________________________________________
+        <br> MAYHAPS:
+        <br> Expand the advisor feedback window like DE
+        <br> Screw around with the VP system to make it the way that I wanted to when I first made it (FINALLY)
+        <br> Make the console stop freaking out 
