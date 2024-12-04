@@ -16,6 +16,7 @@
   <br> 
   <br> -<s>BUGchanan fixes</s>
   <br> -<s>Wolf 359 PK bug</s> 
+  <br> -<s>New election intro</s>
   <br> finish my ending
   <br> Even when I try to escape the advisor feedback tooltips they come back
   <br> other tooltips :)
@@ -24,7 +25,7 @@
    <br> implement the questions that got edited already
     <br> implement all the endings
      <br> other balancing
-      <br> reagan ig but that shoullllld (knock on wood knock on wood) be easy if I get the bugchanan stuff fixed
+      <br> -<s>reagan ig but that shoullllld (knock on wood knock on wood) be easy if I get the bugchanan stuff fixed</s>
        <br> check in on ross perot and see if he's still bugging out
         <br> write more endings ig
         <br> achievements
