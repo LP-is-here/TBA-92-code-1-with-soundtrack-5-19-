@@ -15,7 +15,7 @@
   <br> I've been jacked into the big plan I've seen it I've seen it I can't even compute all of it its so fantastical you have not seen nothing you have not even heard nothing you ain't smelled nothing like this
   <br> 
   <br> -<s>BUGchanan fixes</s>
-  <br> Wolf 359 PK bug
+  <br> -<s>Wolf 359 PK bug</s> 
   <br> finish my ending
   <br> Even when I try to escape the advisor feedback tooltips they come back
   <br> other tooltips :)
