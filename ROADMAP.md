@@ -14,7 +14,7 @@
   <br> 
   <br> I've been jacked into the big plan I've seen it I've seen it I can't even compute all of it its so fantastical you have not seen nothing you have not even heard nothing you ain't smelled nothing like this
   <br> 
-  <br> BUGchanan fixes
+  <br> -<s>BUGchanan fixes</s>
   <br> Wolf 359 PK bug
   <br> finish my ending
   <br> Even when I try to escape the advisor feedback tooltips they come back
@@ -27,3 +27,4 @@
       <br> reagan ig but that shoullllld (knock on wood knock on wood) be easy if I get the bugchanan stuff fixed
        <br> check in on ross perot and see if he's still bugging out
         <br> write more endings ig
+        <br> achievements
