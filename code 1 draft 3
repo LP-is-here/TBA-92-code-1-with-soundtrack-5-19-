@@ -30,7 +30,7 @@ campaignTrail_temp.global_parameter_json = [
         "pk": 9,
         "fields": {
             "year": 2000,
-            "summary": "<p>After twelve years of Republican rule in the White House, the American people are beginning to grow tired. As economic growth turns to recession, the country wants to see change.\n</p><p><ul><li>Jerry Brown and his populist ideals have come back from the dead. He now seeks to end the Republican's grip on the executive branch.\n</li><li>George Bush is in a tough spot. His approvals have fallen since the Gulf War, and the American people blame him for the recession and see him out of touch with the American people.\n</li></p></li><li>Ross Perot is a Texas businessman running against the establishment and the two-party system. While gaining unusual support for an independent, Brown's populism has hampered his message.\n</li></p>",
+            "summary": "In early 1991, George H.W. Bush appeared invincible. Coming off of the high of Desert Storm with an 89% approval rating to show for it, his respectable challengers dropped out one by one, leaving the Democratic nomination for president a group of has-beens, never-weres, and never-will-bes. From this circus emerged one man: former California Governor Jerry Brown, Moonbeam himself, back to protect the Earth from the scourge of Bush.<br><br>But the times have changed since Brown's last appearance on the national scene, and he has changed with them.Though always something of a realist, any idealism he once possessed has been replaced by a searing rage against everything wrong with modern America, manifesting itself into an unrelenting drive to capture the presidency. Governor Moonbeam has already tried for the presidency twice before, and this is his last shot. He may win, he may lose, but he'll be damned if he's not going to give it everything he's got.",
             "image_url": "https://i.imgur.com/p9fy3Zk.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/TviIh01.jpeg",
@@ -951,4 +951,3 @@ campaignTrail_temp.global_parameter_json = [
     ///////////////////////////
   ];
   z.observe(document, { subtree: true, childList: true });
-
