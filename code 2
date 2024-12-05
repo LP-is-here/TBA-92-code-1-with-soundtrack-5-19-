@@ -34420,14 +34420,15 @@ else if (estab > 1 && momentum == 2){
     
     }
 
-    /// Reagan
+    /// Reagan     
     if (reaganattack > 2 && momentum == 2){
         campaignTrail_temp.questions_json[14] = tunnel(11112612);
-        campaignTrail_temp.questions_json[25] = tunnel(11112931);
-        bonzo = true
         console.log ("LAND OF CONFUSION")
     }
-
+    if((ans == 11112613 || ans == 11112615 || ans == 11112617 || ans == 11112619)){
+        campaignTrail_temp.questions_json[25] = tunnel(11112931);
+        bonzo = true
+    }
 
 
 
@@ -34973,8 +34974,8 @@ endingPicker = (out, totv, aa, quickstats) => {
             document.body.background = "https://i.imgur.com/bd5Ot1n.jpeg"
             document.getElementById("header").src = "https://i.imgur.com/X87bU8L.png" 
             e.pages.push(`<h2>CLINTON ELECTED IN LANDSLIDE</h2>
-                    <p><p><em>Nov. 4, 1992</em><br>Gov. Bill Clinton of Arkansas was elected the 42d President of the United States yesterday, breaking a 12-year Republican hold on the White House.<br>Mr. Clinton shattered the Republicans' political base with a promise of change to an electorate clearly discontented with President Bush.<br>With Bush’s high approval ratings, many pundits assumed that he would sail to reelection. Many speculated potential Democratic candidates chose not to run, with Mario Cuomo focusing on his governorship and Jerry Brown choosing to run a successful Senate campaign instead. This sparse field of candidates allowed Governor Clinton to run for the nomination practically uncontested, with his most prominent opposition in the form of Senator Paul Tsongas dropping out after underperforming on Super Tuesday.<br>Clinton’s ability to easily unite the party behind him has been cited as a large contributor in his strong performance yesterday.<br><br>Ross Perot, the Texas billionaire who roiled this race throughout, finished third, drawing roughly equally from both major party candidates, according to Voter Research & Surveys, the television polling consortium. His share of the popular vote had the potential to exceed any third-party candidate's in more than half a century.<br><br>The Governor from Arkansas won such big, closely contested states as Michigan, Missouri, Pennsylvania, New Jersey and Illinois. As polls closed across the nation, networks announced projected winners based on voter surveys. It was Ohio that put him over the top shortly before 11 P.M., followed closely by California. Based on those projections, Mr. Bush prevailed in his adopted state of Texas and other pockets of Republican states around the country.<br><br>In a victory speech to a joyous crowd in Little Rock, Mr. Clinton declared, "On this day, with high hopes and brave hearts, in massive numbers, the American people have voted to make a new beginning."
-                    </FONT></p>
+                    <p><p><em>Nov. 4, 1992</em><br>Gov. Bill Clinton of Arkansas was elected the 42d President of the United States yesterday, breaking a 12-year Republican hold on the White House.<br>Mr. Clinton shattered the Republicans' political base with a promise of change to an electorate clearly discontented with President Bush.<br>With Bush’s high approval ratings, many pundits assumed that he would sail to reelection. Many speculated potential Democratic candidates chose not to run, with Mario Cuomo focusing on his governorship and Jerry Brown choosing to run a successful Senate campaign instead. This sparse field of candidates allowed Governor Clinton to run for the nomination practically uncontested, with his most prominent opposition in the form of Senator Paul Tsongas dropping out after underperforming on Super Tuesday.<br>Clinton’s ability to easily unite the party behind him has been cited as a large contributor in his strong performance yesterday.<br><br>Ross Perot, the Texas billionaire who roiled this race throughout, finished third, drawing roughly equally from both major party candidates, according to Voter Research & Surveys, the television polling consortium. His share of the popular vote had the potential to exceed any third-party candidate's in more than half a century.<br><br>The Governor from Arkansas won such big, closely contested states as Michigan, Missouri, Pennsylvania, New Jersey and Illinois. As polls closed across the nation, networks announced projected winners based on voter surveys. It was Ohio that put him over the top shortly before 11 P.M., followed closely by California. Based on those projections, Mr. Bush prevailed in his adopted state of Texas and other pockets of Republican states around the country.<br><br>In a victory speech to a joyous crowd in Little Rock, Mr. Clinton declared, 'On this day, with high hopes and brave hearts, in massive numbers, the American people have voted to make a new beginning.'
+
                     `)
         e.executable.push([0, (() => {e.image = e.image = "https://i.imgur.com/4gNeNuW.png"})])
         }
@@ -34982,6 +34983,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     /// Landslide Win
     if (quickstats[0] >= 340){
             e.pages.push(`<h2>Landslide </h2>
+            document.getElementById("w00t").style.color = "#FFFFFF";
             <p>The blue began to spread across the nation, sweeping the swing states and refusing to stop there, creeping into several states that he thought he’d need a miracle to win in. Even though they hadn’t called it yet, he knew it was about to happen: Jerry Brown was going to be president of the United States of America. He sat back in his chair, taking it all in, as the emotions that he had been holding in for so long began slowly seeping out of him, briefly reducing him to a quivering heap. As the networks called electoral vote 270, a surge of jubilation swept the suite. Jodie was literally bouncing up and down with excitement, screaming at nobody for the sheer purpose of expressing her joy. Stewart Brand, back from a transcendental trip somewhere, was leading a toast of a whole group of celebrities who had flown in from Beverly Hills, a group of people so collectively famous that they inevitably phased together into one bloc of limelight. Pat Caddell was out on the balcony, drinking something obscenely expensive.</p>
       
             <p>Jerry, having finally worked through his emotions, got up, forcing his way through a buzzing throng of people eager to congratulate him, and made his way to a bathroom, where he locked himself in. He turned on the faucets and threw a bit of cold water on his face, then forced himself to look in the mirror. 54 years old, hair thinning, wrinkles growing, he was a far cry from the electrifying young man he had been back when he was new to the game, when he had been more celebrity than politician. But the middle-aged man looking back at him in the mirror had something in his eyes that the young man didn’t have, a sort of imperceptible strength that could only come from the realization that he had gone from a washed-up also-ran to the most powerful man in the world. He wasn’t entering office in some sort of fluke or some sort of hypercompetitive race decided at the margins. No, he had blown Bush out of the water, taking him down along with the entire confederacy of corruption, careerism, and campaign consulting. He had asked the people, begged them with all of his heart, to do the right thing and take back America. And they had listened. Now, he would be entering the White House with a mandate, with a Democratic House and Senate which owed their huge margins to him directly. As vast and deep-rooted as the problems facing the country were, he had been given the tools to fix them. It was all in his hands now.</p>
@@ -34993,7 +34995,7 @@ endingPicker = (out, totv, aa, quickstats) => {
             <p>The car arrived at Union Square, lit up in colors of red, white, and blue and filled with crowds chanting his name, expecting their newfound hero to address them with news of his victory. It was to be his first challenge as President. Before he got out of the car, he straightened his tie and said a silent prayer. He didn’t care if it was to Catholic god, Buddhist spirits, or a cold, uncaring universe, but he needed to say something worthy of the moment. Then, he got out of the car and stepped into the light and noise of the cheering mass of people. It was time to get to work.</p>
       
       
-                    </FONT></p>
+                    p>
                     `)
         e.executable.push([0, (() => {e.image = e.image = "https://i.imgur.com/ZrHYQf1.png"})])
         
