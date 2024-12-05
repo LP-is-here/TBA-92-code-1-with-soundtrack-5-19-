@@ -1914,7 +1914,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3490,
         "fields": {
-            "question": 1907464,
+            "question": 392,
             "description": " In a week, Clinton is attending a conference where Richard Shelby is the keynote speaker. Shelby’s the exact type of guy we don’t like: bad on abortion, bad on crime, voted for Clarence Thomas. If we show up and use it as a chance to drag that type of ideology, without going too far overboard, we can put Clinton in his lane. "
         }
     },
@@ -1922,7 +1922,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3491,
         "fields": {
-            "question": 1907464,
+            "question": 392,
             "description": "Clinton is too good at this whole media business to keep down forever… unless we isolate him. I’ll offer him the position of Attorney General, then make him work as our hatchet man and destroy any aspirations he might have. That Arkansaw boy’ll be history."
         }
     },
@@ -1930,7 +1930,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3492,
         "fields": {
-            "question": 1907464,
+            "question": 392,
             "description": " I don’t like Clinton, and I don’t trust him. But at a certain point, we need to just accept that there’s only so much I can control and leave him be. In a few months, I’ll be the president, and he’ll be the guy who was a media darling for a week before he fumbled the primaries. The bastard can wait until 2000."
         }
     },
@@ -34966,7 +34966,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
 
 
-    //Gore primary win
+    //Clinton
     if (SenateEnding == 1){
         if (e.player_answers.includes(12240)){
             setMusic("https://od.lk/s/OThfNDAzMzIxOTFf/Don%27t%20Stop%20%5BKeaa1JNFzx8%5D.mp3");
@@ -34978,6 +34978,25 @@ endingPicker = (out, totv, aa, quickstats) => {
                     `)
         e.executable.push([0, (() => {e.image = e.image = "https://i.imgur.com/4gNeNuW.png"})])
         }
+    }
+    /// Landslide Win
+    if (quickstats[0] >= 340){
+            e.pages.push(`<h2>Landslide </h2>
+            <p>The blue began to spread across the nation, sweeping the swing states and refusing to stop there, creeping into several states that he thought he’d need a miracle to win in. Even though they hadn’t called it yet, he knew it was about to happen: Jerry Brown was going to be president of the United States of America. He sat back in his chair, taking it all in, as the emotions that he had been holding in for so long began slowly seeping out of him, briefly reducing him to a quivering heap. As the networks called electoral vote 270, a surge of jubilation swept the suite. Jodie was literally bouncing up and down with excitement, screaming at nobody for the sheer purpose of expressing her joy. Stewart Brand, back from a transcendental trip somewhere, was leading a toast of a whole group of celebrities who had flown in from Beverly Hills, a group of people so collectively famous that they inevitably phased together into one bloc of limelight. Pat Caddell was out on the balcony, drinking something obscenely expensive.</p>
+      
+            <p>Jerry, having finally worked through his emotions, got up, forcing his way through a buzzing throng of people eager to congratulate him, and made his way to a bathroom, where he locked himself in. He turned on the faucets and threw a bit of cold water on his face, then forced himself to look in the mirror. 54 years old, hair thinning, wrinkles growing, he was a far cry from the electrifying young man he had been back when he was new to the game, when he had been more celebrity than politician. But the middle-aged man looking back at him in the mirror had something in his eyes that the young man didn’t have, a sort of imperceptible strength that could only come from the realization that he had gone from a washed-up also-ran to the most powerful man in the world. He wasn’t entering office in some sort of fluke or some sort of hypercompetitive race decided at the margins. No, he had blown Bush out of the water, taking him down along with the entire confederacy of corruption, careerism, and campaign consulting. He had asked the people, begged them with all of his heart, to do the right thing and take back America. And they had listened. Now, he would be entering the White House with a mandate, with a Democratic House and Senate which owed their huge margins to him directly. As vast and deep-rooted as the problems facing the country were, he had been given the tools to fix them. It was all in his hands now.</p>
+            
+            <p>Jerry unlocked the bathroom door and entered into a state of pandemonium, with everyone rushing towards him, just trying to get the tiniest piece of the new president. This time, he obliged them, slowly making his way through the crowd with a smile, one that for the first time in far too long, was reflected in his eyes. Someone shoved a phone at him, and he picked it up. He knew exactly who was on the other line, an old, defeated, corrupt shell of a man whose power as commander-in-chief was reduced to being forced to follow a stupid tradition. 'Well, Governor–I mean, President-elect–Brown, I guess I’d call to congratulate you. I hope you’re doing well at this time, and I want to let you know that you’ll have our full support in creating a smooth transition of power.'' 'Yeah, thank you, that’s great.' There was no point in trying to one-up Bush. As much as he despised the man and despised the things he had done, the voters had already done the job of destroying Bush for him. There was no point in twisting the knife. 'Regardless of our differences, I just want to say good luck as president. It’s a difficult job, and you’re going to have to make some big decisions. So, once again, good luck.” “Thank you very much, Mr. President. I’m sure that we’ll meet pretty soon and have a chance to talk some more.'</p>
+            
+            <p>With that, the phone was whisked away, and he went back through the crowd. Someone had brought a speaker in, and they were playing some sort of new hip hop song, a vapid energetic thing meant to convey the energy of the room. Jump, that was the name of it. It fit the occasion well enough. Someone had crafted a makeshift stage for him out of a few boxes and chairs, and he got up for a quick address to the crowd. He thanked them for their support, promised to keep his promises to everyone, and thanked them again. It was nothing too special, but the people were jubilant anyway. Soon enough, he had men in suits whisking him out of the room and to a waiting car. In 30 minutes, he had an official victory speech to give in Union Square, the same place that his campaign had started. As he rolled through the bright-lit streets of the city where he had grown up, sharing the back of the car with Jodie, who was focused on furiously writing down notes in a little address book and was paying no attention to him, he finally used some of the Buddhist tactics he had learned and took a deep, self-centering breath. His time as a private citizen, a man without any responsibility other than to himself, was over. Now, a nation of 250 million people, the world’s only superpower, was at his feet. He had promised so many things and brought forth so many grand designs, and now, he had no excuses not to enact them. Over the next four years, the challenges that he had faced as governor were only going to be multiplied on an enormous scale. The American people had overwhelmingly chosen him to alleviate their ailments, and he was going to do his absolute best to do just that.</p>
+            
+            <p>The car arrived at Union Square, lit up in colors of red, white, and blue and filled with crowds chanting his name, expecting their newfound hero to address them with news of his victory. It was to be his first challenge as President. Before he got out of the car, he straightened his tie and said a silent prayer. He didn’t care if it was to Catholic god, Buddhist spirits, or a cold, uncaring universe, but he needed to say something worthy of the moment. Then, he got out of the car and stepped into the light and noise of the cheering mass of people. It was time to get to work.</p>
+      
+      
+                    </FONT></p>
+                    `)
+        e.executable.push([0, (() => {e.image = e.image = "https://i.imgur.com/ZrHYQf1.png"})])
+        
     }
     return construct(0);
     }
