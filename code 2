@@ -217,7 +217,7 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 77359,
+        "pk": 359,
         "fields": {
             "priority": 3,
             "description": "You’re keeping a brave face, but at any moment, you worry that the bottom could fall out, with polling showing high skepticism of your policies and Bush loudly threatening to shatter you and all you stand for. Still, Jodie and co. believe that the polling is failing to capture the disengaged people you’re speaking out to, and that they’ll come home come November.",
@@ -1626,7 +1626,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3370,
         "fields": {
-            "question": 77359,
+            "question": 359,
             "description": "To this point, I’ve tried to walk the line, tried to make sure that I didn’t let the movement get too out of control. Sadly, we will never win this election unless we escalate things. Starting tomorrow, I’m going to relaunch my 1-800 number and really ramp up my appearances."
         }
     },
@@ -1634,7 +1634,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3371,
         "fields": {
-            "question": 77359,
+            "question": 359,
             "description": "Jodie thinks that there’s this group of people who’ll turn out for me, but let’s be real: lots of people just don’t care enough. Bush has called me a radical, and while it’s too late to really change that, if I soften up a bit before election day, I can convince the actual voters that I’m capable of learning."
         }
     },
@@ -1642,7 +1642,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3372,
         "fields": {
-            "question": 77359,
+            "question": 359,
             "description": "The reason Bush spends so much time attacking me is because he knows he can’t beat me, if we were to go one on one in a discussion about the economy. We need a system that works for the middle class, and we all know Mr. Special Interest isn’t even going to try to fix it."
         }
     },
@@ -1650,7 +1650,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 3373,
         "fields": {
-            "question": 77359,
+            "question": 359,
             "description": "I’ve been a Democrat all my life, and that has never changed. I know it’s fraught right now, and I know they’re not what they were, but we need to rally the unions, the local organizations, anybody who’s willing to go out there and knock on a door or two. The next four years depend on it."
         }
     },
@@ -10568,7 +10568,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 201,
-            "state_multiplier": 0.96
+            "state_multiplier": 0.98
         }
     },
     {
@@ -10667,7 +10667,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 212,
-            "state_multiplier": 0.92
+            "state_multiplier": 0.96
         }
     },
     {
@@ -33850,6 +33850,7 @@ cyoAdventure = function(a) {
     if (estabMap.hasOwnProperty(ans)) {
         estab += estabMap[ans];
         console.log("estab work")
+        console.log("Direct test:", tunnel(359));
             console.log(estab)
             }
         
@@ -34362,12 +34363,12 @@ if (bonzo == true){
     campaignTrail_temp.questions_json[24] = tunnel(11112911);
 }
 
-else if (estab < 1 && momentum == 0){
-    campaignTrail_temp.questions_json[24] = tunnel(77359);
-    console.log ("gop lowM lowE")
-}
+///else if (estab < 1 && momentum == 0){
+   /// campaignTrail_temp.questions_json[24] = tunnel(359);
+    ///console.log ("gop lowM lowE")
+///}
 
-else if (estab < 1 && momentum == 1){
+else if (estab < 1 && momentum < 2){
     campaignTrail_temp.questions_json[24] = tunnel(11112301);
     console.log ("gop midM lowE")
 }
@@ -34981,8 +34982,9 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
     }
     /// Landslide Win
-    if (quickstats[0] >= 340 && (SenateEnding == 0)){
+    if (quickstats[0] >= 340){
             e.pages.push(`<h2>Landslide </h2>
+            document.getElementById("w00t").style.color = "#FFFFFF";
             <p>The blue began to spread across the nation, sweeping the swing states and refusing to stop there, creeping into several states that he thought he’d need a miracle to win in. Even though they hadn’t called it yet, he knew it was about to happen: Jerry Brown was going to be president of the United States of America. He sat back in his chair, taking it all in, as the emotions that he had been holding in for so long began slowly seeping out of him, briefly reducing him to a quivering heap. As the networks called electoral vote 270, a surge of jubilation swept the suite. Jodie was literally bouncing up and down with excitement, screaming at nobody for the sheer purpose of expressing her joy. Stewart Brand, back from a transcendental trip somewhere, was leading a toast of a whole group of celebrities who had flown in from Beverly Hills, a group of people so collectively famous that they inevitably phased together into one bloc of limelight. Pat Caddell was out on the balcony, drinking something obscenely expensive.</p>
       
             <p>Jerry, having finally worked through his emotions, got up, forcing his way through a buzzing throng of people eager to congratulate him, and made his way to a bathroom, where he locked himself in. He turned on the faucets and threw a bit of cold water on his face, then forced himself to look in the mirror. 54 years old, hair thinning, wrinkles growing, he was a far cry from the electrifying young man he had been back when he was new to the game, when he had been more celebrity than politician. But the middle-aged man looking back at him in the mirror had something in his eyes that the young man didn’t have, a sort of imperceptible strength that could only come from the realization that he had gone from a washed-up also-ran to the most powerful man in the world. He wasn’t entering office in some sort of fluke or some sort of hypercompetitive race decided at the margins. No, he had blown Bush out of the water, taking him down along with the entire confederacy of corruption, careerism, and campaign consulting. He had asked the people, begged them with all of his heart, to do the right thing and take back America. And they had listened. Now, he would be entering the White House with a mandate, with a Democratic House and Senate which owed their huge margins to him directly. As vast and deep-rooted as the problems facing the country were, he had been given the tools to fix them. It was all in his hands now.</p>
