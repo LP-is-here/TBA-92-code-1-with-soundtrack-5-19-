@@ -33983,7 +33983,7 @@ cyoAdventure = function(a) {
     }
     else if((estab < 1)){
         campaignTrail_temp.questions_json[4] = tunnel(383);
-        campaignTrail_temp.questions_json[23] = tunnel(392);
+       //// campaignTrail_temp.questions_json[23] = tunnel(392);
 
     }
     else{
