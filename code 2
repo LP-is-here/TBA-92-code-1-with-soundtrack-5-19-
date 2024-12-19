@@ -1156,7 +1156,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11112554,
         "fields": {
             "priority": 3,
-            "description": "In the swing state of Colorado, Bush has latched onto a ballot measure that would prevent local municipalities from enacting laws prohibiting discrimination against gays, seeking to nationalize the issue and calling the measure “the last line of defense for the American family.” As more and more evangelicals tune in, how do you react?",
+            "description": "Since Buchanan joined the ticket, he’s mostly been mum on immigration, but the wheels have started to fall off in the past week, with him alternatively suggesting a temporary immigration freeze, redeploying the military to the border, and building a wall which he calls the “Bush Barrier” on the Mexican border, always finishing things off with a promise to make English the sole official language. As Bush meekly echoes him, how do you respond?",
             "likelihood": 1
         }
     },
