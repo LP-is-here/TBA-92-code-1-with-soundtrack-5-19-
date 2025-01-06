@@ -17,16 +17,16 @@
   <br> -<s>BUGchanan fixes</s>
   <br> -<s>Wolf 359 PK bug</s> 
   <br> -<s>New election intro</s>
-  <br> finish my ending
-  <br> Even when I try to escape the advisor feedback tooltips they come back
+  <br> -<s>finish my ending </s>
+  <br> -<s>Even when I try to escape the advisor feedback tooltips they come back</s> Not happening not needed, CUT
   <br> other tooltips :)
-  <br> finish my background fixer waow
+  <br> finish my background fixer (reconsider this)
   <br> make it harder or whtvr
-   <br> implement the questions that got edited already
+   <br> <s> implement the questions that got edited already </s> All done besides the ones that actively break formatting which is more than you would think.
     <br> implement all the endings
      <br> other balancing
       <br> -<s>reagan ig but that shoullllld (knock on wood knock on wood) be easy if I get the bugchanan stuff fixed</s>
-       <br> check in on ross perot and see if he's still bugging out
+       <br> <s>check in on ross perot and see if he's still bugging out </s>
         <br> write more endings ig
         <br> achievements
         <br> 
